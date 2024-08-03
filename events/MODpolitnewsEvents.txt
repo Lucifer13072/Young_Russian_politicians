@@ -65,13 +65,13 @@ country_event = {
 			name = SOV_Baronsk
 		}
 
-        hidden_effect = { 228 = { set_state_name = SOV_Luhansk } }
+        228 = { set_state_name = SOV_Luhansk } 
         set_province_name = {
 			id = 9461
 			name = SOV_Luhansk
 		}
 
-        hidden_effect = { 234 = { set_state_name = SOV_Yekaterinodar } }
+        234 = { set_state_name = SOV_Yekaterinodar } 
         set_province_name = {
 			id = 3734
 			name = SOV_Yekaterinodar
