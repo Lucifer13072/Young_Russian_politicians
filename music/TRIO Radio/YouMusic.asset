@@ -1,0 +1,59 @@
+music = {
+    name = "Preobragenskiy_march"
+    file = "Preobragenskiy_march.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "grenadery"
+    file = "grenadery.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "oysa_ti_oysa"
+    file = "oysa_ti_oysa.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Poshanie_slav"
+    file = "Poshanie_slav.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "When_we_was_on_war"
+    file = "When_we_was_on_war.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "GOd_save_the_Tsar"
+    file = "GOd_save_the_Tsar.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "Red_army"
+    file = "Red_army_.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "we_army_country"
+    file = "we_army_country.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "march_strelkov"
+    file = "march_strelkov.ogg"
+    volume = 0.65
+}
+
+music = {
+    name = "MArchiruut_polky"
+    file = "MArchiruut_polky.ogg"
+    volume = 0.65
+}

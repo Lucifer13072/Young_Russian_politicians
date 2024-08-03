@@ -1,0 +1,24 @@
+leader_traits = {
+
+    new_emperor = {
+        random = no
+
+        political_power_factor = 0.3
+        stability_factor = 0.05
+        monarchy_drift = 0.1
+    }
+
+    technocrat = {
+        random = yes
+
+        base_fuel_gain_factor = 0.2
+        production_speed_buildings_factor = 0.3
+    }
+
+    monarhist = {
+        random = yes
+
+        justify_war_goal_time = 0.3
+        political_power_cost = 0.3
+    }
+}

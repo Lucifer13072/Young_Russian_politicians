@@ -1,0 +1,21 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_portrait_andrey_I"
+        texturefile = "gfx/leaders/SOV/Portait_Soviet_Andrey_Taktaev.dds"
+    }
+
+    spriteType = {
+        name = "GFX_portrait_marco"
+        texturefile = "gfx/leaders/SOV/Portait_Soviet_Marco.dds"
+    }
+
+    spriteType = {
+        name = "GFX_portrait_andre_I_small"
+        texturefile = "gfx/leaders/SOV/idea_RUS_andrey_taktaev.dds"
+    }
+
+    spriteType = {
+        name = "GFX_portrait_marco_small"
+        texturefile = "gfx/leaders/SOV/idea_RUS_marco.dds"
+    }
+}

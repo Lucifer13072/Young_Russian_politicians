@@ -1,0 +1,1539 @@
+focus_tree = {
+	id = russ
+	country = {
+		factor = 1
+	}
+
+	focus = {
+		id = RUS_army_rebuild
+		text = RUS_army_rebuild
+		icon = GFX_focus_generic_tank_production
+		cost = 10
+		x = 16
+		y = 0
+
+	}
+	focus = {
+		id = RUS_new_econopic_plan
+		text = RUS_new_econopic_plan
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 36
+		y = 0
+
+	}
+	focus = {
+		id = RUS_new_age
+		text = RUS_new_age
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 51
+		y = 0
+
+		completion_reward = {
+			add_stability = -0.10
+			SOV_paranoia_low_increase_effect = no
+		}
+	}
+	focus = {
+		id = RUS_army_reform
+		text = RUS_army_reform
+		icon = GFX_goal_generic_army_tanks
+		cost = 5
+		prerequisite = {
+			focus = RUS_army_rebuild
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = RUS_military_prom
+		text = RUS_military_prom
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_army_reform
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = RUS_tank_learning
+		text = RUS_tank_learning
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_army_reform
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = RUS_ammu_learning
+		text = RUS_ammu_learning
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_army_reform
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = RUS_motarisation
+		text = RUS_motarisation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_ammu_learning
+			focus = RUS_tank_learning
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = RUS_learning_army
+		text = RUS_learning_army
+		icon = GFX_focus_generic_military_mission
+		cost = 5
+		prerequisite = {
+			focus = RUS_army_reform
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = RUS_officer_learning
+		text = RUS_officer_learning
+		icon = GFX_focus_generic_university_1
+		cost = 5
+		prerequisite = {
+			focus = RUS_learning_army
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = RUS_new_strategy
+		text = RUS_new_strategy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_officer_learning
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = RUS_prof_army
+		text = RUS_prof_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_new_strategy
+		}
+		prerequisite = {
+			focus = RUS_motarisation
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = RUS_cazac
+		text = RUS_cazac
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_learning_army
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = RUS_aviation_reform
+		text = RUS_aviation_reform
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_army_rebuild
+		}
+		x = 16
+		y = 1
+
+	}
+	focus = {
+		id = RUS_legkaya_aviaciya
+		text = RUS_legkaya_aviaciya
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_aviation_reform
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = RUS_tagelaya_air
+		text = RUS_tagelaya_air
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_aviation_reform
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = RUS_air_prom
+		text = RUS_air_prom
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_tagelaya_air
+		}
+		prerequisite = {
+			focus = RUS_legkaya_aviaciya
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = RUS_new_air_strat
+		text = RUS_new_air_strat
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_air_prom
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = RUS_air_coordination
+		text = RUS_air_coordination
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_new_strategy
+		}
+		prerequisite = {
+			focus = RUS_new_air_strat
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = RUS_navy_reform
+		text = RUS_navy_reform
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_army_rebuild
+		}
+		x = 24
+		y = 1
+
+	}
+	focus = {
+		id = RUS_underwater
+		text = RUS_underwater
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_navy_reform
+		}
+		mutually_exclusive = {
+			focus = RUS_full_flachd_fleet
+		}
+		x = 21
+		y = 2
+
+	}
+	focus = {
+		id = RUS_verf_underwater
+		text = RUS_verf_underwater
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_underwater
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = RUS_sub_technology
+		text = RUS_sub_technology
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_underwater
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = RUS_verf_baf
+		text = RUS_verf_baf
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_sub_technology
+		}
+		prerequisite = {
+			focus = RUS_verf_underwater
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = RUS_raider_fleet
+		text = RUS_raider_fleet
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_verf_baf
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = RUS_full_flachd_fleet
+		text = RUS_full_flachd_fleet
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_navy_reform
+		}
+		mutually_exclusive = {
+			focus = RUS_underwater
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = RUS_open_sea_tactik
+		text = RUS_open_sea_tactik
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_full_flachd_fleet
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = RUS_screen_fleet
+		text = RUS_screen_fleet
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_full_flachd_fleet
+		}
+		x = 27
+		y = 3
+
+	}
+	focus = {
+		id = RUS_verf
+		text = RUS_verf
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_screen_fleet
+		}
+		prerequisite = {
+			focus = RUS_open_sea_tactik
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = RUS_fleet_of_the_three_oceans
+		text = RUS_fleet_of_the_three_oceans
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_verf
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = RUS_new_fleet
+		text = RUS_new_fleet
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_fleet_of_the_three_oceans
+			focus = RUS_raider_fleet
+		}
+		x = 24
+		y = 6
+
+	}
+	focus = {
+		id = RUS_military_proms
+		text = RUS_military_proms
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_prom
+		}
+		x = 32
+		y = 2
+
+	}
+	focus = {
+		id = RUS_prom
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_new_econopic_plan
+		}
+		x = 33
+		y = 1
+
+	}
+	focus = {
+		id = RUS_civill_prom
+		text = RUS_civill_prom
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_prom
+		}
+		x = 34
+		y = 2
+
+	}
+	focus = {
+		id = RUS_new_univesity
+		text = RUS_new_univesity
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_civill_prom
+		}
+		prerequisite = {
+			focus = RUS_military_proms
+		}
+		x = 33
+		y = 3
+
+	}
+	focus = {
+		id = RUS_ural_development
+		text = RUS_ural_development
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_new_univesity
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = RUS_central_development
+		text = RUS_central_development
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_new_univesity
+		}
+		x = 33
+		y = 4
+
+	}
+	focus = {
+		id = RUS_south_development
+		text = RUS_south_development
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_new_univesity
+		}
+		x = 35
+		y = 4
+
+	}
+	focus = {
+		id = RUS_new_econom_age
+		text = RUS_new_econom_age
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_south_development
+		}
+		prerequisite = {
+			focus = RUS_central_development
+		}
+		prerequisite = {
+			focus = RUS_ural_development
+		}
+		x = 33
+		y = 5
+
+	}
+	focus = {
+		id = RUS_infract
+		text = RUS_infract
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_new_econopic_plan
+		}
+		x = 40
+		y = 1
+
+	}
+	focus = {
+		id = RUS_baltic_val
+		text = RUS_baltic_val
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_infract
+		}
+		x = 38
+		y = 2
+
+	}
+	focus = {
+		id = RUS_dnepr_line
+		text = RUS_dnepr_line
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_infract
+		}
+		x = 40
+		y = 2
+
+	}
+	focus = {
+		id = RUS_raylway
+		text = RUS_raylway
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_infract
+		}
+		x = 42
+		y = 2
+
+	}
+	focus = {
+		id = RUS_east_val
+		text = RUS_east_val
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_baltic_val
+			focus = RUS_dnepr_line
+			focus = RUS_raylway
+		}
+		x = 39
+		y = 3
+
+	}
+	focus = {
+		id = RUS_east_port_build
+		text = RUS_east_port_build
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_east_val
+		}
+		x = 38
+		y = 4
+
+	}
+	focus = {
+		id = RUS_sibirea_development
+		text = RUS_sibirea_development
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_east_port_build
+		}
+		prerequisite = {
+			focus = RUS_south_development
+		}
+		x = 37
+		y = 5
+
+	}
+	focus = {
+		id = RUS_supply_hubs
+		text = RUS_supply_hubs
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_dnepr_line
+			focus = RUS_raylway
+			focus = RUS_baltic_val
+		}
+		x = 41
+		y = 3
+
+	}
+	focus = {
+		id = RUS_monarchy_way
+		text = RUS_monarchy_way
+		icon = GFX_focus_generic_home_defense
+		cost = 10
+		prerequisite = {
+			focus = RUS_new_age
+		}
+		mutually_exclusive = {
+			focus = RUS_technocraty_way
+		}
+		x = 48
+		y = 1
+
+		completion_reward = {
+			add_political_power = 100
+			add_popularity = {
+				ideology = monarchy
+				popularity = 0.05
+			}
+		}
+	}
+	focus = {
+		id = RUS_prom_to_revolution
+		text = RUS_prom_to_revolution
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10
+		prerequisite = {
+			focus = RUS_monarchy_way
+		}
+		x = 46
+		y = 2
+
+		completion_reward = {
+			244 = {
+				add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+			}
+			208 = {
+				add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+			}
+		}
+	}
+	focus = {
+		id = RUS_white_army_respect
+		text = RUS_white_army_respect
+		icon = GFX_focus_generic_little_entente
+		cost = 10
+		prerequisite = {
+			focus = RUS_monarchy_way
+		}
+		x = 48
+		y = 2
+
+	}
+	focus = {
+		id = RUS_monarchy_respect
+		text = RUS_monarchy_respect
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_white_army_respect
+			focus = RUS_prom_to_revolution
+		}
+		x = 47
+		y = 3
+		completion_reward = {
+			add_popularity = {
+				ideology = monarchy
+				popularity = 0.1
+			}
+		}
+	}
+	focus = {
+		id = RUS_second_civill
+		text = RUS_second_civill
+		icon = GFX_focus_SWE_attack_landsorganisationen
+		cost = 10
+		prerequisite = {
+			focus = RUS_monarchy_respect
+		}
+		x = 46
+		y = 4
+
+		completion_reward = {
+			hidden_effect = {
+				set_capital = {
+					state = 195
+				}
+				start_civil_war = {
+					ruling_party = monarchy
+					ideology = communism
+					size = 0.4
+					capital = 219
+					states = { 219 }
+				}
+				hidden_effect = {
+					set_cosmetic_tag = SOV_russia
+				}
+				SOV_remove_paranoia_effect = yes
+			}
+			news_event = mod.3
+		}
+	}
+	focus = {
+		id = RUS_new_house
+		text = RUS_new_house
+		icon = GFX_focus_generic_monarchy_2
+		cost = 10
+		prerequisite = {
+			focus = RUS_second_civill
+		}
+		x = 46
+		y = 6
+
+		available = { has_war = no }
+
+		completion_reward = {
+			hidden_effect = {
+				set_politics = {
+					ruling_party = monarchy
+					elections_allowed = no
+				}
+			}
+			news_event = mod.1
+		}
+	}
+	focus = {
+		id = RUS_rename_citys
+		text = RUS_rename_citys
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = RUS_new_house
+		}
+		x = 42
+		y = 7
+
+		completion_reward = {
+			set_capital = {
+				state = 195
+			}
+			news_event = mod.2
+		}
+	}
+	focus = {
+		id = RUS_technocraty_way
+		text = RUS_technocraty_way
+		icon = GFX_goal_generic_demand_territory
+		cost = 10
+		prerequisite = {
+			focus = RUS_new_age
+		}
+		mutually_exclusive = {
+			focus = RUS_monarchy_way
+		}
+		x = 54
+		y = 1
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = RUS_popularysation_technocraty
+		text = RUS_popularysation_technocraty
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_technocraty_way
+		}
+		x = 54
+		y = 2
+		completion_reward = {
+			add_popularity = {
+				ideology = technocracy
+				popularity = 0.3
+			}
+		}
+	}
+	focus = {
+		id = RUS_revolution
+		text = RUS_revolution
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_popularysation_technocraty
+		}
+		x = 54
+		y = 3
+
+	}
+	focus = {
+		id = RUS_legitemisation
+		text = RUS_legitemisation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_revolution
+		}
+		x = 54
+		y = 5
+
+	}
+	focus = {
+		id = RUS_the_caucasian_dictator
+		text = RUS_the_caucasian_dictator
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_legitemisation
+		}
+		x = 54
+		y = 6
+
+	}
+	focus = {
+		id = RUS_ban_communist
+		text = RUS_ban_communist
+		icon = GFX_focus_ger_bulwark_against_bolshevism
+		cost = 10
+		prerequisite = {
+			focus = RUS_new_house
+			focus = RUS_the_caucasian_dictator
+		}
+		x = 50
+		y = 7
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = -1
+			}
+		}
+	}
+	focus = {
+		id = RUS_stability_counrty
+		text = RUS_stability_counrty
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_the_caucasian_dictator
+		}
+		x = 54
+		y = 7
+
+	}
+	focus = {
+		id = RUS_prioretet_nauka
+		text = RUS_prioretet_nauka
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_stability_counrty
+		}
+		x = 54
+		y = 8
+
+	}
+	focus = {
+		id = RUS_repering_to_rise
+		text = RUS_repering_to_rise
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_prioretet_nauka
+		}
+		x = 54
+		y = 9
+
+	}
+	focus = {
+		id = RUS_uniting_with_militarists
+		text = RUS_uniting_with_militarists
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_repering_to_rise
+		}
+		x = 54
+		y = 10
+
+	}
+	focus = {
+		id = RUS_prom_propaganda
+		text = RUS_prom_propaganda
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_stability_counrty
+		}
+		x = 59
+		y = 8
+
+	}
+	focus = {
+		id = RUS_reorganisation_army
+		text = RUS_reorganisation_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_prom_propaganda
+		}
+		x = 58
+		y = 9
+
+	}
+	focus = {
+		id = RUS_military_investment
+		text = RUS_military_investment
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_prom_propaganda
+		}
+		x = 60
+		y = 9
+
+	}
+	focus = {
+		id = RUS_new_tech_for_army
+		text = RUS_new_tech_for_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_military_investment
+		}
+		prerequisite = {
+			focus = RUS_reorganisation_army
+		}
+		x = 59
+		y = 10
+
+	}
+	focus = {
+		id = RUS_all_for_the_cause
+		text = RUS_all_for_the_cause
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_new_tech_for_army
+		}
+		prerequisite = {
+			focus = RUS_uniting_with_militarists
+		}
+		x = 56
+		y = 11
+
+	}
+	focus = {
+		id = RUS_return_west
+		text = RUS_return_west
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_all_for_the_cause
+		}
+		x = 55
+		y = 12
+
+	}
+	focus = {
+		id = RUS_return_east_influence
+		text = RUS_return_east_influence
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_all_for_the_cause
+		}
+		x = 57
+		y = 12
+
+	}
+	focus = {
+		id = RUS_new_army
+		text = RUS_new_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_prof_army
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = RUS_sea_aviation
+		text = RUS_sea_aviation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_new_air_strat
+		}
+		prerequisite = {
+			focus = RUS_new_fleet
+		}
+		x = 20
+		y = 7
+
+	}
+	focus = {
+		id = RUS_kill_stalin
+		text = RUS_kill_stalin
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_ban_communist
+		}
+		x = 50
+		y = 8
+
+	}
+	focus = {
+		id = RUS_stability
+		text = RUS_stability
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_kill_stalin
+		}
+		x = 50
+		y = 9
+		completion_reward = {
+			add_stability = 0.3
+		}
+	}
+	focus = {
+		id = RUS_inicialisation_sovet
+		text = RUS_inicialisation_sovet
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_new_house
+		}
+		x = 46
+		y = 7
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = RUS_emperor_respect
+		text = RUS_emperor_respect
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_inicialisation_sovet
+		}
+		x = 45
+		y = 8
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = RUS_more_stability
+		text = RUS_more_stability
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_inicialisation_sovet
+		}
+		x = 47
+		y = 8
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = RUS_infract_build
+		text = RUS_infract_build
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_rename_citys
+		}
+		x = 42
+		y = 8
+		completion_reward = {
+			if = {
+				limit = {
+					all_owned_state = {
+						infrastructure > 2
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes						
+					}
+					set_state_flag = SOV_infrastructure_effort_3Inf
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = SOV_infrastructure_effort_3Inf
+				}				
+			}
+			random_owned_controlled_state = {
+				limit = {
+					infrastructure < 3
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SOV_infrastructure_effort_3Inf	
+			}
+			random_owned_controlled_state = {
+				limit = {
+					infrastructure < 3
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SOV_infrastructure_effort_3Inf	
+			}
+			random_owned_controlled_state = {
+				limit = {
+					infrastructure < 3
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SOV_infrastructure_effort_3Inf	
+			}
+			random_owned_controlled_state = {
+				limit = {
+					infrastructure < 3
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SOV_infrastructure_effort_3Inf	
+			}
+		}
+	}
+	focus = {
+		id = RUS_technocraty_respect
+		text = RUS_technocraty_respect
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_more_stability
+		}
+		prerequisite = {
+			focus = RUS_emperor_respect
+		}
+		x = 46
+		y = 9
+		completion_reward = {
+			add_popularity = {
+				ideology = technocracy
+				popularity = 0.2
+			}
+		}
+	}
+	focus = {
+		id = RUS_prom_build
+		text = RUS_prom_build
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_infract_build
+		}
+		x = 42
+		y = 9
+
+		completion_reward = {
+			IF = {
+				limit = {
+					any_owned_state = {
+						is_controlled_by = ROOT 
+						industrial_complex > 0
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						industrial_complex > 0
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			ELSE = {
+				random_owned_controlled_state = {
+					limit = {
+						# industrial_complex > 0
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			IF = {
+				limit = {
+					check_variable = { num_owned_states > 1}
+					any_owned_state = {
+						is_controlled_by = ROOT 
+						industrial_complex > 0
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						industrial_complex > 0
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			ELSE_IF = {
+				limit = {
+					check_variable = { num_owned_states > 1 }
+				}
+				random_owned_controlled_state = {
+					limit = {
+						# industrial_complex > 0
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = RUS_military_build
+		text = RUS_military_build
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_prom_build
+		}
+		prerequisite = {
+			focus = RUS_technocraty_respect
+		}
+		x = 42
+		y = 10
+		completion_reward = {
+			249 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			251 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			651 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 4
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = RUS_manpower_up
+		text = RUS_manpower_up
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_technocraty_respect
+		}
+		x = 46
+		y = 10
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = RUS_spb_fort
+		text = RUS_spb_fort
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_military_build
+		}
+		x = 43
+		y = 11
+		completion_reward = {
+			195 = {
+				if = {
+					limit = { is_fully_controlled_by = ROOT }
+					add_building_construction = {
+						type = bunker
+						level = 6
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = RUS_guardian
+		text = RUS_guardian
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_manpower_up
+		}
+		prerequisite = {
+			focus = RUS_spb_fort
+		}
+		x = 45
+		y = 12
+
+	}
+	focus = {
+		id = RUS_finland
+		text = RUS_finland
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_guardian
+		}
+		x = 43
+		y = 13
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = FIN }
+		}
+	}
+	focus = {
+		id = RUS_baltic
+		text = RUS_baltic
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_guardian
+		}
+		x = 45
+		y = 13
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = EST }
+			create_wargoal = { type = annex_everything target = LIT }
+			create_wargoal = { type = annex_everything target = LAT }
+		}
+	}
+	focus = {
+		id = RUS_poland
+		text = RUS_poland
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_guardian
+		}
+		x = 47
+		y = 13
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = POL }
+		}
+	}
+	focus = {
+		id = RUS_avenge_the_great_war
+		text = RUS_avenge_the_great_war
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_baltic
+			focus = RUS_finland
+			focus = RUS_poland
+		}
+		x = 44
+		y = 14
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = GER }
+		}
+	}
+	focus = {
+		id = RUS_alyasca_return
+		text = RUS_alyasca_return
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_poland
+			focus = RUS_baltic
+			focus = RUS_finland
+		}
+		x = 46
+		y = 14
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = USA }
+		}
+	}
+	focus = {
+		id = RUS_great_russia
+		text = RUS_great_russia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_alyasca_return
+		}
+		prerequisite = {
+			focus = RUS_avenge_the_great_war
+		}
+		x = 45
+		y = 15
+
+	}
+	focus = {
+		id = RUS_old_enemy
+		text = RUS_old_enemy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_return_east_influence
+		}
+		prerequisite = {
+			focus = RUS_return_west
+		}
+		x = 56
+		y = 13
+
+	}
+	focus = {
+		id = RUS_world_unity
+		text = RUS_world_unity
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_old_enemy
+		}
+		x = 56
+		y = 14
+
+	}
+}

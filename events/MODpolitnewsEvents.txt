@@ -1,0 +1,95 @@
+add_namespace = mod
+
+news_event = {
+    id = mod.1
+    title = mod.1.t
+    desc = mod.1.d
+    picture = GFX_news_koronation
+    
+    fire_only_once = yes
+
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 1}
+
+    option = {
+        name = mod.1.b
+    }
+}
+
+country_event = {
+    id = mod.2
+    title = mod.2.t
+    desc = mod.2.d
+    picture = GFX_rename_cities
+    
+    fire_only_once = yes
+    
+    is_triggered_only = yes
+    
+    mean_time_to_happen = { days = 1}
+
+    option = {
+        name = mod.2.b
+        
+        195 = { set_state_name = SOV_StPetersburg }
+		set_province_name = {
+			id = 3151
+			name = SOV_StPetersburg
+		}
+
+        hidden_effect = { 217 = { set_state_name = SOV_Volgograd } }
+        set_province_name = {
+			id = 3529
+			name = SOV_Volgograd
+		}
+
+        hidden_effect = { 247 = { set_state_name = SOV_Tver } }
+        set_province_name = {
+			id = 6245
+			name = SOV_Tver
+		}
+
+        hidden_effect = { 252 = { set_state_name = SOV_Nizhny_Novgorod } }
+        set_province_name = {
+			id = 11375
+			name = SOV_Nizhny_Novgorod
+		}
+
+        hidden_effect = { 829 = { set_state_name = SOV_Pokrovsk } }
+        set_province_name = {
+				id = 11523
+				name = SOV_Pokrovsk
+			}
+		set_province_name = {
+			id = 9432
+			name = SOV_Baronsk
+		}
+
+        hidden_effect = { 228 = { set_state_name = SOV_Luhansk } }
+        set_province_name = {
+			id = 9461
+			name = SOV_Luhansk
+		}
+
+        hidden_effect = { 234 = { set_state_name = SOV_Yekaterinodar } }
+        set_province_name = {
+			id = 3734
+			name = SOV_Yekaterinodar
+		}
+        
+    }
+}
+
+news_event = {
+    id = mod.3
+    title = mod.3.t
+    desc = mod.3.d
+    picture = GFX_second_civill_war
+
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 1}
+
+    option = {
+        name = mod.3.b
+    }
+}

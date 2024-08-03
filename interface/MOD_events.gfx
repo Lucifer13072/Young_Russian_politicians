@@ -1,0 +1,15 @@
+spriteTypes = {
+    spriteType = { 
+        name = "GFX_news_koronation"
+        texturefile = "gfx/event_pictures/koronation.dds" 
+    }
+
+    spriteType = {
+        name = "GFX_rename_cities"
+        texturefile = "gfx/event_pictures/ermitage.dds"
+    }
+    spriteType = {
+        name = "GFX_second_civill_war"
+        texturefile = "gfx/event_pictures/civill_war.dds"
+    }
+}

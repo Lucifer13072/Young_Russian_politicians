@@ -1,0 +1,72 @@
+music_station = "TRIORadio"
+music = {
+    song = "Preobragenskiy_march"
+    chance = {
+      modifier = { factor = 0.5 }
+    }
+}
+
+music = {
+    song = "oysa_ti_oysa"
+    chance = {
+      modifier = { factor = 0.5 }
+    }
+}
+
+music = {
+    song = "grenadery"
+    chance = {
+      modifier = { factor = 0.5 }
+    }
+}
+
+music = {
+    song = "Poshanie_slav"
+    chance = {
+      modifier = { factor = 0.5 }
+    }
+}
+
+music = {
+    song = "When_we_was_on_war"
+    chance = {
+      modifier = { 
+        factor = 1 
+        has_war = yes}
+    }
+}
+
+music = {
+    song = "GOd_save_the_Tsar"
+    chance = {
+      modifier = { factor = 0.5 }
+    }
+}
+
+music = {
+    song = "Red_army"
+    chance = {
+      modifier = { factor = 0.5 }
+    }
+}
+
+music = {
+    song = "we_army_country"
+    chance = {
+      modifier = { factor = 0.5 }
+    }
+}
+
+music = {
+    song = "march_strelkov"
+    chance = {
+      modifier = { factor = 0.5 }
+    }
+}
+
+music = {
+    song = "MArchiruut_polky"
+    chance = {
+      modifier = { factor = 0.5 }
+    }
+}
