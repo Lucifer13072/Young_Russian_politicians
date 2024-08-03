@@ -11,7 +11,9 @@ focus_tree = {
 		cost = 10
 		x = 16
 		y = 0
-
+		completion_reward{
+			effect_tooltip = { add_ideas = SOV_advancing_army }
+		}
 	}
 	focus = {
 		id = RUS_new_econopic_plan

@@ -10282,9 +10282,19 @@ ideas = {
 			}
 		}
 		SOV_advancing_army = {
+			name = SOV_advancing_army
+
+			picture = GFX_idea_traits_strip
+			
+			modifier = {
+
 			experience_gain_army = 0.15
-				experience_gain_air = 0.15
-				experience_gain_navy = 0.15
+			experience_gain_air = 0.15
+			experience_gain_navy = 0.15
+
+			}
+
 		}
+		
 	}
 }
