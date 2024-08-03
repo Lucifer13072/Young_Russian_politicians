@@ -1,5 +1,3 @@
-# test_comit
-
 focus_tree = {
 	id = russ
 	country = {
