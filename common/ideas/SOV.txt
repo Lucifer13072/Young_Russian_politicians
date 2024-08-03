@@ -16,7 +16,7 @@ ideas = {
 ##    ##  #######      ######     ##    ######## ##           ########  ##     ##  ######  ##    ##
 
 
-	country= {
+	country = {
 
 		SOV_second_five_year_plan_fake_1936_ns = { #Only used for 1936 bookmark (dynamic modifiers don't show up there)
 			name = SOV_second_five_year_plan_dynamic_modifier
@@ -10281,20 +10281,35 @@ ideas = {
 				industrial_capacity_dockyard = 0.05
 			}
 		}
-		SOV_advancing_army = {
-			name = SOV_advancing_army
 
+	}
+
+###   ###    ######   #######
+#### ####  ##     ##  ##    ##
+## ### ##  ##     ##  ##    ##
+##     ##  ##     ##  ##    ##
+##     ##  ##     ##  ##    ##
+##     ##   ######    #######	
+
+	country = {
+
+		SOV_advancing_army = {
+			
+			name = SOV_advancing_army
+			removal_cost = -1
 			picture = GFX_idea_traits_strip
 			
+			allowed = {
+				always = no # Added via focus
+			}
+
 			modifier = {
-
-			experience_gain_army = 0.15
-			experience_gain_air = 0.15
-			experience_gain_navy = 0.15
-
+				experience_gain_army = 0.15
+				experience_gain_air = 0.15
+				experience_gain_navy = 0.15
 			}
 
 		}
-		
 	}
+
 }

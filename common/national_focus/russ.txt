@@ -11,7 +11,7 @@ focus_tree = {
 		cost = 10
 		x = 16
 		y = 0
-		completion_reward{
+		completion_reward = {
 			effect_tooltip = { add_ideas = SOV_advancing_army }
 		}
 	}
@@ -784,10 +784,7 @@ focus_tree = {
 		x = 54
 		y = 2
 		completion_reward = {
-			add_popularity = {
-				ideology = technocracy
-				popularity = 0.3
-			}
+			
 		}
 	}
 	focus = {
@@ -800,7 +797,7 @@ focus_tree = {
 		}
 		x = 54
 		y = 3
-
+		
 	}
 	focus = {
 		id = RUS_legitemisation

@@ -126,17 +126,21 @@ debug_decisions = { #TODO_Manu: Comment these out
 ##     ##  ##     ##  ##    ##
 ##     ##   ######    #######
 
-SOV_technocraty = {
+technocraty_decisions = {
 	SOV_revolution_timing = {
 		allowed = { tag = SOV }
 		available = {
 			technocracy > 0.5
 		}
-
+		visible = {
+			has_completed_focus = RUS_popularysation_technocraty
+		}
 		activation = {
 			has_completed_focus = RUS_popularysation_technocraty
 		}
+		is_good = yes
 		days_mission_timeout = 360
+		fire_only_once = yes
 		complete_effect = {
 			set_politics = {
 				ruling_party = technocracy
@@ -162,16 +166,15 @@ SOV_technocraty = {
 	}
 
 	SOV_technocraty_p = {
-		allowed = { tag = SOV }
 		available = {
-			has_completed_focus = RUS_popularysation_technocraty
+			always = yes
 		}
 		visible = {
-			has_completed_focus = RUS_technocraty_way
+			has_completed_focus = RUS_popularysation_technocraty
 		}
 		cost = 20
 		days_re_enable = 40
-		
+
 		complete_effect = {
 			add_popularity = {
 				ideology = technocracy
