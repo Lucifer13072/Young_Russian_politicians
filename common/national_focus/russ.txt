@@ -33,7 +33,7 @@ focus_tree = {
 		y = 0
 
 		completion_reward = {
-			add_stability = -0.10
+			add_stability = -0.11
 			SOV_paranoia_low_increase_effect = no
 		}
 	}
