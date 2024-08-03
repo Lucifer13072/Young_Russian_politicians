@@ -43,7 +43,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = technocracy
-			expire = "1993.1.1.1"
+			expire = "1994.1.1.1"
 			id = -1
 			traits = {
 				dictator
