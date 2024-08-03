@@ -20,7 +20,9 @@ focus_tree = {
 		cost = 10
 		x = 36
 		y = 0
-
+		completion_reward = {
+			news_event = mod.3
+		}
 	}
 	focus = {
 		id = RUS_new_age
