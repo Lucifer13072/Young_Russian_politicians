@@ -12,7 +12,6 @@ focus_tree = {
 		x = 16
 		y = 0
 		completion_reward = {
-			effect_tooltip = { add_ideas = SOV_advancing_army }
 		}
 	}
 	focus = {
@@ -770,21 +769,10 @@ focus_tree = {
 		y = 1
 
 		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = RUS_popularysation_technocraty
-		text = RUS_popularysation_technocraty
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = RUS_technocraty_way
-		}
-		x = 54
-		y = 2
-		completion_reward = {
-			
+			add_popularity = {
+				ideology = technocracy
+				popularity = 0.1
+			}
 		}
 	}
 	focus = {
@@ -793,23 +781,40 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = RUS_popularysation_technocraty
+			focus = RUS_technocraty_way
 		}
 		x = 54
 		y = 3
-		
+		completion_reward = {
+			activate_targeted_decision = {
+				target = SOV
+				decision = technocrati_rev_mission
+			}
+			activate_targeted_decision = {
+				target = SOV
+				decision =  technocracy_pop
+			}
+		}
 	}
 	focus = {
 		id = RUS_legitemisation
 		text = RUS_legitemisation
 		icon = GFX_goal_unknown
 		cost = 10
+		available = { 
+			OR = {
+				has_war = no
+				has_government = technocracy
+			}
+		}
 		prerequisite = {
 			focus = RUS_revolution
 		}
 		x = 54
 		y = 5
-
+		completion_reward = {
+			add_stability = 0.1
+		}
 	}
 	focus = {
 		id = RUS_the_caucasian_dictator
@@ -821,7 +826,9 @@ focus_tree = {
 		}
 		x = 54
 		y = 6
-
+		completion_reward = {
+			news_event = mod.5
+		}
 	}
 	focus = {
 		id = RUS_ban_communist
@@ -837,7 +844,7 @@ focus_tree = {
 		completion_reward = {
 			add_popularity = {
 				ideology = communism
-				popularity = -1
+				popularity = -0.1
 			}
 		}
 	}

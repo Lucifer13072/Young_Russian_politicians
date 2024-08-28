@@ -93,3 +93,31 @@ news_event = {
         name = mod.3.b
     }
 }
+
+news_event = {
+    id = mod.4
+    title = mod.4.t 
+    desc = mod.4.d
+    picture = GFX_second_civill_war
+
+    is_triggered_only = yes
+    mean_time_to_happen = {days = 1 }
+
+    option = {
+        name = mod.4.b
+    }
+}
+
+news_event = {
+    id = mod.5
+    title = mod.5.t
+    desc = mod.5.d
+    picture = GFX_second_civill_war
+    
+    is_triggered_only = yes
+    mean_time_to_happen = { days = 2 }
+
+    option = {
+        name = mod.5.b
+    }
+}
