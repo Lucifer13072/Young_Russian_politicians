@@ -22,7 +22,9 @@ focus_tree = {
 		x = 36
 		y = 0
 		completion_reward = {
-			news_event = mod.3
+			add_ideas = {
+				RUS_new_ecenomic
+			}
 		}
 	}
 	focus = {
@@ -664,7 +666,9 @@ focus_tree = {
 		}
 		x = 48
 		y = 2
-
+		completion_reward = {
+			add_ideas = RUS_white_army
+		}
 	}
 	focus = {
 		id = RUS_monarchy_respect
@@ -701,11 +705,19 @@ focus_tree = {
 					state = 195
 				}
 				start_civil_war = {
-					ruling_party = monarchy
+					ruling_party = neutrality
 					ideology = communism
 					size = 0.4
 					capital = 219
-					states = { 219 }
+					states = { 219 565 826 402 590 586 40 561 214 230 584 236 589 229 401 834 240 
+							   204 567 224 830 564 821 572 203 193 563 875 822 256 137 232 226 516 
+							   231 241 252 406 406 253 827 237 205 637 881 823 879 249 409 569 657
+							   878 196 831 199 202 575 400 644 583 880 234 568 220 251 404 258 874
+							   874 833 265 245 206 219 194 213 197 585 825 221 560 828 655 581 570
+							   192 562 216 571 215 222 652 654 732 882 262 255 398 259 243 218 254
+							   579 239 588 242 233 742 217 227 235 225 577 653 397 257 832 405 829
+							   580 578 223 403 876 399 651 250 407 587 877 198 207 408 238 351 260
+							   228 574 824 248 576 200 201 573}
 				}
 				set_cosmetic_tag = SOV_russia
 				SOV_remove_paranoia_effect = yes
@@ -785,16 +797,6 @@ focus_tree = {
 		}
 		x = 54
 		y = 3
-		completion_reward = {
-			activate_targeted_decision = {
-				target = SOV
-				decision = technocrati_rev_mission
-			}
-			activate_targeted_decision = {
-				target = SOV
-				decision =  technocracy_pop
-			}
-		}
 	}
 	focus = {
 		id = RUS_legitemisation
@@ -834,7 +836,7 @@ focus_tree = {
 		id = RUS_ban_communist
 		text = RUS_ban_communist
 		icon = GFX_focus_ger_bulwark_against_bolshevism
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = RUS_new_house
 			focus = RUS_the_caucasian_dictator
@@ -1017,7 +1019,7 @@ focus_tree = {
 		id = RUS_kill_stalin
 		text = RUS_kill_stalin
 		icon = GFX_goal_unknown
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = RUS_ban_communist
 		}
@@ -1029,7 +1031,7 @@ focus_tree = {
 		id = RUS_stability
 		text = RUS_stability
 		icon = GFX_goal_unknown
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = RUS_kill_stalin
 		}
@@ -1050,14 +1052,14 @@ focus_tree = {
 		x = 46
 		y = 7
 		completion_reward = {
-			
+			add_ideas = RUS_regent_sovet
 		}
 	}
 	focus = {
 		id = RUS_emperor_respect
 		text = RUS_emperor_respect
 		icon = GFX_goal_unknown
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = RUS_inicialisation_sovet
 		}
@@ -1071,7 +1073,7 @@ focus_tree = {
 		id = RUS_more_stability
 		text = RUS_more_stability
 		icon = GFX_goal_unknown
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = RUS_inicialisation_sovet
 		}
@@ -1413,7 +1415,7 @@ focus_tree = {
 		id = RUS_guardian
 		text = RUS_guardian
 		icon = GFX_goal_unknown
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = RUS_manpower_up
 		}
@@ -1422,7 +1424,9 @@ focus_tree = {
 		}
 		x = 45
 		y = 12
-
+		completion_reward = {
+			add_ideas = RUS_guardian_ideas
+		}
 	}
 	focus = {
 		id = RUS_finland
@@ -1514,6 +1518,9 @@ focus_tree = {
 		x = 45
 		y = 15
 
+		completion_reward = {
+			add_ideas = RUS_russian_great
+		}
 	}
 	focus = {
 		id = RUS_old_enemy

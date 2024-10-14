@@ -24,6 +24,11 @@ set_party_name = {
 	long_name = RUS_technocracy_party_name_long
 	name = RUS_technocracy_party_name
 }
+set_party_name = {
+	ideology = anarchy
+	long_name = RUS_anarchism_party_name_long
+	name = RUS_anarchism_party_name
+}
 
 #COUNTRY LEADERS
 #mod
@@ -1253,8 +1258,9 @@ set_politics = {
 set_popularities = {
 	democratic = 10
 	fascism = 2
-	communism = 83
+	communism = 80
 	monarchy = 5
+	anarchy = 3
 }
 
 create_faction = Comintern

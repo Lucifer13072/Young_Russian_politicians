@@ -286,6 +286,11 @@ SOV_tech = {
 	color_ui = { 0 0 0 }
 }
 
+SOV_anarchy = {
+	color = rgb { 53 17 17 }
+	color_ui = { 53 17 17 }
+} 
+
 HOL_benelux_unified = {
 	color = rgb { 255 128 0 }
 	color_ui = rgb { 255 128 0 }
