@@ -6,4 +6,4 @@ tags={
 	"National Focuses"
 }
 name="Young_Russian_politicians"
-supported_version="1.14.7"
+supported_version="1.14.*"

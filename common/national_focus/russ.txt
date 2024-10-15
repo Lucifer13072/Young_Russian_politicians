@@ -409,7 +409,29 @@ focus_tree = {
 		}
 		x = 32
 		y = 2
-
+		completion_reward = {
+			223 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			252 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			217 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = RUS_prom
@@ -421,6 +443,9 @@ focus_tree = {
 		x = 33
 		y = 1
 
+		completion_reward = {
+			add_to_variable = {}
+		}
 	}
 	focus = {
 		id = RUS_civill_prom
@@ -432,7 +457,29 @@ focus_tree = {
 		}
 		x = 34
 		y = 2
-
+		completion_reward = {
+			653 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			572 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			582 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = RUS_new_univesity
@@ -447,7 +494,9 @@ focus_tree = {
 		}
 		x = 33
 		y = 3
-
+		completion_reward = {
+			add_research_slot = 1
+		}
 	}
 	focus = {
 		id = RUS_ural_development
@@ -459,7 +508,6 @@ focus_tree = {
 		}
 		x = 31
 		y = 4
-
 	}
 	focus = {
 		id = RUS_central_development
@@ -744,6 +792,7 @@ focus_tree = {
 					ruling_party = monarchy
 					elections_allowed = no
 				}
+				activate_mission = third_civill_war
 			}
 			news_event = mod.1
 		}
@@ -797,6 +846,11 @@ focus_tree = {
 		}
 		x = 54
 		y = 3
+
+		completion_reward = {
+			activate_mission = technocrati_rev_mission
+			activate_targeted_decision = { target = SOV decision =  technocracy_pop}
+		}
 	}
 	focus = {
 		id = RUS_legitemisation
@@ -804,10 +858,8 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10
 		available = { 
-			OR = {
 				has_war = no
 				has_government = technocracy
-			}
 		}
 		prerequisite = {
 			focus = RUS_revolution
@@ -829,6 +881,9 @@ focus_tree = {
 		x = 54
 		y = 6
 		completion_reward = {
+			hidden_effect = {
+				activate_mission = third_civill_war
+			}
 			news_event = mod.5
 		}
 	}

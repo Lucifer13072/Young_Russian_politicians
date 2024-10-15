@@ -34,6 +34,8 @@ set_party_name = {
 #mod
 recruit_character = SOV_andrey_i
 recruit_character = SOV_Marco
+recruit_character = SOV_Taborickiy
+recruit_character = SOV_Lukyanov
 
 
 #vanila hoi

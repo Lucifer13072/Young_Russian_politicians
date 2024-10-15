@@ -18,4 +18,19 @@ spriteTypes = {
         name = "GFX_portrait_marco_small"
         texturefile = "gfx/leaders/SOV/idea_RUS_marco.dds"
     }
+
+    spriteType = {
+        name = "GFX_portrait_taborickiy"
+        texturefile = "gfx/leaders/SOV/Taboritsky.dds"
+    }
+
+    spriteType = {
+        name = "GFX_portrait_lukyanov"
+        texturefile = "gfx/leaders/SOV/Portait_Lukyanov.dds"
+    }
+
+    spriteType = {
+        name = "GFX_portrait_lukyanov_small"
+        texturefile = "gfx/leaders/SOV/idea_RUS_lukyanov.dds"
+    }
 }

@@ -3,6 +3,14 @@
 
 characters = {
 
+##       ##    ######   #########
+####   ####   ##    ##  ##      ##
+## ## ## ##   ##    ##  ##      ##
+##  ###  ##   ##    ##  ##      ##
+##   #   ##   ##    ##  ##      ##
+##       ##   ##    ##  ##      ##
+##       ##    ######   #########
+
 	SOV_andrey_i = {
 		name = SOV_andrey_i
 		portraits = {
@@ -62,6 +70,61 @@ characters = {
 			}
 		}
 	}
+
+
+	SOV_Taborickiy = {
+		name = SOV_Taboricky
+		portraits = {
+			army = {
+				large = GFX_portrait_taborickiy
+			}
+		}
+
+		field_marshal = {
+			traits = { old_guard inflexible_strategist }
+			skill = 1
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 1
+			visible = {
+				has_completed_focus = RUS_second_civill 
+			}
+		}
+	}
+
+	SOV_Lukyanov = {
+		name = SOV_lukyanov
+		portraits = {
+			civilian = {
+				large = GFX_portrait_lukyanov
+				small = GFX_portrait_andre_I_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			traits = {
+				militaryst
+			}
+			visible = {
+				has_completed_focus = RUS_the_caucasian_dictator
+			}
+			available = {
+				has_completed_focus = RUS_the_caucasian_dictator
+			}
+		}
+	}
+
+
+
+###            ###       #######         #####      ###     ###    ###                    #######
+ ###          ###       ###   ###        ######     ###            ###                   ###   ###
+  ###        ###       ###     ###       ### ###    ###     ###    ###                  ###     ###
+   ###      ###       ###       ###      ###  ###   ###     ###    ###                 ###       ###
+    ###    ###       ###############     ###   ###  ###     ###    ###                ###############
+     ###  ###       ###           ###    ###    ### ###     ###    ###               ###           ###
+      ######       ###             ###   ###     ######     ###    ###              ###             ###
+       ####       ###               ###  ###      #####     ###    ############    ###               ###  
 
 	SOV_iosif_stalin = {
 		name = SOV_iosif_stalin

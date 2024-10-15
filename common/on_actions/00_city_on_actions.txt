@@ -1,0 +1,15 @@
+on_actions = {
+    on_daily = {
+        effect = {
+				if = {		
+					limit = {
+						any_owned_state = {
+							city_inf > 0
+						}
+					}
+					set_country_flag = naming_new_city
+				}
+		}
+	}
+
+} 

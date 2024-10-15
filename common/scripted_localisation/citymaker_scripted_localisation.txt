@@ -1,0 +1,14 @@
+defined_text = {
+	name = test_loc
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = nazism_destroyed_flag
+			}
+		}
+		localization_key = test2
+	}
+	text = {
+		localization_key = test1
+	}
+}

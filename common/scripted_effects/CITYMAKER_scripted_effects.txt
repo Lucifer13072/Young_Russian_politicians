@@ -1,0 +1,3672 @@
+do_city_part1 = {
+			set_variable = { ROOT.holder_prov = 0 } 
+			set_variable = { ROOT.counter_var = 13256 }
+
+			
+			while_loop_effect={ 
+				limit = {
+					check_variable = { ROOT.counter_var > 1 }
+				}
+
+				do_city_tester = yes   
+				
+				add_to_variable = { ROOT.counter_var = -1 }
+			}
+			while_loop_effect={
+				limit = {
+					check_variable = { ROOT.counter_var > 1 }
+				}
+
+				do_city_tester = yes 
+				
+				add_to_variable = { ROOT.counter_var = -1 }
+			}
+			while_loop_effect={
+				limit = {
+					check_variable = { ROOT.counter_var > 1 }
+				}
+ 
+				do_city_tester = yes
+				
+				add_to_variable = { ROOT.counter_var = -1 }
+			}
+			while_loop_effect={
+				limit = {
+					check_variable = { ROOT.counter_var > 1 }
+				}
+
+				do_city_tester = yes
+				
+				add_to_variable = { ROOT.counter_var = -1 }
+			}
+			while_loop_effect={
+				limit = {
+					check_variable = { ROOT.counter_var > 1 }
+				}
+
+				do_city_tester = yes
+				
+				add_to_variable = { ROOT.counter_var = -1 }
+			}
+			while_loop_effect={
+				limit = {
+					check_variable = { ROOT.counter_var > 1 }
+				}
+
+				do_city_tester = yes
+				
+				add_to_variable = { ROOT.counter_var = -1 }
+			}
+			while_loop_effect={
+				limit = {
+					check_variable = { ROOT.counter_var > 1 }
+				}
+
+				do_city_tester = yes
+				
+				add_to_variable = { ROOT.counter_var = -1 }
+			}
+			while_loop_effect={
+				limit = {
+					check_variable = { ROOT.counter_var > 1 }
+				}
+
+				do_city_tester = yes
+				
+				add_to_variable = { ROOT.counter_var = -1 }
+			}
+			while_loop_effect={
+				limit = {
+					check_variable = { ROOT.counter_var > 1 }
+				}
+
+				do_city_tester = yes
+				
+				add_to_variable = { ROOT.counter_var = -1 }
+			}
+			while_loop_effect={
+				limit = {
+					check_variable = { ROOT.counter_var > 1 }
+				}
+
+				do_city_tester = yes
+				
+				add_to_variable = { ROOT.counter_var = -1 }
+			}
+			while_loop_effect={
+				limit = {
+					check_variable = { ROOT.counter_var > 1 }
+				}
+
+				do_city_tester = yes
+				
+				add_to_variable = { ROOT.counter_var = -1 }
+			}
+			while_loop_effect={
+				limit = {
+					check_variable = { ROOT.counter_var > 1 }
+				}
+
+				do_city_tester = yes
+				
+				add_to_variable = { ROOT.counter_var = -1 } 
+			}
+			while_loop_effect={
+				limit = {
+					check_variable = { ROOT.counter_var > 1 }
+				}
+
+				do_city_tester = yes
+				
+				add_to_variable = { ROOT.counter_var = -1 }
+			}
+			while_loop_effect={
+				limit = {
+					check_variable = { ROOT.counter_var > 1 }
+				}
+
+				do_city_tester = yes
+				
+				add_to_variable = { ROOT.counter_var = -1 }
+			}
+
+			
+			################
+			
+			
+
+		}
+
+
+
+
+
+do_city_tester = {
+	if = {
+					limit = {
+						OR = {
+						#{+}
+check_variable = { ROOT.counter_var =1 }
+check_variable = { ROOT.counter_var =4 }
+check_variable = { ROOT.counter_var =5 }
+check_variable = { ROOT.counter_var =9 }
+check_variable = { ROOT.counter_var =13 }
+check_variable = { ROOT.counter_var =16 }
+check_variable = { ROOT.counter_var =19 }
+check_variable = { ROOT.counter_var =20 }
+check_variable = { ROOT.counter_var =24 }
+check_variable = { ROOT.counter_var =25 }
+check_variable = { ROOT.counter_var =28 }
+check_variable = { ROOT.counter_var =29 }
+check_variable = { ROOT.counter_var =33 }
+check_variable = { ROOT.counter_var =34 }
+check_variable = { ROOT.counter_var =41 }
+check_variable = { ROOT.counter_var =42 }
+check_variable = { ROOT.counter_var =43 }
+check_variable = { ROOT.counter_var =47 }
+check_variable = { ROOT.counter_var =48 }
+check_variable = { ROOT.counter_var =50 }
+check_variable = { ROOT.counter_var =51 }
+check_variable = { ROOT.counter_var =54 }
+check_variable = { ROOT.counter_var =55 }
+check_variable = { ROOT.counter_var =56 }
+check_variable = { ROOT.counter_var =59 }
+check_variable = { ROOT.counter_var =209 }
+check_variable = { ROOT.counter_var =210 }
+check_variable = { ROOT.counter_var =213 }
+check_variable = { ROOT.counter_var =217 }
+check_variable = { ROOT.counter_var =218 }
+check_variable = { ROOT.counter_var =220 }
+check_variable = { ROOT.counter_var =224 }
+check_variable = { ROOT.counter_var =225 }
+check_variable = { ROOT.counter_var =229 }
+check_variable = { ROOT.counter_var =230 }
+check_variable = { ROOT.counter_var =234 }
+check_variable = { ROOT.counter_var =235 }
+check_variable = { ROOT.counter_var =239 }
+check_variable = { ROOT.counter_var =240 }
+check_variable = { ROOT.counter_var =244 }
+check_variable = { ROOT.counter_var =245 }
+check_variable = { ROOT.counter_var =249 }
+check_variable = { ROOT.counter_var =250 }
+check_variable = { ROOT.counter_var =251 }
+check_variable = { ROOT.counter_var =254 }
+check_variable = { ROOT.counter_var =255 }
+check_variable = { ROOT.counter_var =258 }
+check_variable = { ROOT.counter_var =259 }
+check_variable = { ROOT.counter_var =262 }
+check_variable = { ROOT.counter_var =263 }
+check_variable = { ROOT.counter_var =264 }
+check_variable = { ROOT.counter_var =267 }
+check_variable = { ROOT.counter_var =411 }
+check_variable = { ROOT.counter_var =412 }
+check_variable = { ROOT.counter_var =416 }
+check_variable = { ROOT.counter_var =419 }
+check_variable = { ROOT.counter_var =420 }
+check_variable = { ROOT.counter_var =423 }
+check_variable = { ROOT.counter_var =427 }
+check_variable = { ROOT.counter_var =428 }
+check_variable = { ROOT.counter_var =430 }
+check_variable = { ROOT.counter_var =431 }
+check_variable = { ROOT.counter_var =435 }
+check_variable = { ROOT.counter_var =436 }
+check_variable = { ROOT.counter_var =439 }
+check_variable = { ROOT.counter_var =440 }
+check_variable = { ROOT.counter_var =443 }
+check_variable = { ROOT.counter_var =446 }
+check_variable = { ROOT.counter_var =447 }
+check_variable = { ROOT.counter_var =448 }
+check_variable = { ROOT.counter_var =450 }
+check_variable = { ROOT.counter_var =451 }
+check_variable = { ROOT.counter_var =455 }
+check_variable = { ROOT.counter_var =456 }
+check_variable = { ROOT.counter_var =459 }
+check_variable = { ROOT.counter_var =460 }
+check_variable = { ROOT.counter_var =461 }
+check_variable = { ROOT.counter_var =465 }
+check_variable = { ROOT.counter_var =593 }
+check_variable = { ROOT.counter_var =594 }
+check_variable = { ROOT.counter_var =597 }
+check_variable = { ROOT.counter_var =600 }
+check_variable = { ROOT.counter_var =601 }
+check_variable = { ROOT.counter_var =604 }
+check_variable = { ROOT.counter_var =608 }
+check_variable = { ROOT.counter_var =609 }
+check_variable = { ROOT.counter_var =612 }
+check_variable = { ROOT.counter_var =613 }
+check_variable = { ROOT.counter_var =616 }
+check_variable = { ROOT.counter_var =617 }
+check_variable = { ROOT.counter_var =621 }
+check_variable = { ROOT.counter_var =622 }
+check_variable = { ROOT.counter_var =623 }
+check_variable = { ROOT.counter_var =626 }
+check_variable = { ROOT.counter_var =627 }
+check_variable = { ROOT.counter_var =631 }
+check_variable = { ROOT.counter_var =632 }
+check_variable = { ROOT.counter_var =633 }
+check_variable = { ROOT.counter_var =635 }
+check_variable = { ROOT.counter_var =639 }
+check_variable = { ROOT.counter_var =640 }
+check_variable = { ROOT.counter_var =643 }
+check_variable = { ROOT.counter_var =644 }
+check_variable = { ROOT.counter_var =645 }
+check_variable = { ROOT.counter_var =647 }
+check_variable = { ROOT.counter_var =786 }
+check_variable = { ROOT.counter_var =787 }
+check_variable = { ROOT.counter_var =791 }
+check_variable = { ROOT.counter_var =795 }
+check_variable = { ROOT.counter_var =796 }
+check_variable = { ROOT.counter_var =802 }
+check_variable = { ROOT.counter_var =803 }
+check_variable = { ROOT.counter_var =807 }
+check_variable = { ROOT.counter_var =808 }
+check_variable = { ROOT.counter_var =811 }
+check_variable = { ROOT.counter_var =812 }
+check_variable = { ROOT.counter_var =815 }
+check_variable = { ROOT.counter_var =816 }
+check_variable = { ROOT.counter_var =820 }
+check_variable = { ROOT.counter_var =821 }
+check_variable = { ROOT.counter_var =824 }
+check_variable = { ROOT.counter_var =825 }
+check_variable = { ROOT.counter_var =826 }
+check_variable = { ROOT.counter_var =830 }
+check_variable = { ROOT.counter_var =834 }
+check_variable = { ROOT.counter_var =835 }
+check_variable = { ROOT.counter_var =838 }
+check_variable = { ROOT.counter_var =839 }
+check_variable = { ROOT.counter_var =840 }
+check_variable = { ROOT.counter_var =842 }
+check_variable = { ROOT.counter_var =843 }
+check_variable = { ROOT.counter_var =990 }
+check_variable = { ROOT.counter_var =991 }
+check_variable = { ROOT.counter_var =995 }
+check_variable = { ROOT.counter_var =999 }
+check_variable = { ROOT.counter_var =1000 }
+check_variable = { ROOT.counter_var =1007 }
+check_variable = { ROOT.counter_var =1008 }
+check_variable = { ROOT.counter_var =1011 }
+check_variable = { ROOT.counter_var =1012 }
+check_variable = { ROOT.counter_var =1016 }
+check_variable = { ROOT.counter_var =1017 }
+check_variable = { ROOT.counter_var =1021 }
+check_variable = { ROOT.counter_var =1022 }
+check_variable = { ROOT.counter_var =1026 }
+check_variable = { ROOT.counter_var =1030 }
+check_variable = { ROOT.counter_var =1031 }
+check_variable = { ROOT.counter_var =1032 }
+check_variable = { ROOT.counter_var =1035 }
+check_variable = { ROOT.counter_var =1039 }
+check_variable = { ROOT.counter_var =1040 }
+check_variable = { ROOT.counter_var =1044 }
+check_variable = { ROOT.counter_var =1045 }
+check_variable = { ROOT.counter_var =1049 }
+check_variable = { ROOT.counter_var =1050 }
+check_variable = { ROOT.counter_var =1211 }
+check_variable = { ROOT.counter_var =1212 }
+check_variable = { ROOT.counter_var =1215 }
+check_variable = { ROOT.counter_var =1218 }
+check_variable = { ROOT.counter_var =1219 }
+check_variable = { ROOT.counter_var =1226 }
+check_variable = { ROOT.counter_var =1227 }
+check_variable = { ROOT.counter_var =1231 }
+check_variable = { ROOT.counter_var =1232 }
+check_variable = { ROOT.counter_var =1235 }
+check_variable = { ROOT.counter_var =1236 }
+check_variable = { ROOT.counter_var =1240 }
+check_variable = { ROOT.counter_var =1241 }
+check_variable = { ROOT.counter_var =1245 }
+check_variable = { ROOT.counter_var =1249 }
+check_variable = { ROOT.counter_var =1250 }
+check_variable = { ROOT.counter_var =1251 }
+check_variable = { ROOT.counter_var =1255 }
+check_variable = { ROOT.counter_var =1256 }
+check_variable = { ROOT.counter_var =1259 }
+check_variable = { ROOT.counter_var =1260 }
+check_variable = { ROOT.counter_var =1264 }
+check_variable = { ROOT.counter_var =1265 }
+check_variable = { ROOT.counter_var =1266 }
+check_variable = { ROOT.counter_var =1270 }
+check_variable = { ROOT.counter_var =1271 }
+check_variable = { ROOT.counter_var =1434 }
+check_variable = { ROOT.counter_var =1435 }
+check_variable = { ROOT.counter_var =1439 }
+check_variable = { ROOT.counter_var =1442 }
+check_variable = { ROOT.counter_var =1443 }
+check_variable = { ROOT.counter_var =1447 }
+check_variable = { ROOT.counter_var =1451 }
+check_variable = { ROOT.counter_var =1452 }
+check_variable = { ROOT.counter_var =1456 }
+check_variable = { ROOT.counter_var =1457 }
+check_variable = { ROOT.counter_var =1461 }
+check_variable = { ROOT.counter_var =1462 }
+check_variable = { ROOT.counter_var =1465 }
+check_variable = { ROOT.counter_var =1466 }
+check_variable = { ROOT.counter_var =1470 }
+check_variable = { ROOT.counter_var =1471 }
+check_variable = { ROOT.counter_var =1475 }
+check_variable = { ROOT.counter_var =1476 }
+check_variable = { ROOT.counter_var =1477 }
+check_variable = { ROOT.counter_var =1481 }
+check_variable = { ROOT.counter_var =1482 }
+check_variable = { ROOT.counter_var =1486 }
+check_variable = { ROOT.counter_var =1487 }
+check_variable = { ROOT.counter_var =1490 }
+check_variable = { ROOT.counter_var =1491 }
+check_variable = { ROOT.counter_var =1495 }
+check_variable = { ROOT.counter_var =1496 }
+check_variable = { ROOT.counter_var =1660 }
+check_variable = { ROOT.counter_var =1661 }
+check_variable = { ROOT.counter_var =1665 }
+check_variable = { ROOT.counter_var =1669 }
+check_variable = { ROOT.counter_var =1670 }
+check_variable = { ROOT.counter_var =1673 }
+check_variable = { ROOT.counter_var =1677 }
+check_variable = { ROOT.counter_var =1681 }
+check_variable = { ROOT.counter_var =1682 }
+check_variable = { ROOT.counter_var =1686 }
+check_variable = { ROOT.counter_var =1687 }
+check_variable = { ROOT.counter_var =1691 }
+check_variable = { ROOT.counter_var =1692 }
+check_variable = { ROOT.counter_var =1695 }
+check_variable = { ROOT.counter_var =1699 }
+check_variable = { ROOT.counter_var =1700 }
+check_variable = { ROOT.counter_var =1701 }
+check_variable = { ROOT.counter_var =1705 }
+check_variable = { ROOT.counter_var =1706 }
+check_variable = { ROOT.counter_var =1710 }
+check_variable = { ROOT.counter_var =1711 }
+check_variable = { ROOT.counter_var =1715 }
+check_variable = { ROOT.counter_var =1716 }
+check_variable = { ROOT.counter_var =1717 }
+check_variable = { ROOT.counter_var =1720 }
+check_variable = { ROOT.counter_var =1721 }
+check_variable = { ROOT.counter_var =1885 }
+check_variable = { ROOT.counter_var =1886 }
+check_variable = { ROOT.counter_var =1890 }
+check_variable = { ROOT.counter_var =1894 }
+check_variable = { ROOT.counter_var =1895 }
+check_variable = { ROOT.counter_var =1899 }
+check_variable = { ROOT.counter_var =1902 }
+check_variable = { ROOT.counter_var =1906 }
+check_variable = { ROOT.counter_var =1907 }
+check_variable = { ROOT.counter_var =1911 }
+check_variable = { ROOT.counter_var =1912 }
+check_variable = { ROOT.counter_var =1916 }
+check_variable = { ROOT.counter_var =1917 }
+check_variable = { ROOT.counter_var =1921 }
+check_variable = { ROOT.counter_var =1924 }
+check_variable = { ROOT.counter_var =1925 }
+check_variable = { ROOT.counter_var =1926 }
+check_variable = { ROOT.counter_var =1930 }
+check_variable = { ROOT.counter_var =1931 }
+check_variable = { ROOT.counter_var =1935 }
+check_variable = { ROOT.counter_var =1936 }
+check_variable = { ROOT.counter_var =1940 }
+check_variable = { ROOT.counter_var =1941 }
+check_variable = { ROOT.counter_var =1942 }
+check_variable = { ROOT.counter_var =1946 }
+check_variable = { ROOT.counter_var =2107 }
+check_variable = { ROOT.counter_var =2108 }
+check_variable = { ROOT.counter_var =2110 }
+check_variable = { ROOT.counter_var =2112 }
+check_variable = { ROOT.counter_var =2113 }
+check_variable = { ROOT.counter_var =2118 }
+check_variable = { ROOT.counter_var =2119 }
+check_variable = { ROOT.counter_var =2121 }
+check_variable = { ROOT.counter_var =2122 }
+check_variable = { ROOT.counter_var =2124 }
+check_variable = { ROOT.counter_var =2125 }
+check_variable = { ROOT.counter_var =2127 }
+check_variable = { ROOT.counter_var =2128 }
+check_variable = { ROOT.counter_var =2131 }
+check_variable = { ROOT.counter_var =2134 }
+check_variable = { ROOT.counter_var =2135 }
+check_variable = { ROOT.counter_var =2137 }
+check_variable = { ROOT.counter_var =2138 }
+check_variable = { ROOT.counter_var =2140 }
+check_variable = { ROOT.counter_var =2141 }
+check_variable = { ROOT.counter_var =2143 }
+check_variable = { ROOT.counter_var =2144 }
+check_variable = { ROOT.counter_var =2145 }
+check_variable = { ROOT.counter_var =2148 }
+check_variable = { ROOT.counter_var =2230 }
+check_variable = { ROOT.counter_var =2231 }
+check_variable = { ROOT.counter_var =2232 }
+check_variable = { ROOT.counter_var =2233 }
+check_variable = { ROOT.counter_var =2234 }
+check_variable = { ROOT.counter_var =2235 }
+check_variable = { ROOT.counter_var =2236 }
+check_variable = { ROOT.counter_var =2237 }
+check_variable = { ROOT.counter_var =2238 }
+check_variable = { ROOT.counter_var =2239 }
+check_variable = { ROOT.counter_var =2240 }
+check_variable = { ROOT.counter_var =2241 }
+check_variable = { ROOT.counter_var =2242 }
+check_variable = { ROOT.counter_var =2243 }
+check_variable = { ROOT.counter_var =2244 }
+check_variable = { ROOT.counter_var =2245 }
+check_variable = { ROOT.counter_var =2246 }
+check_variable = { ROOT.counter_var =2247 }
+check_variable = { ROOT.counter_var =2248 }
+check_variable = { ROOT.counter_var =2249 }
+check_variable = { ROOT.counter_var =2250 }
+check_variable = { ROOT.counter_var =2251 }
+check_variable = { ROOT.counter_var =2252 }
+check_variable = { ROOT.counter_var =2253 }
+check_variable = { ROOT.counter_var =2254 }
+check_variable = { ROOT.counter_var =2255 }
+check_variable = { ROOT.counter_var =2256 }
+check_variable = { ROOT.counter_var =2257 }
+check_variable = { ROOT.counter_var =2258 }
+check_variable = { ROOT.counter_var =2259 }
+check_variable = { ROOT.counter_var =2260 }
+check_variable = { ROOT.counter_var =2261 }
+check_variable = { ROOT.counter_var =2262 }
+check_variable = { ROOT.counter_var =2263 }
+check_variable = { ROOT.counter_var =2264 }
+check_variable = { ROOT.counter_var =2265 }
+check_variable = { ROOT.counter_var =2266 }
+check_variable = { ROOT.counter_var =2267 }
+check_variable = { ROOT.counter_var =2268 }
+check_variable = { ROOT.counter_var =2269 }
+check_variable = { ROOT.counter_var =2270 }
+check_variable = { ROOT.counter_var =2271 }
+check_variable = { ROOT.counter_var =2272 }
+check_variable = { ROOT.counter_var =2273 }
+check_variable = { ROOT.counter_var =2274 }
+check_variable = { ROOT.counter_var =2275 }
+check_variable = { ROOT.counter_var =2276 }
+check_variable = { ROOT.counter_var =2277 }
+check_variable = { ROOT.counter_var =2278 }
+check_variable = { ROOT.counter_var =2279 }
+check_variable = { ROOT.counter_var =2280 }
+check_variable = { ROOT.counter_var =2281 }
+check_variable = { ROOT.counter_var =2282 }
+check_variable = { ROOT.counter_var =2283 }
+check_variable = { ROOT.counter_var =2284 }
+check_variable = { ROOT.counter_var =2285 }
+check_variable = { ROOT.counter_var =2286 }
+check_variable = { ROOT.counter_var =2287 }
+check_variable = { ROOT.counter_var =2288 }
+check_variable = { ROOT.counter_var =2289 }
+check_variable = { ROOT.counter_var =2290 }
+check_variable = { ROOT.counter_var =2291 }
+check_variable = { ROOT.counter_var =2292 }
+check_variable = { ROOT.counter_var =2293 }
+check_variable = { ROOT.counter_var =2294 }
+check_variable = { ROOT.counter_var =2295 }
+check_variable = { ROOT.counter_var =2296 }
+check_variable = { ROOT.counter_var =2297 }
+check_variable = { ROOT.counter_var =2298 }
+check_variable = { ROOT.counter_var =2299 }
+check_variable = { ROOT.counter_var =2300 }
+check_variable = { ROOT.counter_var =2301 }
+check_variable = { ROOT.counter_var =2302 }
+check_variable = { ROOT.counter_var =2303 }
+check_variable = { ROOT.counter_var =2304 }
+check_variable = { ROOT.counter_var =2305 }
+check_variable = { ROOT.counter_var =2306 }
+check_variable = { ROOT.counter_var =2307 }
+check_variable = { ROOT.counter_var =2308 }
+check_variable = { ROOT.counter_var =2309 }
+check_variable = { ROOT.counter_var =2310 }
+check_variable = { ROOT.counter_var =2311 }
+check_variable = { ROOT.counter_var =2312 }
+check_variable = { ROOT.counter_var =2313 }
+check_variable = { ROOT.counter_var =2314 }
+check_variable = { ROOT.counter_var =2315 }
+check_variable = { ROOT.counter_var =2316 }
+check_variable = { ROOT.counter_var =2317 }
+check_variable = { ROOT.counter_var =2318 }
+check_variable = { ROOT.counter_var =2319 }
+check_variable = { ROOT.counter_var =2320 }
+check_variable = { ROOT.counter_var =2321 }
+check_variable = { ROOT.counter_var =2322 }
+check_variable = { ROOT.counter_var =2323 }
+check_variable = { ROOT.counter_var =2324 }
+check_variable = { ROOT.counter_var =2325 }
+check_variable = { ROOT.counter_var =2326 }
+check_variable = { ROOT.counter_var =2327 }
+check_variable = { ROOT.counter_var =2328 }
+check_variable = { ROOT.counter_var =2329 }
+check_variable = { ROOT.counter_var =2330 }
+check_variable = { ROOT.counter_var =2331 }
+check_variable = { ROOT.counter_var =2332 }
+check_variable = { ROOT.counter_var =2333 }
+check_variable = { ROOT.counter_var =2334 }
+check_variable = { ROOT.counter_var =2335 }
+check_variable = { ROOT.counter_var =2336 }
+check_variable = { ROOT.counter_var =2337 }
+check_variable = { ROOT.counter_var =2338 }
+check_variable = { ROOT.counter_var =2339 }
+check_variable = { ROOT.counter_var =2340 }
+check_variable = { ROOT.counter_var =2341 }
+check_variable = { ROOT.counter_var =2342 }
+check_variable = { ROOT.counter_var =2343 }
+check_variable = { ROOT.counter_var =2344 }
+check_variable = { ROOT.counter_var =2345 }
+check_variable = { ROOT.counter_var =2346 }
+check_variable = { ROOT.counter_var =2347 }
+check_variable = { ROOT.counter_var =2348 }
+check_variable = { ROOT.counter_var =2349 }
+check_variable = { ROOT.counter_var =2350 }
+check_variable = { ROOT.counter_var =2351 }
+check_variable = { ROOT.counter_var =2352 }
+check_variable = { ROOT.counter_var =2353 }
+check_variable = { ROOT.counter_var =2354 }
+check_variable = { ROOT.counter_var =2355 }
+check_variable = { ROOT.counter_var =2356 }
+check_variable = { ROOT.counter_var =2357 }
+check_variable = { ROOT.counter_var =2358 }
+check_variable = { ROOT.counter_var =2359 }
+check_variable = { ROOT.counter_var =2360 }
+check_variable = { ROOT.counter_var =2361 }
+check_variable = { ROOT.counter_var =2362 }
+check_variable = { ROOT.counter_var =2363 }
+check_variable = { ROOT.counter_var =2364 }
+check_variable = { ROOT.counter_var =2365 }
+check_variable = { ROOT.counter_var =2366 }
+check_variable = { ROOT.counter_var =2367 }
+check_variable = { ROOT.counter_var =2368 }
+check_variable = { ROOT.counter_var =2369 }
+check_variable = { ROOT.counter_var =2370 }
+check_variable = { ROOT.counter_var =2371 }
+check_variable = { ROOT.counter_var =2372 }
+check_variable = { ROOT.counter_var =2373 }
+check_variable = { ROOT.counter_var =2374 }
+check_variable = { ROOT.counter_var =2375 }
+check_variable = { ROOT.counter_var =2376 }
+check_variable = { ROOT.counter_var =2377 }
+check_variable = { ROOT.counter_var =2378 }
+check_variable = { ROOT.counter_var =2379 }
+check_variable = { ROOT.counter_var =2380 }
+check_variable = { ROOT.counter_var =2381 }
+check_variable = { ROOT.counter_var =2382 }
+check_variable = { ROOT.counter_var =2383 }
+check_variable = { ROOT.counter_var =2384 }
+check_variable = { ROOT.counter_var =2385 }
+check_variable = { ROOT.counter_var =2386 }
+check_variable = { ROOT.counter_var =2387 }
+check_variable = { ROOT.counter_var =2388 }
+check_variable = { ROOT.counter_var =2389 }
+check_variable = { ROOT.counter_var =2390 }
+check_variable = { ROOT.counter_var =2391 }
+check_variable = { ROOT.counter_var =2392 }
+check_variable = { ROOT.counter_var =2393 }
+check_variable = { ROOT.counter_var =2394 }
+check_variable = { ROOT.counter_var =2395 }
+check_variable = { ROOT.counter_var =2396 }
+check_variable = { ROOT.counter_var =2397 }
+check_variable = { ROOT.counter_var =2398 }
+check_variable = { ROOT.counter_var =2399 }
+check_variable = { ROOT.counter_var =2400 }
+check_variable = { ROOT.counter_var =2401 }
+check_variable = { ROOT.counter_var =2402 }
+check_variable = { ROOT.counter_var =2403 }
+check_variable = { ROOT.counter_var =2404 }
+check_variable = { ROOT.counter_var =2405 }
+check_variable = { ROOT.counter_var =2406 }
+check_variable = { ROOT.counter_var =2408 }
+check_variable = { ROOT.counter_var =2409 }
+check_variable = { ROOT.counter_var =2410 }
+check_variable = { ROOT.counter_var =2411 }
+check_variable = { ROOT.counter_var =2412 }
+check_variable = { ROOT.counter_var =2413 }
+check_variable = { ROOT.counter_var =2414 }
+check_variable = { ROOT.counter_var =2415 }
+check_variable = { ROOT.counter_var =2416 }
+check_variable = { ROOT.counter_var =2417 }
+check_variable = { ROOT.counter_var =2418 }
+check_variable = { ROOT.counter_var =2419 }
+check_variable = { ROOT.counter_var =2420 }
+check_variable = { ROOT.counter_var =2421 }
+check_variable = { ROOT.counter_var =2422 }
+check_variable = { ROOT.counter_var =2423 }
+check_variable = { ROOT.counter_var =2424 }
+check_variable = { ROOT.counter_var =2425 }
+check_variable = { ROOT.counter_var =2426 }
+check_variable = { ROOT.counter_var =2427 }
+check_variable = { ROOT.counter_var =2428 }
+check_variable = { ROOT.counter_var =2429 }
+check_variable = { ROOT.counter_var =2430 }
+check_variable = { ROOT.counter_var =2431 }
+check_variable = { ROOT.counter_var =2432 }
+check_variable = { ROOT.counter_var =2433 }
+check_variable = { ROOT.counter_var =2434 }
+check_variable = { ROOT.counter_var =2435 }
+check_variable = { ROOT.counter_var =2436 }
+check_variable = { ROOT.counter_var =2437 }
+check_variable = { ROOT.counter_var =2438 }
+check_variable = { ROOT.counter_var =2439 }
+check_variable = { ROOT.counter_var =2440 }
+check_variable = { ROOT.counter_var =2441 }
+check_variable = { ROOT.counter_var =2442 }
+check_variable = { ROOT.counter_var =2443 }
+check_variable = { ROOT.counter_var =2444 }
+check_variable = { ROOT.counter_var =2445 }
+check_variable = { ROOT.counter_var =2446 }
+check_variable = { ROOT.counter_var =2447 }
+check_variable = { ROOT.counter_var =2448 }
+check_variable = { ROOT.counter_var =2449 }
+check_variable = { ROOT.counter_var =2450 }
+check_variable = { ROOT.counter_var =2451 }
+check_variable = { ROOT.counter_var =2452 }
+check_variable = { ROOT.counter_var =2453 }
+check_variable = { ROOT.counter_var =2454 }
+check_variable = { ROOT.counter_var =2455 }
+check_variable = { ROOT.counter_var =2456 }
+check_variable = { ROOT.counter_var =2457 }
+check_variable = { ROOT.counter_var =2458 }
+check_variable = { ROOT.counter_var =2459 }
+check_variable = { ROOT.counter_var =2460 }
+check_variable = { ROOT.counter_var =2461 }
+check_variable = { ROOT.counter_var =2462 }
+check_variable = { ROOT.counter_var =2463 }
+check_variable = { ROOT.counter_var =2464 }
+check_variable = { ROOT.counter_var =2465 }
+check_variable = { ROOT.counter_var =2466 }
+check_variable = { ROOT.counter_var =2467 }
+check_variable = { ROOT.counter_var =2468 }
+check_variable = { ROOT.counter_var =2469 }
+check_variable = { ROOT.counter_var =2470 }
+check_variable = { ROOT.counter_var =2471 }
+check_variable = { ROOT.counter_var =2472 }
+check_variable = { ROOT.counter_var =2473 }
+check_variable = { ROOT.counter_var =2474 }
+check_variable = { ROOT.counter_var =2475 }
+check_variable = { ROOT.counter_var =2476 }
+check_variable = { ROOT.counter_var =2477 }
+check_variable = { ROOT.counter_var =2478 }
+check_variable = { ROOT.counter_var =2479 }
+check_variable = { ROOT.counter_var =2480 }
+check_variable = { ROOT.counter_var =2481 }
+check_variable = { ROOT.counter_var =2482 }
+check_variable = { ROOT.counter_var =2483 }
+check_variable = { ROOT.counter_var =2484 }
+check_variable = { ROOT.counter_var =2485 }
+check_variable = { ROOT.counter_var =2486 }
+check_variable = { ROOT.counter_var =2487 }
+check_variable = { ROOT.counter_var =2488 }
+check_variable = { ROOT.counter_var =2490 }
+check_variable = { ROOT.counter_var =2491 }
+check_variable = { ROOT.counter_var =2492 }
+check_variable = { ROOT.counter_var =2493 }
+check_variable = { ROOT.counter_var =2494 }
+check_variable = { ROOT.counter_var =2495 }
+check_variable = { ROOT.counter_var =2496 }
+check_variable = { ROOT.counter_var =2497 }
+check_variable = { ROOT.counter_var =2498 }
+check_variable = { ROOT.counter_var =2499 }
+check_variable = { ROOT.counter_var =2500 }
+check_variable = { ROOT.counter_var =2501 }
+check_variable = { ROOT.counter_var =2502 }
+check_variable = { ROOT.counter_var =2503 }
+check_variable = { ROOT.counter_var =2504 }
+check_variable = { ROOT.counter_var =2505 }
+check_variable = { ROOT.counter_var =2506 }
+check_variable = { ROOT.counter_var =2507 }
+check_variable = { ROOT.counter_var =2508 }
+check_variable = { ROOT.counter_var =2509 }
+check_variable = { ROOT.counter_var =2510 }
+check_variable = { ROOT.counter_var =2511 }
+check_variable = { ROOT.counter_var =2512 }
+check_variable = { ROOT.counter_var =2513 }
+check_variable = { ROOT.counter_var =2514 }
+check_variable = { ROOT.counter_var =2515 }
+check_variable = { ROOT.counter_var =2516 }
+check_variable = { ROOT.counter_var =2517 }
+check_variable = { ROOT.counter_var =2518 }
+check_variable = { ROOT.counter_var =2519 }
+check_variable = { ROOT.counter_var =2520 }
+check_variable = { ROOT.counter_var =2521 }
+check_variable = { ROOT.counter_var =2522 }
+check_variable = { ROOT.counter_var =2523 }
+check_variable = { ROOT.counter_var =2524 }
+check_variable = { ROOT.counter_var =2525 }
+check_variable = { ROOT.counter_var =2526 }
+check_variable = { ROOT.counter_var =2527 }
+check_variable = { ROOT.counter_var =2528 }
+check_variable = { ROOT.counter_var =2529 }
+check_variable = { ROOT.counter_var =2530 }
+check_variable = { ROOT.counter_var =2531 }
+check_variable = { ROOT.counter_var =2532 }
+check_variable = { ROOT.counter_var =2533 }
+check_variable = { ROOT.counter_var =2534 }
+check_variable = { ROOT.counter_var =2535 }
+check_variable = { ROOT.counter_var =2536 }
+check_variable = { ROOT.counter_var =2537 }
+check_variable = { ROOT.counter_var =2538 }
+check_variable = { ROOT.counter_var =2539 }
+check_variable = { ROOT.counter_var =2540 }
+check_variable = { ROOT.counter_var =2541 }
+check_variable = { ROOT.counter_var =2542 }
+check_variable = { ROOT.counter_var =2543 }
+check_variable = { ROOT.counter_var =2544 }
+check_variable = { ROOT.counter_var =2545 }
+check_variable = { ROOT.counter_var =2546 }
+check_variable = { ROOT.counter_var =2547 }
+check_variable = { ROOT.counter_var =2548 }
+check_variable = { ROOT.counter_var =2549 }
+check_variable = { ROOT.counter_var =2550 }
+check_variable = { ROOT.counter_var =2551 }
+check_variable = { ROOT.counter_var =2552 }
+check_variable = { ROOT.counter_var =2553 }
+check_variable = { ROOT.counter_var =2554 }
+check_variable = { ROOT.counter_var =2555 }
+check_variable = { ROOT.counter_var =2556 }
+check_variable = { ROOT.counter_var =2557 }
+check_variable = { ROOT.counter_var =2558 }
+check_variable = { ROOT.counter_var =2559 }
+check_variable = { ROOT.counter_var =2560 }
+check_variable = { ROOT.counter_var =2561 }
+check_variable = { ROOT.counter_var =2562 }
+check_variable = { ROOT.counter_var =2563 }
+check_variable = { ROOT.counter_var =2564 }
+check_variable = { ROOT.counter_var =2565 }
+check_variable = { ROOT.counter_var =2566 }
+check_variable = { ROOT.counter_var =2567 }
+check_variable = { ROOT.counter_var =2568 }
+check_variable = { ROOT.counter_var =2569 }
+check_variable = { ROOT.counter_var =2570 }
+check_variable = { ROOT.counter_var =2571 }
+check_variable = { ROOT.counter_var =2572 }
+check_variable = { ROOT.counter_var =2573 }
+check_variable = { ROOT.counter_var =2574 }
+check_variable = { ROOT.counter_var =2575 }
+check_variable = { ROOT.counter_var =2576 }
+check_variable = { ROOT.counter_var =2577 }
+check_variable = { ROOT.counter_var =2578 }
+check_variable = { ROOT.counter_var =2579 }
+check_variable = { ROOT.counter_var =2580 }
+check_variable = { ROOT.counter_var =2581 }
+check_variable = { ROOT.counter_var =2582 }
+check_variable = { ROOT.counter_var =2583 }
+check_variable = { ROOT.counter_var =2584 }
+check_variable = { ROOT.counter_var =2585 }
+check_variable = { ROOT.counter_var =2586 }
+check_variable = { ROOT.counter_var =2587 }
+check_variable = { ROOT.counter_var =2588 }
+check_variable = { ROOT.counter_var =2589 }
+check_variable = { ROOT.counter_var =2590 }
+check_variable = { ROOT.counter_var =2591 }
+check_variable = { ROOT.counter_var =2592 }
+check_variable = { ROOT.counter_var =2593 }
+check_variable = { ROOT.counter_var =2594 }
+check_variable = { ROOT.counter_var =2595 }
+check_variable = { ROOT.counter_var =2596 }
+check_variable = { ROOT.counter_var =2597 }
+check_variable = { ROOT.counter_var =2598 }
+check_variable = { ROOT.counter_var =2599 }
+check_variable = { ROOT.counter_var =2600 }
+check_variable = { ROOT.counter_var =2601 }
+check_variable = { ROOT.counter_var =2602 }
+check_variable = { ROOT.counter_var =2603 }
+check_variable = { ROOT.counter_var =2604 }
+check_variable = { ROOT.counter_var =2605 }
+check_variable = { ROOT.counter_var =2606 }
+check_variable = { ROOT.counter_var =2607 }
+check_variable = { ROOT.counter_var =2608 }
+check_variable = { ROOT.counter_var =2609 }
+check_variable = { ROOT.counter_var =2610 }
+check_variable = { ROOT.counter_var =2611 }
+check_variable = { ROOT.counter_var =2612 }
+check_variable = { ROOT.counter_var =2613 }
+check_variable = { ROOT.counter_var =2614 }
+check_variable = { ROOT.counter_var =2615 }
+check_variable = { ROOT.counter_var =2616 }
+check_variable = { ROOT.counter_var =2617 }
+check_variable = { ROOT.counter_var =2618 }
+check_variable = { ROOT.counter_var =2619 }
+check_variable = { ROOT.counter_var =2620 }
+check_variable = { ROOT.counter_var =2621 }
+check_variable = { ROOT.counter_var =2622 }
+check_variable = { ROOT.counter_var =2623 }
+check_variable = { ROOT.counter_var =2624 }
+check_variable = { ROOT.counter_var =2625 }
+check_variable = { ROOT.counter_var =2626 }
+check_variable = { ROOT.counter_var =2627 }
+check_variable = { ROOT.counter_var =2628 }
+check_variable = { ROOT.counter_var =2629 }
+check_variable = { ROOT.counter_var =2630 }
+check_variable = { ROOT.counter_var =2631 }
+check_variable = { ROOT.counter_var =2632 }
+check_variable = { ROOT.counter_var =2633 }
+check_variable = { ROOT.counter_var =2634 }
+check_variable = { ROOT.counter_var =2635 }
+check_variable = { ROOT.counter_var =2636 }
+check_variable = { ROOT.counter_var =2637 }
+check_variable = { ROOT.counter_var =2638 }
+check_variable = { ROOT.counter_var =2639 }
+check_variable = { ROOT.counter_var =2640 }
+check_variable = { ROOT.counter_var =2641 }
+check_variable = { ROOT.counter_var =2642 }
+check_variable = { ROOT.counter_var =2643 }
+check_variable = { ROOT.counter_var =2644 }
+check_variable = { ROOT.counter_var =2645 }
+check_variable = { ROOT.counter_var =2646 }
+check_variable = { ROOT.counter_var =2647 }
+check_variable = { ROOT.counter_var =2648 }
+check_variable = { ROOT.counter_var =2649 }
+check_variable = { ROOT.counter_var =2650 }
+check_variable = { ROOT.counter_var =2651 }
+check_variable = { ROOT.counter_var =2652 }
+check_variable = { ROOT.counter_var =2653 }
+check_variable = { ROOT.counter_var =2654 }
+check_variable = { ROOT.counter_var =2655 }
+check_variable = { ROOT.counter_var =2656 }
+check_variable = { ROOT.counter_var =2657 }
+check_variable = { ROOT.counter_var =2658 }
+check_variable = { ROOT.counter_var =2659 }
+check_variable = { ROOT.counter_var =2660 }
+check_variable = { ROOT.counter_var =2661 }
+check_variable = { ROOT.counter_var =2662 }
+check_variable = { ROOT.counter_var =2663 }
+check_variable = { ROOT.counter_var =2664 }
+check_variable = { ROOT.counter_var =2665 }
+check_variable = { ROOT.counter_var =2666 }
+check_variable = { ROOT.counter_var =2667 }
+check_variable = { ROOT.counter_var =2668 }
+check_variable = { ROOT.counter_var =2669 }
+check_variable = { ROOT.counter_var =2670 }
+check_variable = { ROOT.counter_var =2671 }
+check_variable = { ROOT.counter_var =2672 }
+check_variable = { ROOT.counter_var =2673 }
+check_variable = { ROOT.counter_var =2674 }
+check_variable = { ROOT.counter_var =2675 }
+check_variable = { ROOT.counter_var =2676 }
+check_variable = { ROOT.counter_var =2677 }
+check_variable = { ROOT.counter_var =2678 }
+check_variable = { ROOT.counter_var =2679 }
+check_variable = { ROOT.counter_var =2680 }
+check_variable = { ROOT.counter_var =2681 }
+check_variable = { ROOT.counter_var =2682 }
+check_variable = { ROOT.counter_var =2683 }
+check_variable = { ROOT.counter_var =2684 }
+check_variable = { ROOT.counter_var =2685 }
+check_variable = { ROOT.counter_var =2686 }
+check_variable = { ROOT.counter_var =2687 }
+check_variable = { ROOT.counter_var =2688 }
+check_variable = { ROOT.counter_var =2689 }
+check_variable = { ROOT.counter_var =2690 }
+check_variable = { ROOT.counter_var =2691 }
+check_variable = { ROOT.counter_var =2692 }
+check_variable = { ROOT.counter_var =2693 }
+check_variable = { ROOT.counter_var =2694 }
+check_variable = { ROOT.counter_var =2695 }
+check_variable = { ROOT.counter_var =2696 }
+check_variable = { ROOT.counter_var =2697 }
+check_variable = { ROOT.counter_var =2698 }
+check_variable = { ROOT.counter_var =2699 }
+check_variable = { ROOT.counter_var =2700 }
+check_variable = { ROOT.counter_var =2701 }
+check_variable = { ROOT.counter_var =2702 }
+check_variable = { ROOT.counter_var =2703 }
+check_variable = { ROOT.counter_var =2704 }
+check_variable = { ROOT.counter_var =2705 }
+check_variable = { ROOT.counter_var =2706 }
+check_variable = { ROOT.counter_var =2707 }
+check_variable = { ROOT.counter_var =2708 }
+check_variable = { ROOT.counter_var =2709 }
+check_variable = { ROOT.counter_var =2710 }
+check_variable = { ROOT.counter_var =2711 }
+check_variable = { ROOT.counter_var =2712 }
+check_variable = { ROOT.counter_var =2713 }
+check_variable = { ROOT.counter_var =2714 }
+check_variable = { ROOT.counter_var =2715 }
+check_variable = { ROOT.counter_var =2716 }
+check_variable = { ROOT.counter_var =2717 }
+check_variable = { ROOT.counter_var =2718 }
+check_variable = { ROOT.counter_var =2719 }
+check_variable = { ROOT.counter_var =2720 }
+check_variable = { ROOT.counter_var =2721 }
+check_variable = { ROOT.counter_var =2722 }
+check_variable = { ROOT.counter_var =2723 }
+check_variable = { ROOT.counter_var =2724 }
+check_variable = { ROOT.counter_var =2725 }
+check_variable = { ROOT.counter_var =2726 }
+check_variable = { ROOT.counter_var =2727 }
+check_variable = { ROOT.counter_var =2728 }
+check_variable = { ROOT.counter_var =2729 }
+check_variable = { ROOT.counter_var =2730 }
+check_variable = { ROOT.counter_var =2731 }
+check_variable = { ROOT.counter_var =2732 }
+check_variable = { ROOT.counter_var =2733 }
+check_variable = { ROOT.counter_var =2734 }
+check_variable = { ROOT.counter_var =2735 }
+check_variable = { ROOT.counter_var =2736 }
+check_variable = { ROOT.counter_var =2737 }
+check_variable = { ROOT.counter_var =2738 }
+check_variable = { ROOT.counter_var =2739 }
+check_variable = { ROOT.counter_var =2740 }
+check_variable = { ROOT.counter_var =2741 }
+check_variable = { ROOT.counter_var =2742 }
+check_variable = { ROOT.counter_var =2743 }
+check_variable = { ROOT.counter_var =2744 }
+check_variable = { ROOT.counter_var =2745 }
+check_variable = { ROOT.counter_var =2746 }
+check_variable = { ROOT.counter_var =2747 }
+check_variable = { ROOT.counter_var =2748 }
+check_variable = { ROOT.counter_var =2749 }
+check_variable = { ROOT.counter_var =2750 }
+check_variable = { ROOT.counter_var =2751 }
+check_variable = { ROOT.counter_var =2752 }
+check_variable = { ROOT.counter_var =2753 }
+check_variable = { ROOT.counter_var =2754 }
+check_variable = { ROOT.counter_var =2755 }
+check_variable = { ROOT.counter_var =2756 }
+check_variable = { ROOT.counter_var =2757 }
+check_variable = { ROOT.counter_var =2758 }
+check_variable = { ROOT.counter_var =2759 }
+check_variable = { ROOT.counter_var =2760 }
+check_variable = { ROOT.counter_var =2761 }
+check_variable = { ROOT.counter_var =2762 }
+check_variable = { ROOT.counter_var =2763 }
+check_variable = { ROOT.counter_var =2764 }
+check_variable = { ROOT.counter_var =2765 }
+check_variable = { ROOT.counter_var =2766 }
+check_variable = { ROOT.counter_var =2767 }
+check_variable = { ROOT.counter_var =2768 }
+check_variable = { ROOT.counter_var =2769 }
+check_variable = { ROOT.counter_var =2770 }
+check_variable = { ROOT.counter_var =2771 }
+check_variable = { ROOT.counter_var =2772 }
+check_variable = { ROOT.counter_var =2773 }
+check_variable = { ROOT.counter_var =2774 }
+check_variable = { ROOT.counter_var =2775 }
+check_variable = { ROOT.counter_var =2776 }
+check_variable = { ROOT.counter_var =2777 }
+check_variable = { ROOT.counter_var =2778 }
+check_variable = { ROOT.counter_var =2779 }
+check_variable = { ROOT.counter_var =2780 }
+check_variable = { ROOT.counter_var =2781 }
+check_variable = { ROOT.counter_var =2782 }
+check_variable = { ROOT.counter_var =2783 }
+check_variable = { ROOT.counter_var =2784 }
+check_variable = { ROOT.counter_var =2785 }
+check_variable = { ROOT.counter_var =2786 }
+check_variable = { ROOT.counter_var =2787 }
+check_variable = { ROOT.counter_var =2788 }
+check_variable = { ROOT.counter_var =2789 }
+check_variable = { ROOT.counter_var =2790 }
+check_variable = { ROOT.counter_var =2791 }
+check_variable = { ROOT.counter_var =2792 }
+check_variable = { ROOT.counter_var =2793 }
+check_variable = { ROOT.counter_var =2794 }
+check_variable = { ROOT.counter_var =2795 }
+check_variable = { ROOT.counter_var =2796 }
+check_variable = { ROOT.counter_var =2797 }
+check_variable = { ROOT.counter_var =2798 }
+check_variable = { ROOT.counter_var =2799 }
+check_variable = { ROOT.counter_var =2800 }
+check_variable = { ROOT.counter_var =2801 }
+check_variable = { ROOT.counter_var =2802 }
+check_variable = { ROOT.counter_var =2803 }
+check_variable = { ROOT.counter_var =2804 }
+check_variable = { ROOT.counter_var =2805 }
+check_variable = { ROOT.counter_var =2806 }
+check_variable = { ROOT.counter_var =2807 }
+check_variable = { ROOT.counter_var =2808 }
+check_variable = { ROOT.counter_var =2809 }
+check_variable = { ROOT.counter_var =2810 }
+check_variable = { ROOT.counter_var =2811 }
+check_variable = { ROOT.counter_var =2812 }
+check_variable = { ROOT.counter_var =2813 }
+check_variable = { ROOT.counter_var =2814 }
+check_variable = { ROOT.counter_var =2815 }
+check_variable = { ROOT.counter_var =2816 }
+check_variable = { ROOT.counter_var =2817 }
+check_variable = { ROOT.counter_var =2818 }
+check_variable = { ROOT.counter_var =2819 }
+check_variable = { ROOT.counter_var =2820 }
+check_variable = { ROOT.counter_var =2821 }
+check_variable = { ROOT.counter_var =2822 }
+check_variable = { ROOT.counter_var =2823 }
+check_variable = { ROOT.counter_var =2824 }
+check_variable = { ROOT.counter_var =2825 }
+check_variable = { ROOT.counter_var =2826 }
+check_variable = { ROOT.counter_var =2827 }
+check_variable = { ROOT.counter_var =2828 }
+check_variable = { ROOT.counter_var =2829 }
+check_variable = { ROOT.counter_var =2830 }
+check_variable = { ROOT.counter_var =2831 }
+check_variable = { ROOT.counter_var =2832 }
+check_variable = { ROOT.counter_var =2833 }
+check_variable = { ROOT.counter_var =2834 }
+check_variable = { ROOT.counter_var =2835 }
+check_variable = { ROOT.counter_var =2836 }
+check_variable = { ROOT.counter_var =2837 }
+check_variable = { ROOT.counter_var =2838 }
+check_variable = { ROOT.counter_var =2839 }
+check_variable = { ROOT.counter_var =2840 }
+check_variable = { ROOT.counter_var =2841 }
+check_variable = { ROOT.counter_var =2842 }
+check_variable = { ROOT.counter_var =2844 }
+check_variable = { ROOT.counter_var =2845 }
+check_variable = { ROOT.counter_var =2846 }
+check_variable = { ROOT.counter_var =2847 }
+check_variable = { ROOT.counter_var =2848 }
+check_variable = { ROOT.counter_var =2849 }
+check_variable = { ROOT.counter_var =2850 }
+check_variable = { ROOT.counter_var =2851 }
+check_variable = { ROOT.counter_var =2852 }
+check_variable = { ROOT.counter_var =2854 }
+check_variable = { ROOT.counter_var =2855 }
+check_variable = { ROOT.counter_var =2856 }
+check_variable = { ROOT.counter_var =2857 }
+check_variable = { ROOT.counter_var =2858 }
+check_variable = { ROOT.counter_var =2859 }
+check_variable = { ROOT.counter_var =2860 }
+check_variable = { ROOT.counter_var =2861 }
+check_variable = { ROOT.counter_var =2862 }
+check_variable = { ROOT.counter_var =2863 }
+check_variable = { ROOT.counter_var =2864 }
+check_variable = { ROOT.counter_var =2865 }
+check_variable = { ROOT.counter_var =2866 }
+check_variable = { ROOT.counter_var =2867 }
+check_variable = { ROOT.counter_var =2868 }
+check_variable = { ROOT.counter_var =2869 }
+check_variable = { ROOT.counter_var =2870 }
+check_variable = { ROOT.counter_var =2871 }
+check_variable = { ROOT.counter_var =2872 }
+check_variable = { ROOT.counter_var =2873 }
+check_variable = { ROOT.counter_var =2874 }
+check_variable = { ROOT.counter_var =2875 }
+check_variable = { ROOT.counter_var =2876 }
+check_variable = { ROOT.counter_var =2878 }
+check_variable = { ROOT.counter_var =2879 }
+check_variable = { ROOT.counter_var =2880 }
+check_variable = { ROOT.counter_var =2881 }
+check_variable = { ROOT.counter_var =2882 }
+check_variable = { ROOT.counter_var =2883 }
+check_variable = { ROOT.counter_var =2884 }
+check_variable = { ROOT.counter_var =2885 }
+check_variable = { ROOT.counter_var =2886 }
+check_variable = { ROOT.counter_var =2887 }
+check_variable = { ROOT.counter_var =2888 }
+check_variable = { ROOT.counter_var =2889 }
+check_variable = { ROOT.counter_var =2890 }
+check_variable = { ROOT.counter_var =2891 }
+check_variable = { ROOT.counter_var =2892 }
+check_variable = { ROOT.counter_var =2893 }
+check_variable = { ROOT.counter_var =2894 }
+check_variable = { ROOT.counter_var =2895 }
+check_variable = { ROOT.counter_var =2896 }
+check_variable = { ROOT.counter_var =2897 }
+check_variable = { ROOT.counter_var =2898 }
+check_variable = { ROOT.counter_var =2899 }
+check_variable = { ROOT.counter_var =2901 }
+check_variable = { ROOT.counter_var =2902 }
+check_variable = { ROOT.counter_var =2903 }
+check_variable = { ROOT.counter_var =2904 }
+check_variable = { ROOT.counter_var =2905 }
+check_variable = { ROOT.counter_var =2906 }
+check_variable = { ROOT.counter_var =2907 }
+check_variable = { ROOT.counter_var =2908 }
+check_variable = { ROOT.counter_var =2909 }
+check_variable = { ROOT.counter_var =2910 }
+check_variable = { ROOT.counter_var =2911 }
+check_variable = { ROOT.counter_var =2912 }
+check_variable = { ROOT.counter_var =2913 }
+check_variable = { ROOT.counter_var =2914 }
+check_variable = { ROOT.counter_var =2915 }
+check_variable = { ROOT.counter_var =2916 }
+check_variable = { ROOT.counter_var =2917 }
+check_variable = { ROOT.counter_var =2918 }
+check_variable = { ROOT.counter_var =2919 }
+check_variable = { ROOT.counter_var =2920 }
+check_variable = { ROOT.counter_var =2921 }
+check_variable = { ROOT.counter_var =2922 }
+check_variable = { ROOT.counter_var =2924 }
+check_variable = { ROOT.counter_var =2925 }
+check_variable = { ROOT.counter_var =2926 }
+check_variable = { ROOT.counter_var =2927 }
+check_variable = { ROOT.counter_var =2928 }
+check_variable = { ROOT.counter_var =2929 }
+check_variable = { ROOT.counter_var =2930 }
+check_variable = { ROOT.counter_var =2931 }
+check_variable = { ROOT.counter_var =2932 }
+check_variable = { ROOT.counter_var =2933 }
+check_variable = { ROOT.counter_var =2934 }
+check_variable = { ROOT.counter_var =2935 }
+check_variable = { ROOT.counter_var =2936 }
+check_variable = { ROOT.counter_var =2937 }
+check_variable = { ROOT.counter_var =2938 }
+check_variable = { ROOT.counter_var =2939 }
+check_variable = { ROOT.counter_var =2940 }
+check_variable = { ROOT.counter_var =2941 }
+check_variable = { ROOT.counter_var =2942 }
+check_variable = { ROOT.counter_var =2943 }
+check_variable = { ROOT.counter_var =2944 }
+check_variable = { ROOT.counter_var =2945 }
+check_variable = { ROOT.counter_var =2946 }
+check_variable = { ROOT.counter_var =2948 }
+check_variable = { ROOT.counter_var =2949 }
+check_variable = { ROOT.counter_var =2950 }
+check_variable = { ROOT.counter_var =2951 }
+check_variable = { ROOT.counter_var =2952 }
+check_variable = { ROOT.counter_var =2953 }
+check_variable = { ROOT.counter_var =2954 }
+check_variable = { ROOT.counter_var =2955 }
+check_variable = { ROOT.counter_var =2956 }
+check_variable = { ROOT.counter_var =2957 }
+check_variable = { ROOT.counter_var =2958 }
+check_variable = { ROOT.counter_var =2959 }
+check_variable = { ROOT.counter_var =2960 }
+check_variable = { ROOT.counter_var =2961 }
+check_variable = { ROOT.counter_var =2962 }
+check_variable = { ROOT.counter_var =2963 }
+check_variable = { ROOT.counter_var =2964 }
+check_variable = { ROOT.counter_var =2965 }
+check_variable = { ROOT.counter_var =2966 }
+check_variable = { ROOT.counter_var =2967 }
+check_variable = { ROOT.counter_var =2968 }
+check_variable = { ROOT.counter_var =2969 }
+check_variable = { ROOT.counter_var =2970 }
+check_variable = { ROOT.counter_var =2971 }
+check_variable = { ROOT.counter_var =2973 }
+check_variable = { ROOT.counter_var =2974 }
+check_variable = { ROOT.counter_var =2975 }
+check_variable = { ROOT.counter_var =2976 }
+check_variable = { ROOT.counter_var =2977 }
+check_variable = { ROOT.counter_var =2978 }
+check_variable = { ROOT.counter_var =2979 }
+check_variable = { ROOT.counter_var =2980 }
+check_variable = { ROOT.counter_var =2981 }
+check_variable = { ROOT.counter_var =2982 }
+check_variable = { ROOT.counter_var =2983 }
+check_variable = { ROOT.counter_var =2984 }
+check_variable = { ROOT.counter_var =2985 }
+check_variable = { ROOT.counter_var =2986 }
+check_variable = { ROOT.counter_var =2987 }
+check_variable = { ROOT.counter_var =2988 }
+check_variable = { ROOT.counter_var =2989 }
+check_variable = { ROOT.counter_var =2990 }
+check_variable = { ROOT.counter_var =2991 }
+check_variable = { ROOT.counter_var =2993 }
+check_variable = { ROOT.counter_var =2997 }
+check_variable = { ROOT.counter_var =3001 }
+check_variable = { ROOT.counter_var =3002 }
+check_variable = { ROOT.counter_var =3006 }
+check_variable = { ROOT.counter_var =3011 }
+check_variable = { ROOT.counter_var =3014 }
+check_variable = { ROOT.counter_var =3015 }
+check_variable = { ROOT.counter_var =3019 }
+check_variable = { ROOT.counter_var =3020 }
+check_variable = { ROOT.counter_var =3023 }
+check_variable = { ROOT.counter_var =3024 }
+check_variable = { ROOT.counter_var =3028 }
+check_variable = { ROOT.counter_var =3029 }
+check_variable = { ROOT.counter_var =3032 }
+check_variable = { ROOT.counter_var =3036 }
+check_variable = { ROOT.counter_var =3037 }
+check_variable = { ROOT.counter_var =3038 }
+check_variable = { ROOT.counter_var =3042 }
+check_variable = { ROOT.counter_var =3043 }
+check_variable = { ROOT.counter_var =3046 }
+check_variable = { ROOT.counter_var =3047 }
+check_variable = { ROOT.counter_var =3051 }
+check_variable = { ROOT.counter_var =3052 }
+check_variable = { ROOT.counter_var =3195 }
+check_variable = { ROOT.counter_var =3198 }
+check_variable = { ROOT.counter_var =3200 }
+check_variable = { ROOT.counter_var =3201 }
+check_variable = { ROOT.counter_var =3204 }
+check_variable = { ROOT.counter_var =3209 }
+check_variable = { ROOT.counter_var =3212 }
+check_variable = { ROOT.counter_var =3213 }
+check_variable = { ROOT.counter_var =3217 }
+check_variable = { ROOT.counter_var =3218 }
+check_variable = { ROOT.counter_var =3222 }
+check_variable = { ROOT.counter_var =3223 }
+check_variable = { ROOT.counter_var =3227 }
+check_variable = { ROOT.counter_var =3228 }
+check_variable = { ROOT.counter_var =3232 }
+check_variable = { ROOT.counter_var =3233 }
+check_variable = { ROOT.counter_var =3237 }
+check_variable = { ROOT.counter_var =3238 }
+check_variable = { ROOT.counter_var =3239 }
+check_variable = { ROOT.counter_var =3243 }
+check_variable = { ROOT.counter_var =3244 }
+check_variable = { ROOT.counter_var =3248 }
+check_variable = { ROOT.counter_var =3249 }
+check_variable = { ROOT.counter_var =3252 }
+check_variable = { ROOT.counter_var =3253 }
+check_variable = { ROOT.counter_var =3400 }
+check_variable = { ROOT.counter_var =3405 }
+check_variable = { ROOT.counter_var =3408 }
+check_variable = { ROOT.counter_var =3411 }
+check_variable = { ROOT.counter_var =3416 }
+check_variable = { ROOT.counter_var =3419 }
+check_variable = { ROOT.counter_var =3420 }
+check_variable = { ROOT.counter_var =3424 }
+check_variable = { ROOT.counter_var =3425 }
+check_variable = { ROOT.counter_var =3428 }
+check_variable = { ROOT.counter_var =3429 }
+check_variable = { ROOT.counter_var =3432 }
+check_variable = { ROOT.counter_var =3433 }
+check_variable = { ROOT.counter_var =3436 }
+check_variable = { ROOT.counter_var =3437 }
+check_variable = { ROOT.counter_var =3440 }
+check_variable = { ROOT.counter_var =3441 }
+check_variable = { ROOT.counter_var =3442 }
+check_variable = { ROOT.counter_var =3445 }
+check_variable = { ROOT.counter_var =3446 }
+check_variable = { ROOT.counter_var =3450 }
+check_variable = { ROOT.counter_var =3451 }
+check_variable = { ROOT.counter_var =3453 }
+check_variable = { ROOT.counter_var =3454 }
+check_variable = { ROOT.counter_var =3528 }
+check_variable = { ROOT.counter_var =3590 }
+check_variable = { ROOT.counter_var =3591 }
+check_variable = { ROOT.counter_var =3595 }
+check_variable = { ROOT.counter_var =3599 }
+check_variable = { ROOT.counter_var =3600 }
+check_variable = { ROOT.counter_var =3603 }
+check_variable = { ROOT.counter_var =3607 }
+check_variable = { ROOT.counter_var =3610 }
+check_variable = { ROOT.counter_var =3611 }
+check_variable = { ROOT.counter_var =3615 }
+check_variable = { ROOT.counter_var =3616 }
+check_variable = { ROOT.counter_var =3619 }
+check_variable = { ROOT.counter_var =3620 }
+check_variable = { ROOT.counter_var =3624 }
+check_variable = { ROOT.counter_var =3625 }
+check_variable = { ROOT.counter_var =3628 }
+check_variable = { ROOT.counter_var =3632 }
+check_variable = { ROOT.counter_var =3633 }
+check_variable = { ROOT.counter_var =3634 }
+check_variable = { ROOT.counter_var =3637 }
+check_variable = { ROOT.counter_var =3638 }
+check_variable = { ROOT.counter_var =3642 }
+check_variable = { ROOT.counter_var =3643 }
+check_variable = { ROOT.counter_var =3647 }
+check_variable = { ROOT.counter_var =3648 }
+check_variable = { ROOT.counter_var =3785 }
+check_variable = { ROOT.counter_var =3789 }
+check_variable = { ROOT.counter_var =3792 }
+check_variable = { ROOT.counter_var =3793 }
+check_variable = { ROOT.counter_var =3797 }
+check_variable = { ROOT.counter_var =3801 }
+check_variable = { ROOT.counter_var =3804 }
+check_variable = { ROOT.counter_var =3805 }
+check_variable = { ROOT.counter_var =3808 }
+check_variable = { ROOT.counter_var =3809 }
+check_variable = { ROOT.counter_var =3812 }
+check_variable = { ROOT.counter_var =3813 }
+check_variable = { ROOT.counter_var =3817 }
+check_variable = { ROOT.counter_var =3818 }
+check_variable = { ROOT.counter_var =3821 }
+check_variable = { ROOT.counter_var =3822 }
+check_variable = { ROOT.counter_var =3825 }
+check_variable = { ROOT.counter_var =3826 }
+check_variable = { ROOT.counter_var =3827 }
+check_variable = { ROOT.counter_var =3831 }
+check_variable = { ROOT.counter_var =3832 }
+check_variable = { ROOT.counter_var =3836 }
+check_variable = { ROOT.counter_var =3837 }
+check_variable = { ROOT.counter_var =3841 }
+check_variable = { ROOT.counter_var =3842 }
+check_variable = { ROOT.counter_var =3990 }
+check_variable = { ROOT.counter_var =3993 }
+check_variable = { ROOT.counter_var =3997 }
+check_variable = { ROOT.counter_var =3998 }
+check_variable = { ROOT.counter_var =4002 }
+check_variable = { ROOT.counter_var =4007 }
+check_variable = { ROOT.counter_var =4011 }
+check_variable = { ROOT.counter_var =4012 }
+check_variable = { ROOT.counter_var =4015 }
+check_variable = { ROOT.counter_var =4016 }
+check_variable = { ROOT.counter_var =4020 }
+check_variable = { ROOT.counter_var =4021 }
+check_variable = { ROOT.counter_var =4025 }
+check_variable = { ROOT.counter_var =4026 }
+check_variable = { ROOT.counter_var =4030 }
+check_variable = { ROOT.counter_var =4034 }
+check_variable = { ROOT.counter_var =4035 }
+check_variable = { ROOT.counter_var =4036 }
+check_variable = { ROOT.counter_var =4039 }
+check_variable = { ROOT.counter_var =4040 }
+check_variable = { ROOT.counter_var =4043 }
+check_variable = { ROOT.counter_var =4044 }
+check_variable = { ROOT.counter_var =4048 }
+check_variable = { ROOT.counter_var =4049 }
+check_variable = { ROOT.counter_var =4201 }
+check_variable = { ROOT.counter_var =4212 }
+check_variable = { ROOT.counter_var =4213 }
+check_variable = { ROOT.counter_var =4217 }
+check_variable = { ROOT.counter_var =4220 }
+check_variable = { ROOT.counter_var =4221 }
+check_variable = { ROOT.counter_var =4225 }
+check_variable = { ROOT.counter_var =4230 }
+check_variable = { ROOT.counter_var =4234 }
+check_variable = { ROOT.counter_var =4235 }
+check_variable = { ROOT.counter_var =4239 }
+check_variable = { ROOT.counter_var =4240 }
+check_variable = { ROOT.counter_var =4243 }
+check_variable = { ROOT.counter_var =4244 }
+check_variable = { ROOT.counter_var =4248 }
+check_variable = { ROOT.counter_var =4249 }
+check_variable = { ROOT.counter_var =4253 }
+check_variable = { ROOT.counter_var =4257 }
+check_variable = { ROOT.counter_var =4258 }
+check_variable = { ROOT.counter_var =4259 }
+check_variable = { ROOT.counter_var =4263 }
+check_variable = { ROOT.counter_var =4264 }
+check_variable = { ROOT.counter_var =4267 }
+check_variable = { ROOT.counter_var =4271 }
+check_variable = { ROOT.counter_var =4272 }
+check_variable = { ROOT.counter_var =4370 }
+check_variable = { ROOT.counter_var =4438 }
+check_variable = { ROOT.counter_var =4439 }
+check_variable = { ROOT.counter_var =4443 }
+check_variable = { ROOT.counter_var =4447 }
+check_variable = { ROOT.counter_var =4448 }
+check_variable = { ROOT.counter_var =4451 }
+check_variable = { ROOT.counter_var =4456 }
+check_variable = { ROOT.counter_var =4460 }
+check_variable = { ROOT.counter_var =4461 }
+check_variable = { ROOT.counter_var =4465 }
+check_variable = { ROOT.counter_var =4466 }
+check_variable = { ROOT.counter_var =4470 }
+check_variable = { ROOT.counter_var =4471 }
+check_variable = { ROOT.counter_var =4474 }
+check_variable = { ROOT.counter_var =4475 }
+check_variable = { ROOT.counter_var =4479 }
+check_variable = { ROOT.counter_var =4483 }
+check_variable = { ROOT.counter_var =4484 }
+check_variable = { ROOT.counter_var =4485 }
+check_variable = { ROOT.counter_var =4489 }
+check_variable = { ROOT.counter_var =4490 }
+check_variable = { ROOT.counter_var =4494 }
+check_variable = { ROOT.counter_var =4497 }
+check_variable = { ROOT.counter_var =4498 }
+check_variable = { ROOT.counter_var =4662 }
+check_variable = { ROOT.counter_var =4663 }
+check_variable = { ROOT.counter_var =4667 }
+check_variable = { ROOT.counter_var =4671 }
+check_variable = { ROOT.counter_var =4672 }
+check_variable = { ROOT.counter_var =4676 }
+check_variable = { ROOT.counter_var =4679 }
+check_variable = { ROOT.counter_var =4683 }
+check_variable = { ROOT.counter_var =4684 }
+check_variable = { ROOT.counter_var =4688 }
+check_variable = { ROOT.counter_var =4689 }
+check_variable = { ROOT.counter_var =4693 }
+check_variable = { ROOT.counter_var =4694 }
+check_variable = { ROOT.counter_var =4698 }
+check_variable = { ROOT.counter_var =4699 }
+check_variable = { ROOT.counter_var =4702 }
+check_variable = { ROOT.counter_var =4706 }
+check_variable = { ROOT.counter_var =4707 }
+check_variable = { ROOT.counter_var =4708 }
+check_variable = { ROOT.counter_var =4712 }
+check_variable = { ROOT.counter_var =4713 }
+check_variable = { ROOT.counter_var =4717 }
+check_variable = { ROOT.counter_var =4721 }
+check_variable = { ROOT.counter_var =4722 }
+check_variable = { ROOT.counter_var =4885 }
+check_variable = { ROOT.counter_var =4886 }
+check_variable = { ROOT.counter_var =4890 }
+check_variable = { ROOT.counter_var =4894 }
+check_variable = { ROOT.counter_var =4895 }
+check_variable = { ROOT.counter_var =4899 }
+check_variable = { ROOT.counter_var =4905 }
+check_variable = { ROOT.counter_var =4906 }
+check_variable = { ROOT.counter_var =4907 }
+check_variable = { ROOT.counter_var =4911 }
+check_variable = { ROOT.counter_var =4912 }
+check_variable = { ROOT.counter_var =4916 }
+check_variable = { ROOT.counter_var =4917 }
+check_variable = { ROOT.counter_var =4921 }
+check_variable = { ROOT.counter_var =4922 }
+check_variable = { ROOT.counter_var =4926 }
+check_variable = { ROOT.counter_var =4929 }
+check_variable = { ROOT.counter_var =4930 }
+check_variable = { ROOT.counter_var =4931 }
+check_variable = { ROOT.counter_var =4935 }
+check_variable = { ROOT.counter_var =4936 }
+check_variable = { ROOT.counter_var =4940 }
+check_variable = { ROOT.counter_var =4944 }
+check_variable = { ROOT.counter_var =4945 }
+check_variable = { ROOT.counter_var =5108 }
+check_variable = { ROOT.counter_var =5109 }
+check_variable = { ROOT.counter_var =5111 }
+check_variable = { ROOT.counter_var =5113 }
+check_variable = { ROOT.counter_var =5114 }
+check_variable = { ROOT.counter_var =5116 }
+check_variable = { ROOT.counter_var =5122 }
+check_variable = { ROOT.counter_var =5123 }
+check_variable = { ROOT.counter_var =5124 }
+check_variable = { ROOT.counter_var =5126 }
+check_variable = { ROOT.counter_var =5127 }
+check_variable = { ROOT.counter_var =5129 }
+check_variable = { ROOT.counter_var =5130 }
+check_variable = { ROOT.counter_var =5132 }
+check_variable = { ROOT.counter_var =5133 }
+check_variable = { ROOT.counter_var =5137 }
+check_variable = { ROOT.counter_var =5140 }
+check_variable = { ROOT.counter_var =5141 }
+check_variable = { ROOT.counter_var =5142 }
+check_variable = { ROOT.counter_var =5144 }
+check_variable = { ROOT.counter_var =5145 }
+check_variable = { ROOT.counter_var =5147 }
+check_variable = { ROOT.counter_var =5149 }
+check_variable = { ROOT.counter_var =5150 }
+check_variable = { ROOT.counter_var =5233 }
+check_variable = { ROOT.counter_var =5234 }
+check_variable = { ROOT.counter_var =5235 }
+check_variable = { ROOT.counter_var =5236 }
+check_variable = { ROOT.counter_var =5237 }
+check_variable = { ROOT.counter_var =5238 }
+check_variable = { ROOT.counter_var =5240 }
+check_variable = { ROOT.counter_var =5241 }
+check_variable = { ROOT.counter_var =5242 }
+check_variable = { ROOT.counter_var =5243 }
+check_variable = { ROOT.counter_var =5244 }
+check_variable = { ROOT.counter_var =5245 }
+check_variable = { ROOT.counter_var =5246 }
+check_variable = { ROOT.counter_var =5247 }
+check_variable = { ROOT.counter_var =5248 }
+check_variable = { ROOT.counter_var =5249 }
+check_variable = { ROOT.counter_var =5250 }
+check_variable = { ROOT.counter_var =5251 }
+check_variable = { ROOT.counter_var =5252 }
+check_variable = { ROOT.counter_var =5253 }
+check_variable = { ROOT.counter_var =5254 }
+check_variable = { ROOT.counter_var =5255 }
+check_variable = { ROOT.counter_var =5256 }
+check_variable = { ROOT.counter_var =5257 }
+check_variable = { ROOT.counter_var =5258 }
+check_variable = { ROOT.counter_var =5259 }
+check_variable = { ROOT.counter_var =5260 }
+check_variable = { ROOT.counter_var =5261 }
+check_variable = { ROOT.counter_var =5262 }
+check_variable = { ROOT.counter_var =5263 }
+check_variable = { ROOT.counter_var =5265 }
+check_variable = { ROOT.counter_var =5266 }
+check_variable = { ROOT.counter_var =5267 }
+check_variable = { ROOT.counter_var =5268 }
+check_variable = { ROOT.counter_var =5269 }
+check_variable = { ROOT.counter_var =5270 }
+check_variable = { ROOT.counter_var =5271 }
+check_variable = { ROOT.counter_var =5272 }
+check_variable = { ROOT.counter_var =5273 }
+check_variable = { ROOT.counter_var =5274 }
+check_variable = { ROOT.counter_var =5275 }
+check_variable = { ROOT.counter_var =5276 }
+check_variable = { ROOT.counter_var =5277 }
+check_variable = { ROOT.counter_var =5278 }
+check_variable = { ROOT.counter_var =5279 }
+check_variable = { ROOT.counter_var =5280 }
+check_variable = { ROOT.counter_var =5281 }
+check_variable = { ROOT.counter_var =5282 }
+check_variable = { ROOT.counter_var =5284 }
+check_variable = { ROOT.counter_var =5285 }
+check_variable = { ROOT.counter_var =5286 }
+check_variable = { ROOT.counter_var =5287 }
+check_variable = { ROOT.counter_var =5288 }
+check_variable = { ROOT.counter_var =5289 }
+check_variable = { ROOT.counter_var =5290 }
+check_variable = { ROOT.counter_var =5292 }
+check_variable = { ROOT.counter_var =5293 }
+check_variable = { ROOT.counter_var =5294 }
+check_variable = { ROOT.counter_var =5295 }
+check_variable = { ROOT.counter_var =5296 }
+check_variable = { ROOT.counter_var =5297 }
+check_variable = { ROOT.counter_var =5298 }
+check_variable = { ROOT.counter_var =5299 }
+check_variable = { ROOT.counter_var =5300 }
+check_variable = { ROOT.counter_var =5301 }
+check_variable = { ROOT.counter_var =5302 }
+check_variable = { ROOT.counter_var =5303 }
+check_variable = { ROOT.counter_var =5304 }
+check_variable = { ROOT.counter_var =5305 }
+check_variable = { ROOT.counter_var =5306 }
+check_variable = { ROOT.counter_var =5307 }
+check_variable = { ROOT.counter_var =5308 }
+check_variable = { ROOT.counter_var =5309 }
+check_variable = { ROOT.counter_var =5311 }
+check_variable = { ROOT.counter_var =5312 }
+check_variable = { ROOT.counter_var =5313 }
+check_variable = { ROOT.counter_var =5314 }
+check_variable = { ROOT.counter_var =5315 }
+check_variable = { ROOT.counter_var =5316 }
+check_variable = { ROOT.counter_var =5318 }
+check_variable = { ROOT.counter_var =5319 }
+check_variable = { ROOT.counter_var =5320 }
+check_variable = { ROOT.counter_var =5321 }
+check_variable = { ROOT.counter_var =5322 }
+check_variable = { ROOT.counter_var =5323 }
+check_variable = { ROOT.counter_var =5324 }
+check_variable = { ROOT.counter_var =5325 }
+check_variable = { ROOT.counter_var =5326 }
+check_variable = { ROOT.counter_var =5327 }
+check_variable = { ROOT.counter_var =5328 }
+check_variable = { ROOT.counter_var =5329 }
+check_variable = { ROOT.counter_var =5330 }
+check_variable = { ROOT.counter_var =5331 }
+check_variable = { ROOT.counter_var =5332 }
+check_variable = { ROOT.counter_var =5333 }
+check_variable = { ROOT.counter_var =5334 }
+check_variable = { ROOT.counter_var =5335 }
+check_variable = { ROOT.counter_var =5336 }
+check_variable = { ROOT.counter_var =5337 }
+check_variable = { ROOT.counter_var =5338 }
+check_variable = { ROOT.counter_var =5339 }
+check_variable = { ROOT.counter_var =5340 }
+check_variable = { ROOT.counter_var =5341 }
+check_variable = { ROOT.counter_var =5342 }
+check_variable = { ROOT.counter_var =5343 }
+check_variable = { ROOT.counter_var =5344 }
+check_variable = { ROOT.counter_var =5345 }
+check_variable = { ROOT.counter_var =5346 }
+check_variable = { ROOT.counter_var =5347 }
+check_variable = { ROOT.counter_var =5348 }
+check_variable = { ROOT.counter_var =5349 }
+check_variable = { ROOT.counter_var =5350 }
+check_variable = { ROOT.counter_var =5351 }
+check_variable = { ROOT.counter_var =5352 }
+check_variable = { ROOT.counter_var =5353 }
+check_variable = { ROOT.counter_var =5354 }
+check_variable = { ROOT.counter_var =5355 }
+check_variable = { ROOT.counter_var =5356 }
+check_variable = { ROOT.counter_var =5357 }
+check_variable = { ROOT.counter_var =5358 }
+check_variable = { ROOT.counter_var =5359 }
+check_variable = { ROOT.counter_var =5360 }
+check_variable = { ROOT.counter_var =5361 }
+check_variable = { ROOT.counter_var =5362 }
+check_variable = { ROOT.counter_var =5363 }
+check_variable = { ROOT.counter_var =5364 }
+check_variable = { ROOT.counter_var =5365 }
+check_variable = { ROOT.counter_var =5366 }
+check_variable = { ROOT.counter_var =5367 }
+check_variable = { ROOT.counter_var =5368 }
+check_variable = { ROOT.counter_var =5369 }
+check_variable = { ROOT.counter_var =5370 }
+check_variable = { ROOT.counter_var =5371 }
+check_variable = { ROOT.counter_var =5372 }
+check_variable = { ROOT.counter_var =5373 }
+check_variable = { ROOT.counter_var =5374 }
+check_variable = { ROOT.counter_var =5375 }
+check_variable = { ROOT.counter_var =5376 }
+check_variable = { ROOT.counter_var =5377 }
+check_variable = { ROOT.counter_var =5378 }
+check_variable = { ROOT.counter_var =5379 }
+check_variable = { ROOT.counter_var =5380 }
+check_variable = { ROOT.counter_var =5381 }
+check_variable = { ROOT.counter_var =5382 }
+check_variable = { ROOT.counter_var =5383 }
+check_variable = { ROOT.counter_var =5384 }
+check_variable = { ROOT.counter_var =5385 }
+check_variable = { ROOT.counter_var =5386 }
+check_variable = { ROOT.counter_var =5387 }
+check_variable = { ROOT.counter_var =5388 }
+check_variable = { ROOT.counter_var =5389 }
+check_variable = { ROOT.counter_var =5390 }
+check_variable = { ROOT.counter_var =5391 }
+check_variable = { ROOT.counter_var =5392 }
+check_variable = { ROOT.counter_var =5393 }
+check_variable = { ROOT.counter_var =5394 }
+check_variable = { ROOT.counter_var =5395 }
+check_variable = { ROOT.counter_var =5396 }
+check_variable = { ROOT.counter_var =5397 }
+check_variable = { ROOT.counter_var =5398 }
+check_variable = { ROOT.counter_var =5399 }
+check_variable = { ROOT.counter_var =5400 }
+check_variable = { ROOT.counter_var =5401 }
+check_variable = { ROOT.counter_var =5402 }
+check_variable = { ROOT.counter_var =5403 }
+check_variable = { ROOT.counter_var =5404 }
+check_variable = { ROOT.counter_var =5405 }
+check_variable = { ROOT.counter_var =5406 }
+check_variable = { ROOT.counter_var =5407 }
+check_variable = { ROOT.counter_var =5408 }
+check_variable = { ROOT.counter_var =5409 }
+check_variable = { ROOT.counter_var =5410 }
+check_variable = { ROOT.counter_var =5411 }
+check_variable = { ROOT.counter_var =5412 }
+check_variable = { ROOT.counter_var =5413 }
+check_variable = { ROOT.counter_var =5414 }
+check_variable = { ROOT.counter_var =5415 }
+check_variable = { ROOT.counter_var =5416 }
+check_variable = { ROOT.counter_var =5417 }
+check_variable = { ROOT.counter_var =5418 }
+check_variable = { ROOT.counter_var =5419 }
+check_variable = { ROOT.counter_var =5420 }
+check_variable = { ROOT.counter_var =5421 }
+check_variable = { ROOT.counter_var =5422 }
+check_variable = { ROOT.counter_var =5423 }
+check_variable = { ROOT.counter_var =5424 }
+check_variable = { ROOT.counter_var =5425 }
+check_variable = { ROOT.counter_var =5426 }
+check_variable = { ROOT.counter_var =5428 }
+check_variable = { ROOT.counter_var =5429 }
+check_variable = { ROOT.counter_var =5430 }
+check_variable = { ROOT.counter_var =5431 }
+check_variable = { ROOT.counter_var =5432 }
+check_variable = { ROOT.counter_var =5433 }
+check_variable = { ROOT.counter_var =5434 }
+check_variable = { ROOT.counter_var =5435 }
+check_variable = { ROOT.counter_var =5436 }
+check_variable = { ROOT.counter_var =5437 }
+check_variable = { ROOT.counter_var =5438 }
+check_variable = { ROOT.counter_var =5439 }
+check_variable = { ROOT.counter_var =5440 }
+check_variable = { ROOT.counter_var =5441 }
+check_variable = { ROOT.counter_var =5442 }
+check_variable = { ROOT.counter_var =5443 }
+check_variable = { ROOT.counter_var =5444 }
+check_variable = { ROOT.counter_var =5445 }
+check_variable = { ROOT.counter_var =5446 }
+check_variable = { ROOT.counter_var =5447 }
+check_variable = { ROOT.counter_var =5448 }
+check_variable = { ROOT.counter_var =5449 }
+check_variable = { ROOT.counter_var =5450 }
+check_variable = { ROOT.counter_var =5451 }
+check_variable = { ROOT.counter_var =5452 }
+check_variable = { ROOT.counter_var =5453 }
+check_variable = { ROOT.counter_var =5454 }
+check_variable = { ROOT.counter_var =5455 }
+check_variable = { ROOT.counter_var =5456 }
+check_variable = { ROOT.counter_var =5457 }
+check_variable = { ROOT.counter_var =5458 }
+check_variable = { ROOT.counter_var =5459 }
+check_variable = { ROOT.counter_var =5460 }
+check_variable = { ROOT.counter_var =5461 }
+check_variable = { ROOT.counter_var =5462 }
+check_variable = { ROOT.counter_var =5463 }
+check_variable = { ROOT.counter_var =5464 }
+check_variable = { ROOT.counter_var =5465 }
+check_variable = { ROOT.counter_var =5466 }
+check_variable = { ROOT.counter_var =5467 }
+check_variable = { ROOT.counter_var =5468 }
+check_variable = { ROOT.counter_var =5469 }
+check_variable = { ROOT.counter_var =5470 }
+check_variable = { ROOT.counter_var =5471 }
+check_variable = { ROOT.counter_var =5472 }
+check_variable = { ROOT.counter_var =5473 }
+check_variable = { ROOT.counter_var =5474 }
+check_variable = { ROOT.counter_var =5475 }
+check_variable = { ROOT.counter_var =5476 }
+check_variable = { ROOT.counter_var =5477 }
+check_variable = { ROOT.counter_var =5478 }
+check_variable = { ROOT.counter_var =5479 }
+check_variable = { ROOT.counter_var =5480 }
+check_variable = { ROOT.counter_var =5481 }
+check_variable = { ROOT.counter_var =5482 }
+check_variable = { ROOT.counter_var =5483 }
+check_variable = { ROOT.counter_var =5484 }
+check_variable = { ROOT.counter_var =5485 }
+check_variable = { ROOT.counter_var =5486 }
+check_variable = { ROOT.counter_var =5487 }
+check_variable = { ROOT.counter_var =5488 }
+check_variable = { ROOT.counter_var =5489 }
+check_variable = { ROOT.counter_var =5490 }
+check_variable = { ROOT.counter_var =5491 }
+check_variable = { ROOT.counter_var =5492 }
+check_variable = { ROOT.counter_var =5493 }
+check_variable = { ROOT.counter_var =5494 }
+check_variable = { ROOT.counter_var =5495 }
+check_variable = { ROOT.counter_var =5496 }
+check_variable = { ROOT.counter_var =5497 }
+check_variable = { ROOT.counter_var =5498 }
+check_variable = { ROOT.counter_var =5499 }
+check_variable = { ROOT.counter_var =5500 }
+check_variable = { ROOT.counter_var =5501 }
+check_variable = { ROOT.counter_var =5502 }
+check_variable = { ROOT.counter_var =5503 }
+check_variable = { ROOT.counter_var =5504 }
+check_variable = { ROOT.counter_var =5505 }
+check_variable = { ROOT.counter_var =5506 }
+check_variable = { ROOT.counter_var =5507 }
+check_variable = { ROOT.counter_var =5508 }
+check_variable = { ROOT.counter_var =5509 }
+check_variable = { ROOT.counter_var =5510 }
+check_variable = { ROOT.counter_var =5511 }
+check_variable = { ROOT.counter_var =5512 }
+check_variable = { ROOT.counter_var =5513 }
+check_variable = { ROOT.counter_var =5514 }
+check_variable = { ROOT.counter_var =5515 }
+check_variable = { ROOT.counter_var =5516 }
+check_variable = { ROOT.counter_var =5517 }
+check_variable = { ROOT.counter_var =5518 }
+check_variable = { ROOT.counter_var =5519 }
+check_variable = { ROOT.counter_var =5520 }
+check_variable = { ROOT.counter_var =5521 }
+check_variable = { ROOT.counter_var =5522 }
+check_variable = { ROOT.counter_var =5523 }
+check_variable = { ROOT.counter_var =5524 }
+check_variable = { ROOT.counter_var =5525 }
+check_variable = { ROOT.counter_var =5526 }
+check_variable = { ROOT.counter_var =5527 }
+check_variable = { ROOT.counter_var =5528 }
+check_variable = { ROOT.counter_var =5529 }
+check_variable = { ROOT.counter_var =5530 }
+check_variable = { ROOT.counter_var =5531 }
+check_variable = { ROOT.counter_var =5532 }
+check_variable = { ROOT.counter_var =5533 }
+check_variable = { ROOT.counter_var =5534 }
+check_variable = { ROOT.counter_var =5535 }
+check_variable = { ROOT.counter_var =5536 }
+check_variable = { ROOT.counter_var =5537 }
+check_variable = { ROOT.counter_var =5538 }
+check_variable = { ROOT.counter_var =5539 }
+check_variable = { ROOT.counter_var =5540 }
+check_variable = { ROOT.counter_var =5541 }
+check_variable = { ROOT.counter_var =5542 }
+check_variable = { ROOT.counter_var =5543 }
+check_variable = { ROOT.counter_var =5544 }
+check_variable = { ROOT.counter_var =5545 }
+check_variable = { ROOT.counter_var =5546 }
+check_variable = { ROOT.counter_var =5547 }
+check_variable = { ROOT.counter_var =5548 }
+check_variable = { ROOT.counter_var =5549 }
+check_variable = { ROOT.counter_var =5550 }
+check_variable = { ROOT.counter_var =5551 }
+check_variable = { ROOT.counter_var =5552 }
+check_variable = { ROOT.counter_var =5553 }
+check_variable = { ROOT.counter_var =5554 }
+check_variable = { ROOT.counter_var =5555 }
+check_variable = { ROOT.counter_var =5556 }
+check_variable = { ROOT.counter_var =5557 }
+check_variable = { ROOT.counter_var =5558 }
+check_variable = { ROOT.counter_var =5559 }
+check_variable = { ROOT.counter_var =5560 }
+check_variable = { ROOT.counter_var =5561 }
+check_variable = { ROOT.counter_var =5562 }
+check_variable = { ROOT.counter_var =5563 }
+check_variable = { ROOT.counter_var =5564 }
+check_variable = { ROOT.counter_var =5565 }
+check_variable = { ROOT.counter_var =5566 }
+check_variable = { ROOT.counter_var =5567 }
+check_variable = { ROOT.counter_var =5568 }
+check_variable = { ROOT.counter_var =5569 }
+check_variable = { ROOT.counter_var =5570 }
+check_variable = { ROOT.counter_var =5571 }
+check_variable = { ROOT.counter_var =5572 }
+check_variable = { ROOT.counter_var =5573 }
+check_variable = { ROOT.counter_var =5574 }
+check_variable = { ROOT.counter_var =5575 }
+check_variable = { ROOT.counter_var =5576 }
+check_variable = { ROOT.counter_var =5577 }
+check_variable = { ROOT.counter_var =5578 }
+check_variable = { ROOT.counter_var =5579 }
+check_variable = { ROOT.counter_var =5580 }
+check_variable = { ROOT.counter_var =5581 }
+check_variable = { ROOT.counter_var =5582 }
+check_variable = { ROOT.counter_var =5583 }
+check_variable = { ROOT.counter_var =5584 }
+check_variable = { ROOT.counter_var =5585 }
+check_variable = { ROOT.counter_var =5586 }
+check_variable = { ROOT.counter_var =5587 }
+check_variable = { ROOT.counter_var =5588 }
+check_variable = { ROOT.counter_var =5589 }
+check_variable = { ROOT.counter_var =5590 }
+check_variable = { ROOT.counter_var =5591 }
+check_variable = { ROOT.counter_var =5592 }
+check_variable = { ROOT.counter_var =5593 }
+check_variable = { ROOT.counter_var =5594 }
+check_variable = { ROOT.counter_var =5595 }
+check_variable = { ROOT.counter_var =5596 }
+check_variable = { ROOT.counter_var =5597 }
+check_variable = { ROOT.counter_var =5598 }
+check_variable = { ROOT.counter_var =5599 }
+check_variable = { ROOT.counter_var =5600 }
+check_variable = { ROOT.counter_var =5601 }
+check_variable = { ROOT.counter_var =5602 }
+check_variable = { ROOT.counter_var =5603 }
+check_variable = { ROOT.counter_var =5604 }
+check_variable = { ROOT.counter_var =5605 }
+check_variable = { ROOT.counter_var =5606 }
+check_variable = { ROOT.counter_var =5607 }
+check_variable = { ROOT.counter_var =5608 }
+check_variable = { ROOT.counter_var =5609 }
+check_variable = { ROOT.counter_var =5610 }
+check_variable = { ROOT.counter_var =5611 }
+check_variable = { ROOT.counter_var =5612 }
+check_variable = { ROOT.counter_var =5613 }
+check_variable = { ROOT.counter_var =5614 }
+check_variable = { ROOT.counter_var =5615 }
+check_variable = { ROOT.counter_var =5616 }
+check_variable = { ROOT.counter_var =5617 }
+check_variable = { ROOT.counter_var =5618 }
+check_variable = { ROOT.counter_var =5619 }
+check_variable = { ROOT.counter_var =5620 }
+check_variable = { ROOT.counter_var =5621 }
+check_variable = { ROOT.counter_var =5622 }
+check_variable = { ROOT.counter_var =5623 }
+check_variable = { ROOT.counter_var =5624 }
+check_variable = { ROOT.counter_var =5625 }
+check_variable = { ROOT.counter_var =5626 }
+check_variable = { ROOT.counter_var =5627 }
+check_variable = { ROOT.counter_var =5628 }
+check_variable = { ROOT.counter_var =5629 }
+check_variable = { ROOT.counter_var =5630 }
+check_variable = { ROOT.counter_var =5631 }
+check_variable = { ROOT.counter_var =5632 }
+check_variable = { ROOT.counter_var =5633 }
+check_variable = { ROOT.counter_var =5634 }
+check_variable = { ROOT.counter_var =5635 }
+check_variable = { ROOT.counter_var =5636 }
+check_variable = { ROOT.counter_var =5637 }
+check_variable = { ROOT.counter_var =5638 }
+check_variable = { ROOT.counter_var =5639 }
+check_variable = { ROOT.counter_var =5640 }
+check_variable = { ROOT.counter_var =5641 }
+check_variable = { ROOT.counter_var =5642 }
+check_variable = { ROOT.counter_var =5643 }
+check_variable = { ROOT.counter_var =5644 }
+check_variable = { ROOT.counter_var =5645 }
+check_variable = { ROOT.counter_var =5646 }
+check_variable = { ROOT.counter_var =5647 }
+check_variable = { ROOT.counter_var =5648 }
+check_variable = { ROOT.counter_var =5649 }
+check_variable = { ROOT.counter_var =5650 }
+check_variable = { ROOT.counter_var =5651 }
+check_variable = { ROOT.counter_var =5652 }
+check_variable = { ROOT.counter_var =5653 }
+check_variable = { ROOT.counter_var =5654 }
+check_variable = { ROOT.counter_var =5655 }
+check_variable = { ROOT.counter_var =5656 }
+check_variable = { ROOT.counter_var =5657 }
+check_variable = { ROOT.counter_var =5658 }
+check_variable = { ROOT.counter_var =5659 }
+check_variable = { ROOT.counter_var =5660 }
+check_variable = { ROOT.counter_var =5661 }
+check_variable = { ROOT.counter_var =5662 }
+check_variable = { ROOT.counter_var =5663 }
+check_variable = { ROOT.counter_var =5664 }
+check_variable = { ROOT.counter_var =5665 }
+check_variable = { ROOT.counter_var =5666 }
+check_variable = { ROOT.counter_var =5667 }
+check_variable = { ROOT.counter_var =5668 }
+check_variable = { ROOT.counter_var =5669 }
+check_variable = { ROOT.counter_var =5670 }
+check_variable = { ROOT.counter_var =5671 }
+check_variable = { ROOT.counter_var =5672 }
+check_variable = { ROOT.counter_var =5673 }
+check_variable = { ROOT.counter_var =5674 }
+check_variable = { ROOT.counter_var =5675 }
+check_variable = { ROOT.counter_var =5676 }
+check_variable = { ROOT.counter_var =5677 }
+check_variable = { ROOT.counter_var =5678 }
+check_variable = { ROOT.counter_var =5679 }
+check_variable = { ROOT.counter_var =5680 }
+check_variable = { ROOT.counter_var =5681 }
+check_variable = { ROOT.counter_var =5682 }
+check_variable = { ROOT.counter_var =5683 }
+check_variable = { ROOT.counter_var =5684 }
+check_variable = { ROOT.counter_var =5685 }
+check_variable = { ROOT.counter_var =5686 }
+check_variable = { ROOT.counter_var =5687 }
+check_variable = { ROOT.counter_var =5688 }
+check_variable = { ROOT.counter_var =5689 }
+check_variable = { ROOT.counter_var =5690 }
+check_variable = { ROOT.counter_var =5691 }
+check_variable = { ROOT.counter_var =5692 }
+check_variable = { ROOT.counter_var =5693 }
+check_variable = { ROOT.counter_var =5694 }
+check_variable = { ROOT.counter_var =5695 }
+check_variable = { ROOT.counter_var =5696 }
+check_variable = { ROOT.counter_var =5697 }
+check_variable = { ROOT.counter_var =5698 }
+check_variable = { ROOT.counter_var =5699 }
+check_variable = { ROOT.counter_var =5700 }
+check_variable = { ROOT.counter_var =5701 }
+check_variable = { ROOT.counter_var =5702 }
+check_variable = { ROOT.counter_var =5703 }
+check_variable = { ROOT.counter_var =5704 }
+check_variable = { ROOT.counter_var =5705 }
+check_variable = { ROOT.counter_var =5706 }
+check_variable = { ROOT.counter_var =5707 }
+check_variable = { ROOT.counter_var =5708 }
+check_variable = { ROOT.counter_var =5709 }
+check_variable = { ROOT.counter_var =5710 }
+check_variable = { ROOT.counter_var =5711 }
+check_variable = { ROOT.counter_var =5712 }
+check_variable = { ROOT.counter_var =5713 }
+check_variable = { ROOT.counter_var =5714 }
+check_variable = { ROOT.counter_var =5715 }
+check_variable = { ROOT.counter_var =5716 }
+check_variable = { ROOT.counter_var =5717 }
+check_variable = { ROOT.counter_var =5718 }
+check_variable = { ROOT.counter_var =5719 }
+check_variable = { ROOT.counter_var =5720 }
+check_variable = { ROOT.counter_var =5721 }
+check_variable = { ROOT.counter_var =5722 }
+check_variable = { ROOT.counter_var =5723 }
+check_variable = { ROOT.counter_var =5724 }
+check_variable = { ROOT.counter_var =5725 }
+check_variable = { ROOT.counter_var =5726 }
+check_variable = { ROOT.counter_var =5727 }
+check_variable = { ROOT.counter_var =5728 }
+check_variable = { ROOT.counter_var =5729 }
+check_variable = { ROOT.counter_var =5730 }
+check_variable = { ROOT.counter_var =5731 }
+check_variable = { ROOT.counter_var =5732 }
+check_variable = { ROOT.counter_var =5733 }
+check_variable = { ROOT.counter_var =5734 }
+check_variable = { ROOT.counter_var =5735 }
+check_variable = { ROOT.counter_var =5737 }
+check_variable = { ROOT.counter_var =5738 }
+check_variable = { ROOT.counter_var =5739 }
+check_variable = { ROOT.counter_var =5740 }
+check_variable = { ROOT.counter_var =5741 }
+check_variable = { ROOT.counter_var =5742 }
+check_variable = { ROOT.counter_var =5743 }
+check_variable = { ROOT.counter_var =5744 }
+check_variable = { ROOT.counter_var =5745 }
+check_variable = { ROOT.counter_var =5746 }
+check_variable = { ROOT.counter_var =5747 }
+check_variable = { ROOT.counter_var =5748 }
+check_variable = { ROOT.counter_var =5749 }
+check_variable = { ROOT.counter_var =5750 }
+check_variable = { ROOT.counter_var =5751 }
+check_variable = { ROOT.counter_var =5752 }
+check_variable = { ROOT.counter_var =5753 }
+check_variable = { ROOT.counter_var =5754 }
+check_variable = { ROOT.counter_var =5755 }
+check_variable = { ROOT.counter_var =5756 }
+check_variable = { ROOT.counter_var =5757 }
+check_variable = { ROOT.counter_var =5758 }
+check_variable = { ROOT.counter_var =5759 }
+check_variable = { ROOT.counter_var =5760 }
+check_variable = { ROOT.counter_var =5761 }
+check_variable = { ROOT.counter_var =5762 }
+check_variable = { ROOT.counter_var =5763 }
+check_variable = { ROOT.counter_var =5764 }
+check_variable = { ROOT.counter_var =5765 }
+check_variable = { ROOT.counter_var =5766 }
+check_variable = { ROOT.counter_var =5767 }
+check_variable = { ROOT.counter_var =5768 }
+check_variable = { ROOT.counter_var =5769 }
+check_variable = { ROOT.counter_var =5770 }
+check_variable = { ROOT.counter_var =5771 }
+check_variable = { ROOT.counter_var =5772 }
+check_variable = { ROOT.counter_var =5773 }
+check_variable = { ROOT.counter_var =5774 }
+check_variable = { ROOT.counter_var =5775 }
+check_variable = { ROOT.counter_var =5776 }
+check_variable = { ROOT.counter_var =5777 }
+check_variable = { ROOT.counter_var =5778 }
+check_variable = { ROOT.counter_var =5779 }
+check_variable = { ROOT.counter_var =5780 }
+check_variable = { ROOT.counter_var =5781 }
+check_variable = { ROOT.counter_var =5782 }
+check_variable = { ROOT.counter_var =5783 }
+check_variable = { ROOT.counter_var =5784 }
+check_variable = { ROOT.counter_var =5785 }
+check_variable = { ROOT.counter_var =5786 }
+check_variable = { ROOT.counter_var =5787 }
+check_variable = { ROOT.counter_var =5788 }
+check_variable = { ROOT.counter_var =5789 }
+check_variable = { ROOT.counter_var =5790 }
+check_variable = { ROOT.counter_var =5791 }
+check_variable = { ROOT.counter_var =5792 }
+check_variable = { ROOT.counter_var =5793 }
+check_variable = { ROOT.counter_var =5794 }
+check_variable = { ROOT.counter_var =5795 }
+check_variable = { ROOT.counter_var =5796 }
+check_variable = { ROOT.counter_var =5797 }
+check_variable = { ROOT.counter_var =5798 }
+check_variable = { ROOT.counter_var =5799 }
+check_variable = { ROOT.counter_var =5800 }
+check_variable = { ROOT.counter_var =5801 }
+check_variable = { ROOT.counter_var =5802 }
+check_variable = { ROOT.counter_var =5803 }
+check_variable = { ROOT.counter_var =5804 }
+check_variable = { ROOT.counter_var =5805 }
+check_variable = { ROOT.counter_var =5806 }
+check_variable = { ROOT.counter_var =5807 }
+check_variable = { ROOT.counter_var =5808 }
+check_variable = { ROOT.counter_var =5809 }
+check_variable = { ROOT.counter_var =5810 }
+check_variable = { ROOT.counter_var =5811 }
+check_variable = { ROOT.counter_var =5812 }
+check_variable = { ROOT.counter_var =5813 }
+check_variable = { ROOT.counter_var =5814 }
+check_variable = { ROOT.counter_var =5815 }
+check_variable = { ROOT.counter_var =5816 }
+check_variable = { ROOT.counter_var =5817 }
+check_variable = { ROOT.counter_var =5818 }
+check_variable = { ROOT.counter_var =5819 }
+check_variable = { ROOT.counter_var =5820 }
+check_variable = { ROOT.counter_var =5821 }
+check_variable = { ROOT.counter_var =5822 }
+check_variable = { ROOT.counter_var =5823 }
+check_variable = { ROOT.counter_var =5824 }
+check_variable = { ROOT.counter_var =5825 }
+check_variable = { ROOT.counter_var =5826 }
+check_variable = { ROOT.counter_var =5827 }
+check_variable = { ROOT.counter_var =5828 }
+check_variable = { ROOT.counter_var =5829 }
+check_variable = { ROOT.counter_var =5830 }
+check_variable = { ROOT.counter_var =5831 }
+check_variable = { ROOT.counter_var =5832 }
+check_variable = { ROOT.counter_var =5833 }
+check_variable = { ROOT.counter_var =5834 }
+check_variable = { ROOT.counter_var =5835 }
+check_variable = { ROOT.counter_var =5836 }
+check_variable = { ROOT.counter_var =5837 }
+check_variable = { ROOT.counter_var =5838 }
+check_variable = { ROOT.counter_var =5839 }
+check_variable = { ROOT.counter_var =5840 }
+check_variable = { ROOT.counter_var =5841 }
+check_variable = { ROOT.counter_var =5842 }
+check_variable = { ROOT.counter_var =5843 }
+check_variable = { ROOT.counter_var =5844 }
+check_variable = { ROOT.counter_var =5845 }
+check_variable = { ROOT.counter_var =5846 }
+check_variable = { ROOT.counter_var =5847 }
+check_variable = { ROOT.counter_var =5848 }
+check_variable = { ROOT.counter_var =5849 }
+check_variable = { ROOT.counter_var =5850 }
+check_variable = { ROOT.counter_var =5851 }
+check_variable = { ROOT.counter_var =5852 }
+check_variable = { ROOT.counter_var =5853 }
+check_variable = { ROOT.counter_var =5854 }
+check_variable = { ROOT.counter_var =5855 }
+check_variable = { ROOT.counter_var =5856 }
+check_variable = { ROOT.counter_var =5857 }
+check_variable = { ROOT.counter_var =5858 }
+check_variable = { ROOT.counter_var =5859 }
+check_variable = { ROOT.counter_var =5860 }
+check_variable = { ROOT.counter_var =5861 }
+check_variable = { ROOT.counter_var =5862 }
+check_variable = { ROOT.counter_var =5863 }
+check_variable = { ROOT.counter_var =5864 }
+check_variable = { ROOT.counter_var =5865 }
+check_variable = { ROOT.counter_var =5866 }
+check_variable = { ROOT.counter_var =5867 }
+check_variable = { ROOT.counter_var =5868 }
+check_variable = { ROOT.counter_var =5869 }
+check_variable = { ROOT.counter_var =5870 }
+check_variable = { ROOT.counter_var =5871 }
+check_variable = { ROOT.counter_var =5872 }
+check_variable = { ROOT.counter_var =5873 }
+check_variable = { ROOT.counter_var =5874 }
+check_variable = { ROOT.counter_var =5875 }
+check_variable = { ROOT.counter_var =5876 }
+check_variable = { ROOT.counter_var =5877 }
+check_variable = { ROOT.counter_var =5878 }
+check_variable = { ROOT.counter_var =5879 }
+check_variable = { ROOT.counter_var =5880 }
+check_variable = { ROOT.counter_var =5881 }
+check_variable = { ROOT.counter_var =5882 }
+check_variable = { ROOT.counter_var =5883 }
+check_variable = { ROOT.counter_var =5884 }
+check_variable = { ROOT.counter_var =5885 }
+check_variable = { ROOT.counter_var =5886 }
+check_variable = { ROOT.counter_var =5887 }
+check_variable = { ROOT.counter_var =5888 }
+check_variable = { ROOT.counter_var =5889 }
+check_variable = { ROOT.counter_var =5890 }
+check_variable = { ROOT.counter_var =5891 }
+check_variable = { ROOT.counter_var =5892 }
+check_variable = { ROOT.counter_var =5893 }
+check_variable = { ROOT.counter_var =5894 }
+check_variable = { ROOT.counter_var =5895 }
+check_variable = { ROOT.counter_var =5896 }
+check_variable = { ROOT.counter_var =5897 }
+check_variable = { ROOT.counter_var =5898 }
+check_variable = { ROOT.counter_var =5899 }
+check_variable = { ROOT.counter_var =5900 }
+check_variable = { ROOT.counter_var =5901 }
+check_variable = { ROOT.counter_var =5902 }
+check_variable = { ROOT.counter_var =5903 }
+check_variable = { ROOT.counter_var =5904 }
+check_variable = { ROOT.counter_var =5905 }
+check_variable = { ROOT.counter_var =5906 }
+check_variable = { ROOT.counter_var =5907 }
+check_variable = { ROOT.counter_var =5908 }
+check_variable = { ROOT.counter_var =5909 }
+check_variable = { ROOT.counter_var =5910 }
+check_variable = { ROOT.counter_var =5911 }
+check_variable = { ROOT.counter_var =5912 }
+check_variable = { ROOT.counter_var =5913 }
+check_variable = { ROOT.counter_var =5914 }
+check_variable = { ROOT.counter_var =5915 }
+check_variable = { ROOT.counter_var =5916 }
+check_variable = { ROOT.counter_var =5917 }
+check_variable = { ROOT.counter_var =5918 }
+check_variable = { ROOT.counter_var =5919 }
+check_variable = { ROOT.counter_var =5920 }
+check_variable = { ROOT.counter_var =5921 }
+check_variable = { ROOT.counter_var =5922 }
+check_variable = { ROOT.counter_var =5923 }
+check_variable = { ROOT.counter_var =5924 }
+check_variable = { ROOT.counter_var =5925 }
+check_variable = { ROOT.counter_var =5926 }
+check_variable = { ROOT.counter_var =5927 }
+check_variable = { ROOT.counter_var =5928 }
+check_variable = { ROOT.counter_var =5929 }
+check_variable = { ROOT.counter_var =5930 }
+check_variable = { ROOT.counter_var =5931 }
+check_variable = { ROOT.counter_var =5932 }
+check_variable = { ROOT.counter_var =5933 }
+check_variable = { ROOT.counter_var =5934 }
+check_variable = { ROOT.counter_var =5935 }
+check_variable = { ROOT.counter_var =5936 }
+check_variable = { ROOT.counter_var =5937 }
+check_variable = { ROOT.counter_var =5938 }
+check_variable = { ROOT.counter_var =5939 }
+check_variable = { ROOT.counter_var =5940 }
+check_variable = { ROOT.counter_var =5941 }
+check_variable = { ROOT.counter_var =5942 }
+check_variable = { ROOT.counter_var =5943 }
+check_variable = { ROOT.counter_var =5944 }
+check_variable = { ROOT.counter_var =5945 }
+check_variable = { ROOT.counter_var =5946 }
+check_variable = { ROOT.counter_var =5947 }
+check_variable = { ROOT.counter_var =5948 }
+check_variable = { ROOT.counter_var =5949 }
+check_variable = { ROOT.counter_var =5950 }
+check_variable = { ROOT.counter_var =5951 }
+check_variable = { ROOT.counter_var =5952 }
+check_variable = { ROOT.counter_var =5953 }
+check_variable = { ROOT.counter_var =5954 }
+check_variable = { ROOT.counter_var =5955 }
+check_variable = { ROOT.counter_var =5956 }
+check_variable = { ROOT.counter_var =5957 }
+check_variable = { ROOT.counter_var =5958 }
+check_variable = { ROOT.counter_var =5959 }
+check_variable = { ROOT.counter_var =5960 }
+check_variable = { ROOT.counter_var =5961 }
+check_variable = { ROOT.counter_var =5962 }
+check_variable = { ROOT.counter_var =5963 }
+check_variable = { ROOT.counter_var =5964 }
+check_variable = { ROOT.counter_var =5965 }
+check_variable = { ROOT.counter_var =5966 }
+check_variable = { ROOT.counter_var =5967 }
+check_variable = { ROOT.counter_var =5968 }
+check_variable = { ROOT.counter_var =5969 }
+check_variable = { ROOT.counter_var =5970 }
+check_variable = { ROOT.counter_var =5971 }
+check_variable = { ROOT.counter_var =5972 }
+check_variable = { ROOT.counter_var =5973 }
+check_variable = { ROOT.counter_var =5974 }
+check_variable = { ROOT.counter_var =5975 }
+check_variable = { ROOT.counter_var =5976 }
+check_variable = { ROOT.counter_var =5977 }
+check_variable = { ROOT.counter_var =5978 }
+check_variable = { ROOT.counter_var =5979 }
+check_variable = { ROOT.counter_var =5980 }
+check_variable = { ROOT.counter_var =5981 }
+check_variable = { ROOT.counter_var =5982 }
+check_variable = { ROOT.counter_var =5983 }
+check_variable = { ROOT.counter_var =5984 }
+check_variable = { ROOT.counter_var =5985 }
+check_variable = { ROOT.counter_var =5986 }
+check_variable = { ROOT.counter_var =5987 }
+check_variable = { ROOT.counter_var =5988 }
+check_variable = { ROOT.counter_var =5989 }
+check_variable = { ROOT.counter_var =5990 }
+check_variable = { ROOT.counter_var =5991 }
+check_variable = { ROOT.counter_var =5992 }
+check_variable = { ROOT.counter_var =5993 }
+check_variable = { ROOT.counter_var =5994 }
+check_variable = { ROOT.counter_var =5995 }
+check_variable = { ROOT.counter_var =5996 }
+check_variable = { ROOT.counter_var =5997 }
+check_variable = { ROOT.counter_var =5998 }
+check_variable = { ROOT.counter_var =5999 }
+check_variable = { ROOT.counter_var =6000 }
+check_variable = { ROOT.counter_var =6001 }
+check_variable = { ROOT.counter_var =6002 }
+check_variable = { ROOT.counter_var =6003 }
+check_variable = { ROOT.counter_var =6004 }
+check_variable = { ROOT.counter_var =6005 }
+check_variable = { ROOT.counter_var =6006 }
+check_variable = { ROOT.counter_var =6007 }
+check_variable = { ROOT.counter_var =6011 }
+check_variable = { ROOT.counter_var =6014 }
+check_variable = { ROOT.counter_var =6018 }
+check_variable = { ROOT.counter_var =6019 }
+check_variable = { ROOT.counter_var =6026 }
+check_variable = { ROOT.counter_var =6030 }
+check_variable = { ROOT.counter_var =6031 }
+check_variable = { ROOT.counter_var =6032 }
+check_variable = { ROOT.counter_var =6036 }
+check_variable = { ROOT.counter_var =6037 }
+check_variable = { ROOT.counter_var =6043 }
+check_variable = { ROOT.counter_var =6044 }
+check_variable = { ROOT.counter_var =6048 }
+check_variable = { ROOT.counter_var =6049 }
+check_variable = { ROOT.counter_var =6053 }
+check_variable = { ROOT.counter_var =6054 }
+check_variable = { ROOT.counter_var =6058 }
+check_variable = { ROOT.counter_var =6059 }
+check_variable = { ROOT.counter_var =6060 }
+check_variable = { ROOT.counter_var =6064 }
+check_variable = { ROOT.counter_var =6065 }
+check_variable = { ROOT.counter_var =6068 }
+check_variable = { ROOT.counter_var =6069 }
+check_variable = { ROOT.counter_var =6219 }
+check_variable = { ROOT.counter_var =6223 }
+check_variable = { ROOT.counter_var =6227 }
+check_variable = { ROOT.counter_var =6228 }
+check_variable = { ROOT.counter_var =6234 }
+check_variable = { ROOT.counter_var =6238 }
+check_variable = { ROOT.counter_var =6239 }
+check_variable = { ROOT.counter_var =6240 }
+check_variable = { ROOT.counter_var =6244 }
+check_variable = { ROOT.counter_var =6250 }
+check_variable = { ROOT.counter_var =6251 }
+check_variable = { ROOT.counter_var =6255 }
+check_variable = { ROOT.counter_var =6256 }
+check_variable = { ROOT.counter_var =6260 }
+check_variable = { ROOT.counter_var =6261 }
+check_variable = { ROOT.counter_var =6265 }
+check_variable = { ROOT.counter_var =6266 }
+check_variable = { ROOT.counter_var =6267 }
+check_variable = { ROOT.counter_var =6271 }
+check_variable = { ROOT.counter_var =6272 }
+check_variable = { ROOT.counter_var =6276 }
+check_variable = { ROOT.counter_var =6277 }
+check_variable = { ROOT.counter_var =6419 }
+check_variable = { ROOT.counter_var =6422 }
+check_variable = { ROOT.counter_var =6425 }
+check_variable = { ROOT.counter_var =6426 }
+check_variable = { ROOT.counter_var =6427 }
+check_variable = { ROOT.counter_var =6433 }
+check_variable = { ROOT.counter_var =6434 }
+check_variable = { ROOT.counter_var =6437 }
+check_variable = { ROOT.counter_var =6438 }
+check_variable = { ROOT.counter_var =6439 }
+check_variable = { ROOT.counter_var =6442 }
+check_variable = { ROOT.counter_var =6443 }
+check_variable = { ROOT.counter_var =6447 }
+check_variable = { ROOT.counter_var =6448 }
+check_variable = { ROOT.counter_var =6452 }
+check_variable = { ROOT.counter_var =6453 }
+check_variable = { ROOT.counter_var =6456 }
+check_variable = { ROOT.counter_var =6457 }
+check_variable = { ROOT.counter_var =6461 }
+check_variable = { ROOT.counter_var =6465 }
+check_variable = { ROOT.counter_var =6466 }
+check_variable = { ROOT.counter_var =6467 }
+check_variable = { ROOT.counter_var =6471 }
+check_variable = { ROOT.counter_var =6472 }
+check_variable = { ROOT.counter_var =6475 }
+check_variable = { ROOT.counter_var =6476 }
+check_variable = { ROOT.counter_var =6608 }
+check_variable = { ROOT.counter_var =6612 }
+check_variable = { ROOT.counter_var =6616 }
+check_variable = { ROOT.counter_var =6617 }
+check_variable = { ROOT.counter_var =6623 }
+check_variable = { ROOT.counter_var =6624 }
+check_variable = { ROOT.counter_var =6627 }
+check_variable = { ROOT.counter_var =6628 }
+check_variable = { ROOT.counter_var =6629 }
+check_variable = { ROOT.counter_var =6632 }
+check_variable = { ROOT.counter_var =6633 }
+check_variable = { ROOT.counter_var =6636 }
+check_variable = { ROOT.counter_var =6637 }
+check_variable = { ROOT.counter_var =6640 }
+check_variable = { ROOT.counter_var =6641 }
+check_variable = { ROOT.counter_var =6645 }
+check_variable = { ROOT.counter_var =6646 }
+check_variable = { ROOT.counter_var =6649 }
+check_variable = { ROOT.counter_var =6653 }
+check_variable = { ROOT.counter_var =6654 }
+check_variable = { ROOT.counter_var =6655 }
+check_variable = { ROOT.counter_var =6659 }
+check_variable = { ROOT.counter_var =6660 }
+check_variable = { ROOT.counter_var =6663 }
+check_variable = { ROOT.counter_var =6664 }
+check_variable = { ROOT.counter_var =6801 }
+check_variable = { ROOT.counter_var =6802 }
+check_variable = { ROOT.counter_var =6805 }
+check_variable = { ROOT.counter_var =6809 }
+check_variable = { ROOT.counter_var =6810 }
+check_variable = { ROOT.counter_var =6815 }
+check_variable = { ROOT.counter_var =6816 }
+check_variable = { ROOT.counter_var =6819 }
+check_variable = { ROOT.counter_var =6820 }
+check_variable = { ROOT.counter_var =6821 }
+check_variable = { ROOT.counter_var =6824 }
+check_variable = { ROOT.counter_var =6825 }
+check_variable = { ROOT.counter_var =6829 }
+check_variable = { ROOT.counter_var =6830 }
+check_variable = { ROOT.counter_var =6834 }
+check_variable = { ROOT.counter_var =6835 }
+check_variable = { ROOT.counter_var =6839 }
+check_variable = { ROOT.counter_var =6840 }
+check_variable = { ROOT.counter_var =6844 }
+check_variable = { ROOT.counter_var =6847 }
+check_variable = { ROOT.counter_var =6848 }
+check_variable = { ROOT.counter_var =6849 }
+check_variable = { ROOT.counter_var =6853 }
+check_variable = { ROOT.counter_var =6854 }
+check_variable = { ROOT.counter_var =6858 }
+check_variable = { ROOT.counter_var =6859 }
+check_variable = { ROOT.counter_var =7002 }
+check_variable = { ROOT.counter_var =7006 }
+check_variable = { ROOT.counter_var =7009 }
+check_variable = { ROOT.counter_var =7010 }
+check_variable = { ROOT.counter_var =7017 }
+check_variable = { ROOT.counter_var =7018 }
+check_variable = { ROOT.counter_var =7022 }
+check_variable = { ROOT.counter_var =7023 }
+check_variable = { ROOT.counter_var =7024 }
+check_variable = { ROOT.counter_var =7028 }
+check_variable = { ROOT.counter_var =7029 }
+check_variable = { ROOT.counter_var =7031 }
+check_variable = { ROOT.counter_var =7032 }
+check_variable = { ROOT.counter_var =7036 }
+check_variable = { ROOT.counter_var =7037 }
+check_variable = { ROOT.counter_var =7038 }
+check_variable = { ROOT.counter_var =7042 }
+check_variable = { ROOT.counter_var =7043 }
+check_variable = { ROOT.counter_var =7047 }
+check_variable = { ROOT.counter_var =7051 }
+check_variable = { ROOT.counter_var =7052 }
+check_variable = { ROOT.counter_var =7053 }
+check_variable = { ROOT.counter_var =7056 }
+check_variable = { ROOT.counter_var =7057 }
+check_variable = { ROOT.counter_var =7061 }
+check_variable = { ROOT.counter_var =7062 }
+check_variable = { ROOT.counter_var =7226 }
+check_variable = { ROOT.counter_var =7230 }
+check_variable = { ROOT.counter_var =7234 }
+check_variable = { ROOT.counter_var =7235 }
+check_variable = { ROOT.counter_var =7241 }
+check_variable = { ROOT.counter_var =7242 }
+check_variable = { ROOT.counter_var =7246 }
+check_variable = { ROOT.counter_var =7247 }
+check_variable = { ROOT.counter_var =7248 }
+check_variable = { ROOT.counter_var =7252 }
+check_variable = { ROOT.counter_var =7253 }
+check_variable = { ROOT.counter_var =7257 }
+check_variable = { ROOT.counter_var =7258 }
+check_variable = { ROOT.counter_var =7261 }
+check_variable = { ROOT.counter_var =7262 }
+check_variable = { ROOT.counter_var =7263 }
+check_variable = { ROOT.counter_var =7267 }
+check_variable = { ROOT.counter_var =7268 }
+check_variable = { ROOT.counter_var =7272 }
+check_variable = { ROOT.counter_var =7276 }
+check_variable = { ROOT.counter_var =7277 }
+check_variable = { ROOT.counter_var =7278 }
+check_variable = { ROOT.counter_var =7282 }
+check_variable = { ROOT.counter_var =7283 }
+check_variable = { ROOT.counter_var =7286 }
+check_variable = { ROOT.counter_var =7287 }
+check_variable = { ROOT.counter_var =7452 }
+check_variable = { ROOT.counter_var =7456 }
+check_variable = { ROOT.counter_var =7460 }
+check_variable = { ROOT.counter_var =7461 }
+check_variable = { ROOT.counter_var =7467 }
+check_variable = { ROOT.counter_var =7468 }
+check_variable = { ROOT.counter_var =7472 }
+check_variable = { ROOT.counter_var =7473 }
+check_variable = { ROOT.counter_var =7474 }
+check_variable = { ROOT.counter_var =7478 }
+check_variable = { ROOT.counter_var =7479 }
+check_variable = { ROOT.counter_var =7483 }
+check_variable = { ROOT.counter_var =7484 }
+check_variable = { ROOT.counter_var =7488 }
+check_variable = { ROOT.counter_var =7489 }
+check_variable = { ROOT.counter_var =7490 }
+check_variable = { ROOT.counter_var =7493 }
+check_variable = { ROOT.counter_var =7494 }
+check_variable = { ROOT.counter_var =7498 }
+check_variable = { ROOT.counter_var =7499 }
+check_variable = { ROOT.counter_var =7503 }
+check_variable = { ROOT.counter_var =7504 }
+check_variable = { ROOT.counter_var =7505 }
+check_variable = { ROOT.counter_var =7509 }
+check_variable = { ROOT.counter_var =7510 }
+check_variable = { ROOT.counter_var =7514 }
+check_variable = { ROOT.counter_var =7515 }
+check_variable = { ROOT.counter_var =7678 }
+check_variable = { ROOT.counter_var =7679 }
+check_variable = { ROOT.counter_var =7686 }
+check_variable = { ROOT.counter_var =7690 }
+check_variable = { ROOT.counter_var =7694 }
+check_variable = { ROOT.counter_var =7695 }
+check_variable = { ROOT.counter_var =7698 }
+check_variable = { ROOT.counter_var =7699 }
+check_variable = { ROOT.counter_var =7700 }
+check_variable = { ROOT.counter_var =7704 }
+check_variable = { ROOT.counter_var =7705 }
+check_variable = { ROOT.counter_var =7709 }
+check_variable = { ROOT.counter_var =7710 }
+check_variable = { ROOT.counter_var =7714 }
+check_variable = { ROOT.counter_var =7715 }
+check_variable = { ROOT.counter_var =7719 }
+check_variable = { ROOT.counter_var =7720 }
+check_variable = { ROOT.counter_var =7723 }
+check_variable = { ROOT.counter_var =7724 }
+check_variable = { ROOT.counter_var =7728 }
+check_variable = { ROOT.counter_var =7729 }
+check_variable = { ROOT.counter_var =7730 }
+check_variable = { ROOT.counter_var =7734 }
+check_variable = { ROOT.counter_var =7735 }
+check_variable = { ROOT.counter_var =7739 }
+check_variable = { ROOT.counter_var =7740 }
+check_variable = { ROOT.counter_var =7906 }
+check_variable = { ROOT.counter_var =7907 }
+check_variable = { ROOT.counter_var =7910 }
+check_variable = { ROOT.counter_var =7914 }
+check_variable = { ROOT.counter_var =7918 }
+check_variable = { ROOT.counter_var =7922 }
+check_variable = { ROOT.counter_var =7923 }
+check_variable = { ROOT.counter_var =7927 }
+check_variable = { ROOT.counter_var =7928 }
+check_variable = { ROOT.counter_var =7929 }
+check_variable = { ROOT.counter_var =7932 }
+check_variable = { ROOT.counter_var =7933 }
+check_variable = { ROOT.counter_var =7937 }
+check_variable = { ROOT.counter_var =7941 }
+check_variable = { ROOT.counter_var =7942 }
+check_variable = { ROOT.counter_var =7946 }
+check_variable = { ROOT.counter_var =7947 }
+check_variable = { ROOT.counter_var =7951 }
+check_variable = { ROOT.counter_var =7952 }
+check_variable = { ROOT.counter_var =7955 }
+check_variable = { ROOT.counter_var =7956 }
+check_variable = { ROOT.counter_var =7957 }
+check_variable = { ROOT.counter_var =7961 }
+check_variable = { ROOT.counter_var =7962 }
+check_variable = { ROOT.counter_var =7966 }
+check_variable = { ROOT.counter_var =7967 }
+check_variable = { ROOT.counter_var =8131 }
+check_variable = { ROOT.counter_var =8132 }
+check_variable = { ROOT.counter_var =8135 }
+check_variable = { ROOT.counter_var =8137 }
+check_variable = { ROOT.counter_var =8139 }
+check_variable = { ROOT.counter_var =8141 }
+check_variable = { ROOT.counter_var =8142 }
+check_variable = { ROOT.counter_var =8145 }
+check_variable = { ROOT.counter_var =8146 }
+check_variable = { ROOT.counter_var =8147 }
+check_variable = { ROOT.counter_var =8150 }
+check_variable = { ROOT.counter_var =8151 }
+check_variable = { ROOT.counter_var =8153 }
+check_variable = { ROOT.counter_var =8154 }
+check_variable = { ROOT.counter_var =8156 }
+check_variable = { ROOT.counter_var =8158 }
+check_variable = { ROOT.counter_var =8159 }
+check_variable = { ROOT.counter_var =8162 }
+check_variable = { ROOT.counter_var =8163 }
+check_variable = { ROOT.counter_var =8166 }
+check_variable = { ROOT.counter_var =8167 }
+check_variable = { ROOT.counter_var =8168 }
+check_variable = { ROOT.counter_var =8170 }
+check_variable = { ROOT.counter_var =8171 }
+check_variable = { ROOT.counter_var =8173 }
+check_variable = { ROOT.counter_var =8174 }
+check_variable = { ROOT.counter_var =8256 }
+check_variable = { ROOT.counter_var =8257 }
+check_variable = { ROOT.counter_var =8258 }
+check_variable = { ROOT.counter_var =8259 }
+check_variable = { ROOT.counter_var =8260 }
+check_variable = { ROOT.counter_var =8261 }
+check_variable = { ROOT.counter_var =8262 }
+check_variable = { ROOT.counter_var =8263 }
+check_variable = { ROOT.counter_var =8264 }
+check_variable = { ROOT.counter_var =8265 }
+check_variable = { ROOT.counter_var =8266 }
+check_variable = { ROOT.counter_var =8267 }
+check_variable = { ROOT.counter_var =8268 }
+check_variable = { ROOT.counter_var =8269 }
+check_variable = { ROOT.counter_var =8270 }
+check_variable = { ROOT.counter_var =8271 }
+check_variable = { ROOT.counter_var =8272 }
+check_variable = { ROOT.counter_var =8273 }
+check_variable = { ROOT.counter_var =8274 }
+check_variable = { ROOT.counter_var =8275 }
+check_variable = { ROOT.counter_var =8276 }
+check_variable = { ROOT.counter_var =8277 }
+check_variable = { ROOT.counter_var =8278 }
+check_variable = { ROOT.counter_var =8279 }
+check_variable = { ROOT.counter_var =8280 }
+check_variable = { ROOT.counter_var =8281 }
+check_variable = { ROOT.counter_var =8282 }
+check_variable = { ROOT.counter_var =8283 }
+check_variable = { ROOT.counter_var =8284 }
+check_variable = { ROOT.counter_var =8285 }
+check_variable = { ROOT.counter_var =8286 }
+check_variable = { ROOT.counter_var =8287 }
+check_variable = { ROOT.counter_var =8288 }
+check_variable = { ROOT.counter_var =8289 }
+check_variable = { ROOT.counter_var =8290 }
+check_variable = { ROOT.counter_var =8291 }
+check_variable = { ROOT.counter_var =8292 }
+check_variable = { ROOT.counter_var =8293 }
+check_variable = { ROOT.counter_var =8294 }
+check_variable = { ROOT.counter_var =8295 }
+check_variable = { ROOT.counter_var =8296 }
+check_variable = { ROOT.counter_var =8297 }
+check_variable = { ROOT.counter_var =8298 }
+check_variable = { ROOT.counter_var =8299 }
+check_variable = { ROOT.counter_var =8300 }
+check_variable = { ROOT.counter_var =8301 }
+check_variable = { ROOT.counter_var =8302 }
+check_variable = { ROOT.counter_var =8303 }
+check_variable = { ROOT.counter_var =8304 }
+check_variable = { ROOT.counter_var =8305 }
+check_variable = { ROOT.counter_var =8306 }
+check_variable = { ROOT.counter_var =8307 }
+check_variable = { ROOT.counter_var =8308 }
+check_variable = { ROOT.counter_var =8309 }
+check_variable = { ROOT.counter_var =8310 }
+check_variable = { ROOT.counter_var =8311 }
+check_variable = { ROOT.counter_var =8312 }
+check_variable = { ROOT.counter_var =8313 }
+check_variable = { ROOT.counter_var =8314 }
+check_variable = { ROOT.counter_var =8315 }
+check_variable = { ROOT.counter_var =8316 }
+check_variable = { ROOT.counter_var =8317 }
+check_variable = { ROOT.counter_var =8318 }
+check_variable = { ROOT.counter_var =8319 }
+check_variable = { ROOT.counter_var =8320 }
+check_variable = { ROOT.counter_var =8321 }
+check_variable = { ROOT.counter_var =8322 }
+check_variable = { ROOT.counter_var =8323 }
+check_variable = { ROOT.counter_var =8324 }
+check_variable = { ROOT.counter_var =8325 }
+check_variable = { ROOT.counter_var =8326 }
+check_variable = { ROOT.counter_var =8327 }
+check_variable = { ROOT.counter_var =8328 }
+check_variable = { ROOT.counter_var =8329 }
+check_variable = { ROOT.counter_var =8330 }
+check_variable = { ROOT.counter_var =8331 }
+check_variable = { ROOT.counter_var =8332 }
+check_variable = { ROOT.counter_var =8333 }
+check_variable = { ROOT.counter_var =8334 }
+check_variable = { ROOT.counter_var =8335 }
+check_variable = { ROOT.counter_var =8336 }
+check_variable = { ROOT.counter_var =8337 }
+check_variable = { ROOT.counter_var =8338 }
+check_variable = { ROOT.counter_var =8339 }
+check_variable = { ROOT.counter_var =8340 }
+check_variable = { ROOT.counter_var =8341 }
+check_variable = { ROOT.counter_var =8342 }
+check_variable = { ROOT.counter_var =8343 }
+check_variable = { ROOT.counter_var =8344 }
+check_variable = { ROOT.counter_var =8345 }
+check_variable = { ROOT.counter_var =8346 }
+check_variable = { ROOT.counter_var =8347 }
+check_variable = { ROOT.counter_var =8348 }
+check_variable = { ROOT.counter_var =8349 }
+check_variable = { ROOT.counter_var =8350 }
+check_variable = { ROOT.counter_var =8351 }
+check_variable = { ROOT.counter_var =8352 }
+check_variable = { ROOT.counter_var =8353 }
+check_variable = { ROOT.counter_var =8354 }
+check_variable = { ROOT.counter_var =8355 }
+check_variable = { ROOT.counter_var =8356 }
+check_variable = { ROOT.counter_var =8357 }
+check_variable = { ROOT.counter_var =8358 }
+check_variable = { ROOT.counter_var =8359 }
+check_variable = { ROOT.counter_var =8361 }
+check_variable = { ROOT.counter_var =8362 }
+check_variable = { ROOT.counter_var =8363 }
+check_variable = { ROOT.counter_var =8364 }
+check_variable = { ROOT.counter_var =8365 }
+check_variable = { ROOT.counter_var =8366 }
+check_variable = { ROOT.counter_var =8367 }
+check_variable = { ROOT.counter_var =8368 }
+check_variable = { ROOT.counter_var =8369 }
+check_variable = { ROOT.counter_var =8370 }
+check_variable = { ROOT.counter_var =8371 }
+check_variable = { ROOT.counter_var =8372 }
+check_variable = { ROOT.counter_var =8373 }
+check_variable = { ROOT.counter_var =8374 }
+check_variable = { ROOT.counter_var =8375 }
+check_variable = { ROOT.counter_var =8376 }
+check_variable = { ROOT.counter_var =8377 }
+check_variable = { ROOT.counter_var =8378 }
+check_variable = { ROOT.counter_var =8379 }
+check_variable = { ROOT.counter_var =8380 }
+check_variable = { ROOT.counter_var =8381 }
+check_variable = { ROOT.counter_var =8382 }
+check_variable = { ROOT.counter_var =8383 }
+check_variable = { ROOT.counter_var =8384 }
+check_variable = { ROOT.counter_var =8385 }
+check_variable = { ROOT.counter_var =8386 }
+check_variable = { ROOT.counter_var =8387 }
+check_variable = { ROOT.counter_var =8388 }
+check_variable = { ROOT.counter_var =8389 }
+check_variable = { ROOT.counter_var =8390 }
+check_variable = { ROOT.counter_var =8391 }
+check_variable = { ROOT.counter_var =8392 }
+check_variable = { ROOT.counter_var =8393 }
+check_variable = { ROOT.counter_var =8394 }
+check_variable = { ROOT.counter_var =8395 }
+check_variable = { ROOT.counter_var =8396 }
+check_variable = { ROOT.counter_var =8397 }
+check_variable = { ROOT.counter_var =8398 }
+check_variable = { ROOT.counter_var =8399 }
+check_variable = { ROOT.counter_var =8400 }
+check_variable = { ROOT.counter_var =8401 }
+check_variable = { ROOT.counter_var =8402 }
+check_variable = { ROOT.counter_var =8403 }
+check_variable = { ROOT.counter_var =8404 }
+check_variable = { ROOT.counter_var =8405 }
+check_variable = { ROOT.counter_var =8406 }
+check_variable = { ROOT.counter_var =8407 }
+check_variable = { ROOT.counter_var =8408 }
+check_variable = { ROOT.counter_var =8409 }
+check_variable = { ROOT.counter_var =8410 }
+check_variable = { ROOT.counter_var =8411 }
+check_variable = { ROOT.counter_var =8412 }
+check_variable = { ROOT.counter_var =8413 }
+check_variable = { ROOT.counter_var =8414 }
+check_variable = { ROOT.counter_var =8415 }
+check_variable = { ROOT.counter_var =8416 }
+check_variable = { ROOT.counter_var =8417 }
+check_variable = { ROOT.counter_var =8418 }
+check_variable = { ROOT.counter_var =8419 }
+check_variable = { ROOT.counter_var =8420 }
+check_variable = { ROOT.counter_var =8421 }
+check_variable = { ROOT.counter_var =8422 }
+check_variable = { ROOT.counter_var =8423 }
+check_variable = { ROOT.counter_var =8424 }
+check_variable = { ROOT.counter_var =8425 }
+check_variable = { ROOT.counter_var =8426 }
+check_variable = { ROOT.counter_var =8427 }
+check_variable = { ROOT.counter_var =8428 }
+check_variable = { ROOT.counter_var =8429 }
+check_variable = { ROOT.counter_var =8430 }
+check_variable = { ROOT.counter_var =8431 }
+check_variable = { ROOT.counter_var =8432 }
+check_variable = { ROOT.counter_var =8433 }
+check_variable = { ROOT.counter_var =8434 }
+check_variable = { ROOT.counter_var =8436 }
+check_variable = { ROOT.counter_var =8437 }
+check_variable = { ROOT.counter_var =8438 }
+check_variable = { ROOT.counter_var =8439 }
+check_variable = { ROOT.counter_var =8440 }
+check_variable = { ROOT.counter_var =8441 }
+check_variable = { ROOT.counter_var =8442 }
+check_variable = { ROOT.counter_var =8443 }
+check_variable = { ROOT.counter_var =8444 }
+check_variable = { ROOT.counter_var =8445 }
+check_variable = { ROOT.counter_var =8446 }
+check_variable = { ROOT.counter_var =8447 }
+check_variable = { ROOT.counter_var =8448 }
+check_variable = { ROOT.counter_var =8449 }
+check_variable = { ROOT.counter_var =8450 }
+check_variable = { ROOT.counter_var =8451 }
+check_variable = { ROOT.counter_var =8452 }
+check_variable = { ROOT.counter_var =8453 }
+check_variable = { ROOT.counter_var =8454 }
+check_variable = { ROOT.counter_var =8455 }
+check_variable = { ROOT.counter_var =8456 }
+check_variable = { ROOT.counter_var =8457 }
+check_variable = { ROOT.counter_var =8458 }
+check_variable = { ROOT.counter_var =8459 }
+check_variable = { ROOT.counter_var =8460 }
+check_variable = { ROOT.counter_var =8462 }
+check_variable = { ROOT.counter_var =8463 }
+check_variable = { ROOT.counter_var =8464 }
+check_variable = { ROOT.counter_var =8465 }
+check_variable = { ROOT.counter_var =8466 }
+check_variable = { ROOT.counter_var =8467 }
+check_variable = { ROOT.counter_var =8468 }
+check_variable = { ROOT.counter_var =8469 }
+check_variable = { ROOT.counter_var =8470 }
+check_variable = { ROOT.counter_var =8471 }
+check_variable = { ROOT.counter_var =8472 }
+check_variable = { ROOT.counter_var =8473 }
+check_variable = { ROOT.counter_var =8474 }
+check_variable = { ROOT.counter_var =8475 }
+check_variable = { ROOT.counter_var =8476 }
+check_variable = { ROOT.counter_var =8477 }
+check_variable = { ROOT.counter_var =8478 }
+check_variable = { ROOT.counter_var =8479 }
+check_variable = { ROOT.counter_var =8480 }
+check_variable = { ROOT.counter_var =8481 }
+check_variable = { ROOT.counter_var =8482 }
+check_variable = { ROOT.counter_var =8483 }
+check_variable = { ROOT.counter_var =8484 }
+check_variable = { ROOT.counter_var =8485 }
+check_variable = { ROOT.counter_var =8486 }
+check_variable = { ROOT.counter_var =8487 }
+check_variable = { ROOT.counter_var =8488 }
+check_variable = { ROOT.counter_var =8489 }
+check_variable = { ROOT.counter_var =8490 }
+check_variable = { ROOT.counter_var =8491 }
+check_variable = { ROOT.counter_var =8492 }
+check_variable = { ROOT.counter_var =8493 }
+check_variable = { ROOT.counter_var =8494 }
+check_variable = { ROOT.counter_var =8495 }
+check_variable = { ROOT.counter_var =8496 }
+check_variable = { ROOT.counter_var =8497 }
+check_variable = { ROOT.counter_var =8498 }
+check_variable = { ROOT.counter_var =8499 }
+check_variable = { ROOT.counter_var =8500 }
+check_variable = { ROOT.counter_var =8501 }
+check_variable = { ROOT.counter_var =8502 }
+check_variable = { ROOT.counter_var =8503 }
+check_variable = { ROOT.counter_var =8504 }
+check_variable = { ROOT.counter_var =8505 }
+check_variable = { ROOT.counter_var =8506 }
+check_variable = { ROOT.counter_var =8507 }
+check_variable = { ROOT.counter_var =8508 }
+check_variable = { ROOT.counter_var =8509 }
+check_variable = { ROOT.counter_var =8510 }
+check_variable = { ROOT.counter_var =8511 }
+check_variable = { ROOT.counter_var =8512 }
+check_variable = { ROOT.counter_var =8513 }
+check_variable = { ROOT.counter_var =8514 }
+check_variable = { ROOT.counter_var =8515 }
+check_variable = { ROOT.counter_var =8516 }
+check_variable = { ROOT.counter_var =8517 }
+check_variable = { ROOT.counter_var =8518 }
+check_variable = { ROOT.counter_var =8519 }
+check_variable = { ROOT.counter_var =8520 }
+check_variable = { ROOT.counter_var =8521 }
+check_variable = { ROOT.counter_var =8522 }
+check_variable = { ROOT.counter_var =8523 }
+check_variable = { ROOT.counter_var =8524 }
+check_variable = { ROOT.counter_var =8525 }
+check_variable = { ROOT.counter_var =8526 }
+check_variable = { ROOT.counter_var =8527 }
+check_variable = { ROOT.counter_var =8528 }
+check_variable = { ROOT.counter_var =8529 }
+check_variable = { ROOT.counter_var =8530 }
+check_variable = { ROOT.counter_var =8531 }
+check_variable = { ROOT.counter_var =8532 }
+check_variable = { ROOT.counter_var =8533 }
+check_variable = { ROOT.counter_var =8534 }
+check_variable = { ROOT.counter_var =8535 }
+check_variable = { ROOT.counter_var =8536 }
+check_variable = { ROOT.counter_var =8537 }
+check_variable = { ROOT.counter_var =8538 }
+check_variable = { ROOT.counter_var =8539 }
+check_variable = { ROOT.counter_var =8540 }
+check_variable = { ROOT.counter_var =8541 }
+check_variable = { ROOT.counter_var =8542 }
+check_variable = { ROOT.counter_var =8543 }
+check_variable = { ROOT.counter_var =8544 }
+check_variable = { ROOT.counter_var =8545 }
+check_variable = { ROOT.counter_var =8546 }
+check_variable = { ROOT.counter_var =8547 }
+check_variable = { ROOT.counter_var =8548 }
+check_variable = { ROOT.counter_var =8549 }
+check_variable = { ROOT.counter_var =8550 }
+check_variable = { ROOT.counter_var =8551 }
+check_variable = { ROOT.counter_var =8552 }
+check_variable = { ROOT.counter_var =8553 }
+check_variable = { ROOT.counter_var =8554 }
+check_variable = { ROOT.counter_var =8555 }
+check_variable = { ROOT.counter_var =8556 }
+check_variable = { ROOT.counter_var =8557 }
+check_variable = { ROOT.counter_var =8558 }
+check_variable = { ROOT.counter_var =8559 }
+check_variable = { ROOT.counter_var =8560 }
+check_variable = { ROOT.counter_var =8561 }
+check_variable = { ROOT.counter_var =8562 }
+check_variable = { ROOT.counter_var =8563 }
+check_variable = { ROOT.counter_var =8564 }
+check_variable = { ROOT.counter_var =8565 }
+check_variable = { ROOT.counter_var =8566 }
+check_variable = { ROOT.counter_var =8567 }
+check_variable = { ROOT.counter_var =8568 }
+check_variable = { ROOT.counter_var =8569 }
+check_variable = { ROOT.counter_var =8570 }
+check_variable = { ROOT.counter_var =8571 }
+check_variable = { ROOT.counter_var =8572 }
+check_variable = { ROOT.counter_var =8573 }
+check_variable = { ROOT.counter_var =8574 }
+check_variable = { ROOT.counter_var =8575 }
+check_variable = { ROOT.counter_var =8576 }
+check_variable = { ROOT.counter_var =8577 }
+check_variable = { ROOT.counter_var =8578 }
+check_variable = { ROOT.counter_var =8579 }
+check_variable = { ROOT.counter_var =8580 }
+check_variable = { ROOT.counter_var =8581 }
+check_variable = { ROOT.counter_var =8582 }
+check_variable = { ROOT.counter_var =8583 }
+check_variable = { ROOT.counter_var =8584 }
+check_variable = { ROOT.counter_var =8585 }
+check_variable = { ROOT.counter_var =8586 }
+check_variable = { ROOT.counter_var =8587 }
+check_variable = { ROOT.counter_var =8588 }
+check_variable = { ROOT.counter_var =8589 }
+check_variable = { ROOT.counter_var =8590 }
+check_variable = { ROOT.counter_var =8591 }
+check_variable = { ROOT.counter_var =8592 }
+check_variable = { ROOT.counter_var =8593 }
+check_variable = { ROOT.counter_var =8594 }
+check_variable = { ROOT.counter_var =8595 }
+check_variable = { ROOT.counter_var =8596 }
+check_variable = { ROOT.counter_var =8597 }
+check_variable = { ROOT.counter_var =8598 }
+check_variable = { ROOT.counter_var =8599 }
+check_variable = { ROOT.counter_var =8600 }
+check_variable = { ROOT.counter_var =8601 }
+check_variable = { ROOT.counter_var =8602 }
+check_variable = { ROOT.counter_var =8603 }
+check_variable = { ROOT.counter_var =8604 }
+check_variable = { ROOT.counter_var =8605 }
+check_variable = { ROOT.counter_var =8606 }
+check_variable = { ROOT.counter_var =8607 }
+check_variable = { ROOT.counter_var =8608 }
+check_variable = { ROOT.counter_var =8609 }
+check_variable = { ROOT.counter_var =8610 }
+check_variable = { ROOT.counter_var =8611 }
+check_variable = { ROOT.counter_var =8612 }
+check_variable = { ROOT.counter_var =8613 }
+check_variable = { ROOT.counter_var =8614 }
+check_variable = { ROOT.counter_var =8615 }
+check_variable = { ROOT.counter_var =8616 }
+check_variable = { ROOT.counter_var =8617 }
+check_variable = { ROOT.counter_var =8618 }
+check_variable = { ROOT.counter_var =8619 }
+check_variable = { ROOT.counter_var =8620 }
+check_variable = { ROOT.counter_var =8621 }
+check_variable = { ROOT.counter_var =8622 }
+check_variable = { ROOT.counter_var =8623 }
+check_variable = { ROOT.counter_var =8624 }
+check_variable = { ROOT.counter_var =8625 }
+check_variable = { ROOT.counter_var =8626 }
+check_variable = { ROOT.counter_var =8627 }
+check_variable = { ROOT.counter_var =8628 }
+check_variable = { ROOT.counter_var =8629 }
+check_variable = { ROOT.counter_var =8630 }
+check_variable = { ROOT.counter_var =8631 }
+check_variable = { ROOT.counter_var =8632 }
+check_variable = { ROOT.counter_var =8633 }
+check_variable = { ROOT.counter_var =8634 }
+check_variable = { ROOT.counter_var =8635 }
+check_variable = { ROOT.counter_var =8636 }
+check_variable = { ROOT.counter_var =8637 }
+check_variable = { ROOT.counter_var =8638 }
+check_variable = { ROOT.counter_var =8639 }
+check_variable = { ROOT.counter_var =8640 }
+check_variable = { ROOT.counter_var =8641 }
+check_variable = { ROOT.counter_var =8642 }
+check_variable = { ROOT.counter_var =8643 }
+check_variable = { ROOT.counter_var =8644 }
+check_variable = { ROOT.counter_var =8645 }
+check_variable = { ROOT.counter_var =8646 }
+check_variable = { ROOT.counter_var =8647 }
+check_variable = { ROOT.counter_var =8648 }
+check_variable = { ROOT.counter_var =8649 }
+check_variable = { ROOT.counter_var =8650 }
+check_variable = { ROOT.counter_var =8651 }
+check_variable = { ROOT.counter_var =8652 }
+check_variable = { ROOT.counter_var =8653 }
+check_variable = { ROOT.counter_var =8654 }
+check_variable = { ROOT.counter_var =8655 }
+check_variable = { ROOT.counter_var =8656 }
+check_variable = { ROOT.counter_var =8657 }
+check_variable = { ROOT.counter_var =8658 }
+check_variable = { ROOT.counter_var =8659 }
+check_variable = { ROOT.counter_var =8660 }
+check_variable = { ROOT.counter_var =8661 }
+check_variable = { ROOT.counter_var =8662 }
+check_variable = { ROOT.counter_var =8663 }
+check_variable = { ROOT.counter_var =8664 }
+check_variable = { ROOT.counter_var =8665 }
+check_variable = { ROOT.counter_var =8666 }
+check_variable = { ROOT.counter_var =8667 }
+check_variable = { ROOT.counter_var =8668 }
+check_variable = { ROOT.counter_var =8669 }
+check_variable = { ROOT.counter_var =8670 }
+check_variable = { ROOT.counter_var =8671 }
+check_variable = { ROOT.counter_var =8672 }
+check_variable = { ROOT.counter_var =8673 }
+check_variable = { ROOT.counter_var =8674 }
+check_variable = { ROOT.counter_var =8675 }
+check_variable = { ROOT.counter_var =8676 }
+check_variable = { ROOT.counter_var =8677 }
+check_variable = { ROOT.counter_var =8678 }
+check_variable = { ROOT.counter_var =8679 }
+check_variable = { ROOT.counter_var =8680 }
+check_variable = { ROOT.counter_var =8681 }
+check_variable = { ROOT.counter_var =8682 }
+check_variable = { ROOT.counter_var =8683 }
+check_variable = { ROOT.counter_var =8684 }
+check_variable = { ROOT.counter_var =8685 }
+check_variable = { ROOT.counter_var =8686 }
+check_variable = { ROOT.counter_var =8687 }
+check_variable = { ROOT.counter_var =8688 }
+check_variable = { ROOT.counter_var =8689 }
+check_variable = { ROOT.counter_var =8690 }
+check_variable = { ROOT.counter_var =8691 }
+check_variable = { ROOT.counter_var =8692 }
+check_variable = { ROOT.counter_var =8693 }
+check_variable = { ROOT.counter_var =8694 }
+check_variable = { ROOT.counter_var =8695 }
+check_variable = { ROOT.counter_var =8696 }
+check_variable = { ROOT.counter_var =8697 }
+check_variable = { ROOT.counter_var =8698 }
+check_variable = { ROOT.counter_var =8699 }
+check_variable = { ROOT.counter_var =8700 }
+check_variable = { ROOT.counter_var =8701 }
+check_variable = { ROOT.counter_var =8702 }
+check_variable = { ROOT.counter_var =8703 }
+check_variable = { ROOT.counter_var =8704 }
+check_variable = { ROOT.counter_var =8705 }
+check_variable = { ROOT.counter_var =8706 }
+check_variable = { ROOT.counter_var =8707 }
+check_variable = { ROOT.counter_var =8708 }
+check_variable = { ROOT.counter_var =8709 }
+check_variable = { ROOT.counter_var =8710 }
+check_variable = { ROOT.counter_var =8711 }
+check_variable = { ROOT.counter_var =8712 }
+check_variable = { ROOT.counter_var =8713 }
+check_variable = { ROOT.counter_var =8714 }
+check_variable = { ROOT.counter_var =8715 }
+check_variable = { ROOT.counter_var =8716 }
+check_variable = { ROOT.counter_var =8717 }
+check_variable = { ROOT.counter_var =8718 }
+check_variable = { ROOT.counter_var =8719 }
+check_variable = { ROOT.counter_var =8720 }
+check_variable = { ROOT.counter_var =8721 }
+check_variable = { ROOT.counter_var =8722 }
+check_variable = { ROOT.counter_var =8723 }
+check_variable = { ROOT.counter_var =8724 }
+check_variable = { ROOT.counter_var =8725 }
+check_variable = { ROOT.counter_var =8726 }
+check_variable = { ROOT.counter_var =8727 }
+check_variable = { ROOT.counter_var =8728 }
+check_variable = { ROOT.counter_var =8729 }
+check_variable = { ROOT.counter_var =8730 }
+check_variable = { ROOT.counter_var =8731 }
+check_variable = { ROOT.counter_var =8732 }
+check_variable = { ROOT.counter_var =8733 }
+check_variable = { ROOT.counter_var =8734 }
+check_variable = { ROOT.counter_var =8735 }
+check_variable = { ROOT.counter_var =8736 }
+check_variable = { ROOT.counter_var =8737 }
+check_variable = { ROOT.counter_var =8738 }
+check_variable = { ROOT.counter_var =8739 }
+check_variable = { ROOT.counter_var =8740 }
+check_variable = { ROOT.counter_var =8741 }
+check_variable = { ROOT.counter_var =8742 }
+check_variable = { ROOT.counter_var =8743 }
+check_variable = { ROOT.counter_var =8744 }
+check_variable = { ROOT.counter_var =8745 }
+check_variable = { ROOT.counter_var =8746 }
+check_variable = { ROOT.counter_var =8747 }
+check_variable = { ROOT.counter_var =8748 }
+check_variable = { ROOT.counter_var =8749 }
+check_variable = { ROOT.counter_var =8750 }
+check_variable = { ROOT.counter_var =8751 }
+check_variable = { ROOT.counter_var =8752 }
+check_variable = { ROOT.counter_var =8753 }
+check_variable = { ROOT.counter_var =8754 }
+check_variable = { ROOT.counter_var =8755 }
+check_variable = { ROOT.counter_var =8756 }
+check_variable = { ROOT.counter_var =8757 }
+check_variable = { ROOT.counter_var =8758 }
+check_variable = { ROOT.counter_var =8759 }
+check_variable = { ROOT.counter_var =8760 }
+check_variable = { ROOT.counter_var =8761 }
+check_variable = { ROOT.counter_var =8762 }
+check_variable = { ROOT.counter_var =8763 }
+check_variable = { ROOT.counter_var =8764 }
+check_variable = { ROOT.counter_var =8765 }
+check_variable = { ROOT.counter_var =8766 }
+check_variable = { ROOT.counter_var =8767 }
+check_variable = { ROOT.counter_var =8768 }
+check_variable = { ROOT.counter_var =8769 }
+check_variable = { ROOT.counter_var =8770 }
+check_variable = { ROOT.counter_var =8771 }
+check_variable = { ROOT.counter_var =8772 }
+check_variable = { ROOT.counter_var =8773 }
+check_variable = { ROOT.counter_var =8774 }
+check_variable = { ROOT.counter_var =8775 }
+check_variable = { ROOT.counter_var =8776 }
+check_variable = { ROOT.counter_var =8777 }
+check_variable = { ROOT.counter_var =8778 }
+check_variable = { ROOT.counter_var =8779 }
+check_variable = { ROOT.counter_var =8780 }
+check_variable = { ROOT.counter_var =8781 }
+check_variable = { ROOT.counter_var =8782 }
+check_variable = { ROOT.counter_var =8783 }
+check_variable = { ROOT.counter_var =8784 }
+check_variable = { ROOT.counter_var =8785 }
+check_variable = { ROOT.counter_var =8786 }
+check_variable = { ROOT.counter_var =8787 }
+check_variable = { ROOT.counter_var =8788 }
+check_variable = { ROOT.counter_var =8789 }
+check_variable = { ROOT.counter_var =8790 }
+check_variable = { ROOT.counter_var =8791 }
+check_variable = { ROOT.counter_var =8792 }
+check_variable = { ROOT.counter_var =8793 }
+check_variable = { ROOT.counter_var =8794 }
+check_variable = { ROOT.counter_var =8795 }
+check_variable = { ROOT.counter_var =8796 }
+check_variable = { ROOT.counter_var =8797 }
+check_variable = { ROOT.counter_var =8798 }
+check_variable = { ROOT.counter_var =8799 }
+check_variable = { ROOT.counter_var =8800 }
+check_variable = { ROOT.counter_var =8801 }
+check_variable = { ROOT.counter_var =8802 }
+check_variable = { ROOT.counter_var =8803 }
+check_variable = { ROOT.counter_var =8804 }
+check_variable = { ROOT.counter_var =8805 }
+check_variable = { ROOT.counter_var =8806 }
+check_variable = { ROOT.counter_var =8807 }
+check_variable = { ROOT.counter_var =8808 }
+check_variable = { ROOT.counter_var =8809 }
+check_variable = { ROOT.counter_var =8810 }
+check_variable = { ROOT.counter_var =8811 }
+check_variable = { ROOT.counter_var =8812 }
+check_variable = { ROOT.counter_var =8813 }
+check_variable = { ROOT.counter_var =8814 }
+check_variable = { ROOT.counter_var =8815 }
+check_variable = { ROOT.counter_var =8816 }
+check_variable = { ROOT.counter_var =8817 }
+check_variable = { ROOT.counter_var =8818 }
+check_variable = { ROOT.counter_var =8819 }
+check_variable = { ROOT.counter_var =8820 }
+check_variable = { ROOT.counter_var =8821 }
+check_variable = { ROOT.counter_var =8822 }
+check_variable = { ROOT.counter_var =8823 }
+check_variable = { ROOT.counter_var =8824 }
+check_variable = { ROOT.counter_var =8825 }
+check_variable = { ROOT.counter_var =8826 }
+check_variable = { ROOT.counter_var =8827 }
+check_variable = { ROOT.counter_var =8828 }
+check_variable = { ROOT.counter_var =8829 }
+check_variable = { ROOT.counter_var =8830 }
+check_variable = { ROOT.counter_var =8831 }
+check_variable = { ROOT.counter_var =8832 }
+check_variable = { ROOT.counter_var =8833 }
+check_variable = { ROOT.counter_var =8834 }
+check_variable = { ROOT.counter_var =8835 }
+check_variable = { ROOT.counter_var =8836 }
+check_variable = { ROOT.counter_var =8837 }
+check_variable = { ROOT.counter_var =8838 }
+check_variable = { ROOT.counter_var =8839 }
+check_variable = { ROOT.counter_var =8840 }
+check_variable = { ROOT.counter_var =8841 }
+check_variable = { ROOT.counter_var =8842 }
+check_variable = { ROOT.counter_var =8843 }
+check_variable = { ROOT.counter_var =8844 }
+check_variable = { ROOT.counter_var =8845 }
+check_variable = { ROOT.counter_var =8846 }
+check_variable = { ROOT.counter_var =8847 }
+check_variable = { ROOT.counter_var =8848 }
+check_variable = { ROOT.counter_var =8849 }
+check_variable = { ROOT.counter_var =8850 }
+check_variable = { ROOT.counter_var =8851 }
+check_variable = { ROOT.counter_var =8852 }
+check_variable = { ROOT.counter_var =8853 }
+check_variable = { ROOT.counter_var =8854 }
+check_variable = { ROOT.counter_var =8855 }
+check_variable = { ROOT.counter_var =8856 }
+check_variable = { ROOT.counter_var =8857 }
+check_variable = { ROOT.counter_var =8858 }
+check_variable = { ROOT.counter_var =8859 }
+check_variable = { ROOT.counter_var =8860 }
+check_variable = { ROOT.counter_var =8861 }
+check_variable = { ROOT.counter_var =8862 }
+check_variable = { ROOT.counter_var =8863 }
+check_variable = { ROOT.counter_var =8864 }
+check_variable = { ROOT.counter_var =8865 }
+check_variable = { ROOT.counter_var =8866 }
+check_variable = { ROOT.counter_var =8867 }
+check_variable = { ROOT.counter_var =8868 }
+check_variable = { ROOT.counter_var =8869 }
+check_variable = { ROOT.counter_var =8870 }
+check_variable = { ROOT.counter_var =8871 }
+check_variable = { ROOT.counter_var =8872 }
+check_variable = { ROOT.counter_var =8873 }
+check_variable = { ROOT.counter_var =8874 }
+check_variable = { ROOT.counter_var =8875 }
+check_variable = { ROOT.counter_var =8876 }
+check_variable = { ROOT.counter_var =8877 }
+check_variable = { ROOT.counter_var =8878 }
+check_variable = { ROOT.counter_var =8879 }
+check_variable = { ROOT.counter_var =8880 }
+check_variable = { ROOT.counter_var =8881 }
+check_variable = { ROOT.counter_var =8882 }
+check_variable = { ROOT.counter_var =8883 }
+check_variable = { ROOT.counter_var =8884 }
+check_variable = { ROOT.counter_var =8885 }
+check_variable = { ROOT.counter_var =8886 }
+check_variable = { ROOT.counter_var =8887 }
+check_variable = { ROOT.counter_var =8888 }
+check_variable = { ROOT.counter_var =8889 }
+check_variable = { ROOT.counter_var =8890 }
+check_variable = { ROOT.counter_var =8891 }
+check_variable = { ROOT.counter_var =8892 }
+check_variable = { ROOT.counter_var =8893 }
+check_variable = { ROOT.counter_var =8894 }
+check_variable = { ROOT.counter_var =8895 }
+check_variable = { ROOT.counter_var =8896 }
+check_variable = { ROOT.counter_var =8897 }
+check_variable = { ROOT.counter_var =8898 }
+check_variable = { ROOT.counter_var =8899 }
+check_variable = { ROOT.counter_var =8900 }
+check_variable = { ROOT.counter_var =8901 }
+check_variable = { ROOT.counter_var =8902 }
+check_variable = { ROOT.counter_var =8903 }
+check_variable = { ROOT.counter_var =8904 }
+check_variable = { ROOT.counter_var =8905 }
+check_variable = { ROOT.counter_var =8906 }
+check_variable = { ROOT.counter_var =8907 }
+check_variable = { ROOT.counter_var =8908 }
+check_variable = { ROOT.counter_var =8909 }
+check_variable = { ROOT.counter_var =8910 }
+check_variable = { ROOT.counter_var =8911 }
+check_variable = { ROOT.counter_var =8912 }
+check_variable = { ROOT.counter_var =8913 }
+check_variable = { ROOT.counter_var =8914 }
+check_variable = { ROOT.counter_var =8915 }
+check_variable = { ROOT.counter_var =8916 }
+check_variable = { ROOT.counter_var =8917 }
+check_variable = { ROOT.counter_var =8918 }
+check_variable = { ROOT.counter_var =8919 }
+check_variable = { ROOT.counter_var =8920 }
+check_variable = { ROOT.counter_var =8921 }
+check_variable = { ROOT.counter_var =8922 }
+check_variable = { ROOT.counter_var =8923 }
+check_variable = { ROOT.counter_var =8924 }
+check_variable = { ROOT.counter_var =8925 }
+check_variable = { ROOT.counter_var =8926 }
+check_variable = { ROOT.counter_var =8927 }
+check_variable = { ROOT.counter_var =8928 }
+check_variable = { ROOT.counter_var =8929 }
+check_variable = { ROOT.counter_var =8930 }
+check_variable = { ROOT.counter_var =8931 }
+check_variable = { ROOT.counter_var =8932 }
+check_variable = { ROOT.counter_var =8933 }
+check_variable = { ROOT.counter_var =8934 }
+check_variable = { ROOT.counter_var =8935 }
+check_variable = { ROOT.counter_var =8936 }
+check_variable = { ROOT.counter_var =8937 }
+check_variable = { ROOT.counter_var =8938 }
+check_variable = { ROOT.counter_var =8939 }
+check_variable = { ROOT.counter_var =8940 }
+check_variable = { ROOT.counter_var =8941 }
+check_variable = { ROOT.counter_var =8942 }
+check_variable = { ROOT.counter_var =8943 }
+check_variable = { ROOT.counter_var =8944 }
+check_variable = { ROOT.counter_var =8945 }
+check_variable = { ROOT.counter_var =8946 }
+check_variable = { ROOT.counter_var =8947 }
+check_variable = { ROOT.counter_var =8948 }
+check_variable = { ROOT.counter_var =8949 }
+check_variable = { ROOT.counter_var =8950 }
+check_variable = { ROOT.counter_var =8951 }
+check_variable = { ROOT.counter_var =8952 }
+check_variable = { ROOT.counter_var =8953 }
+check_variable = { ROOT.counter_var =8954 }
+check_variable = { ROOT.counter_var =8955 }
+check_variable = { ROOT.counter_var =8956 }
+check_variable = { ROOT.counter_var =8957 }
+check_variable = { ROOT.counter_var =8958 }
+check_variable = { ROOT.counter_var =8959 }
+check_variable = { ROOT.counter_var =8960 }
+check_variable = { ROOT.counter_var =8961 }
+check_variable = { ROOT.counter_var =8962 }
+check_variable = { ROOT.counter_var =8963 }
+check_variable = { ROOT.counter_var =8964 }
+check_variable = { ROOT.counter_var =8965 }
+check_variable = { ROOT.counter_var =8966 }
+check_variable = { ROOT.counter_var =8967 }
+check_variable = { ROOT.counter_var =8968 }
+check_variable = { ROOT.counter_var =8969 }
+check_variable = { ROOT.counter_var =8970 }
+check_variable = { ROOT.counter_var =8971 }
+check_variable = { ROOT.counter_var =8972 }
+check_variable = { ROOT.counter_var =8973 }
+check_variable = { ROOT.counter_var =8974 }
+check_variable = { ROOT.counter_var =8975 }
+check_variable = { ROOT.counter_var =8976 }
+check_variable = { ROOT.counter_var =8977 }
+check_variable = { ROOT.counter_var =8978 }
+check_variable = { ROOT.counter_var =8979 }
+check_variable = { ROOT.counter_var =8980 }
+check_variable = { ROOT.counter_var =8981 }
+check_variable = { ROOT.counter_var =8982 }
+check_variable = { ROOT.counter_var =8983 }
+check_variable = { ROOT.counter_var =8984 }
+check_variable = { ROOT.counter_var =8985 }
+check_variable = { ROOT.counter_var =8986 }
+check_variable = { ROOT.counter_var =8987 }
+check_variable = { ROOT.counter_var =8988 }
+check_variable = { ROOT.counter_var =8989 }
+check_variable = { ROOT.counter_var =8990 }
+check_variable = { ROOT.counter_var =8991 }
+check_variable = { ROOT.counter_var =8992 }
+check_variable = { ROOT.counter_var =8993 }
+check_variable = { ROOT.counter_var =8994 }
+check_variable = { ROOT.counter_var =8995 }
+check_variable = { ROOT.counter_var =8996 }
+check_variable = { ROOT.counter_var =8997 }
+check_variable = { ROOT.counter_var =8998 }
+check_variable = { ROOT.counter_var =8999 }
+check_variable = { ROOT.counter_var =9000 }
+check_variable = { ROOT.counter_var =9001 }
+check_variable = { ROOT.counter_var =9002 }
+check_variable = { ROOT.counter_var =9003 }
+check_variable = { ROOT.counter_var =9004 }
+check_variable = { ROOT.counter_var =9005 }
+check_variable = { ROOT.counter_var =9006 }
+check_variable = { ROOT.counter_var =9007 }
+check_variable = { ROOT.counter_var =9008 }
+check_variable = { ROOT.counter_var =9009 }
+check_variable = { ROOT.counter_var =9010 }
+check_variable = { ROOT.counter_var =9011 }
+check_variable = { ROOT.counter_var =9012 }
+check_variable = { ROOT.counter_var =9013 }
+check_variable = { ROOT.counter_var =9014 }
+check_variable = { ROOT.counter_var =9015 }
+check_variable = { ROOT.counter_var =9016 }
+check_variable = { ROOT.counter_var =9017 }
+check_variable = { ROOT.counter_var =9018 }
+check_variable = { ROOT.counter_var =9019 }
+check_variable = { ROOT.counter_var =9020 }
+check_variable = { ROOT.counter_var =9021 }
+check_variable = { ROOT.counter_var =9022 }
+check_variable = { ROOT.counter_var =9023 }
+check_variable = { ROOT.counter_var =9024 }
+check_variable = { ROOT.counter_var =9025 }
+check_variable = { ROOT.counter_var =9026 }
+check_variable = { ROOT.counter_var =9027 }
+check_variable = { ROOT.counter_var =9028 }
+check_variable = { ROOT.counter_var =9029 }
+check_variable = { ROOT.counter_var =9030 }
+check_variable = { ROOT.counter_var =9031 }
+check_variable = { ROOT.counter_var =9034 }
+check_variable = { ROOT.counter_var =9037 }
+check_variable = { ROOT.counter_var =9040 }
+check_variable = { ROOT.counter_var =9044 }
+check_variable = { ROOT.counter_var =9048 }
+check_variable = { ROOT.counter_var =9049 }
+check_variable = { ROOT.counter_var =9052 }
+check_variable = { ROOT.counter_var =9053 }
+check_variable = { ROOT.counter_var =9057 }
+check_variable = { ROOT.counter_var =9058 }
+check_variable = { ROOT.counter_var =9062 }
+check_variable = { ROOT.counter_var =9063 }
+check_variable = { ROOT.counter_var =9067 }
+check_variable = { ROOT.counter_var =9070 }
+check_variable = { ROOT.counter_var =9071 }
+check_variable = { ROOT.counter_var =9072 }
+check_variable = { ROOT.counter_var =9076 }
+check_variable = { ROOT.counter_var =9077 }
+check_variable = { ROOT.counter_var =9080 }
+check_variable = { ROOT.counter_var =9081 }
+check_variable = { ROOT.counter_var =9085 }
+check_variable = { ROOT.counter_var =9086 }
+check_variable = { ROOT.counter_var =9087 }
+check_variable = { ROOT.counter_var =9091 }
+check_variable = { ROOT.counter_var =9092 }
+check_variable = { ROOT.counter_var =9125 }
+check_variable = { ROOT.counter_var =11748 }
+check_variable = { ROOT.counter_var =11827 }
+check_variable = { ROOT.counter_var =12389 }
+check_variable = { ROOT.counter_var =13004 }
+check_variable = { ROOT.counter_var =13006 }
+check_variable = { ROOT.counter_var =13007 }
+check_variable = { ROOT.counter_var =13095 }
+check_variable = { ROOT.counter_var =13096 }
+check_variable = { ROOT.counter_var =13097 }
+check_variable = { ROOT.counter_var =13098 }
+check_variable = { ROOT.counter_var =13099 }
+check_variable = { ROOT.counter_var =13100 }
+check_variable = { ROOT.counter_var =13101 }
+check_variable = { ROOT.counter_var =13102 }
+check_variable = { ROOT.counter_var =13103 }
+check_variable = { ROOT.counter_var =13104 }
+check_variable = { ROOT.counter_var =13105 }
+check_variable = { ROOT.counter_var =13106 }
+check_variable = { ROOT.counter_var =13107 }
+check_variable = { ROOT.counter_var =13108 }
+check_variable = { ROOT.counter_var =13109 }
+check_variable = { ROOT.counter_var =13110 }
+check_variable = { ROOT.counter_var =13111 }
+check_variable = { ROOT.counter_var =13112 }
+check_variable = { ROOT.counter_var =13113 }
+check_variable = { ROOT.counter_var =13114 }
+check_variable = { ROOT.counter_var =13115 }
+check_variable = { ROOT.counter_var =13117 }
+check_variable = { ROOT.counter_var =13118 }
+check_variable = { ROOT.counter_var =13119 }
+check_variable = { ROOT.counter_var =13120 }
+check_variable = { ROOT.counter_var =13121 }
+check_variable = { ROOT.counter_var =13122 }
+check_variable = { ROOT.counter_var =13123 }
+check_variable = { ROOT.counter_var =13124 }
+check_variable = { ROOT.counter_var =13125 }
+check_variable = { ROOT.counter_var =13126 }
+check_variable = { ROOT.counter_var =13127 }
+check_variable = { ROOT.counter_var =13128 }
+check_variable = { ROOT.counter_var =13129 }
+check_variable = { ROOT.counter_var =13130 }
+check_variable = { ROOT.counter_var =13131 }
+check_variable = { ROOT.counter_var =13132 }
+check_variable = { ROOT.counter_var =13133 }
+check_variable = { ROOT.counter_var =13134 }
+check_variable = { ROOT.counter_var =13135 }
+check_variable = { ROOT.counter_var =13136 }
+check_variable = { ROOT.counter_var =13137 }
+check_variable = { ROOT.counter_var =13138 }
+check_variable = { ROOT.counter_var =13139 }
+check_variable = { ROOT.counter_var =13140 }
+check_variable = { ROOT.counter_var =13141 }
+check_variable = { ROOT.counter_var =13142 }
+check_variable = { ROOT.counter_var =13144 }
+check_variable = { ROOT.counter_var =13145 }
+check_variable = { ROOT.counter_var =13146 }
+check_variable = { ROOT.counter_var =13147 }
+check_variable = { ROOT.counter_var =13148 }
+check_variable = { ROOT.counter_var =13149 }
+check_variable = { ROOT.counter_var =13151 }
+check_variable = { ROOT.counter_var =13152 }
+check_variable = { ROOT.counter_var =13153 }
+check_variable = { ROOT.counter_var =13154 }
+check_variable = { ROOT.counter_var =13155 }
+check_variable = { ROOT.counter_var =13156 }
+check_variable = { ROOT.counter_var =13157 }
+check_variable = { ROOT.counter_var =13158 }
+check_variable = { ROOT.counter_var =13159 }
+check_variable = { ROOT.counter_var =13160 }
+check_variable = { ROOT.counter_var =13161 }
+check_variable = { ROOT.counter_var =13162 }
+check_variable = { ROOT.counter_var =13163 }
+check_variable = { ROOT.counter_var =13164 }
+check_variable = { ROOT.counter_var =13165 }
+check_variable = { ROOT.counter_var =13166 }
+check_variable = { ROOT.counter_var =13167 }
+check_variable = { ROOT.counter_var =13168 }
+check_variable = { ROOT.counter_var =13169 }
+check_variable = { ROOT.counter_var =13170 }
+check_variable = { ROOT.counter_var =13171 }
+check_variable = { ROOT.counter_var =13172 }
+check_variable = { ROOT.counter_var =13173 }
+check_variable = { ROOT.counter_var =13174 }
+check_variable = { ROOT.counter_var =13175 }
+check_variable = { ROOT.counter_var =13176 }
+check_variable = { ROOT.counter_var =13177 }
+check_variable = { ROOT.counter_var =13178 }
+check_variable = { ROOT.counter_var =13179 }
+check_variable = { ROOT.counter_var =13180 }
+check_variable = { ROOT.counter_var =13181 }
+check_variable = { ROOT.counter_var =13182 }
+check_variable = { ROOT.counter_var =13183 }
+check_variable = { ROOT.counter_var =13184 }
+check_variable = { ROOT.counter_var =13185 }
+check_variable = { ROOT.counter_var =13186 }
+check_variable = { ROOT.counter_var =13187 }
+check_variable = { ROOT.counter_var =13188 }
+check_variable = { ROOT.counter_var =13189 }
+check_variable = { ROOT.counter_var =13190 }
+check_variable = { ROOT.counter_var =13191 }
+check_variable = { ROOT.counter_var =13192 }
+check_variable = { ROOT.counter_var =13193 }
+check_variable = { ROOT.counter_var =13194 }
+check_variable = { ROOT.counter_var =13198 }
+check_variable = { ROOT.counter_var =13199 }
+check_variable = { ROOT.counter_var =13200 }
+check_variable = { ROOT.counter_var =13201 }
+##
+check_variable = { ROOT.counter_var = 13202 }
+check_variable = { ROOT.counter_var = 13203 }
+check_variable = { ROOT.counter_var = 13204 }
+check_variable = { ROOT.counter_var = 13205 }
+check_variable = { ROOT.counter_var = 13206 }
+check_variable = { ROOT.counter_var = 13207 }
+check_variable = { ROOT.counter_var = 13208 }
+check_variable = { ROOT.counter_var = 13209 }
+check_variable = { ROOT.counter_var = 13210 }
+check_variable = { ROOT.counter_var = 13211 }
+check_variable = { ROOT.counter_var = 13212 }
+check_variable = { ROOT.counter_var = 13213 }
+check_variable = { ROOT.counter_var = 13214 }
+check_variable = { ROOT.counter_var = 13215 }
+check_variable = { ROOT.counter_var = 13216 }
+check_variable = { ROOT.counter_var = 13217 }
+check_variable = { ROOT.counter_var = 13218 }
+check_variable = { ROOT.counter_var = 13219 }
+check_variable = { ROOT.counter_var = 13220 }
+check_variable = { ROOT.counter_var = 13221 }
+check_variable = { ROOT.counter_var = 13222 }
+check_variable = { ROOT.counter_var = 13223 }
+check_variable = { ROOT.counter_var = 13224 }
+check_variable = { ROOT.counter_var = 13225 }
+check_variable = { ROOT.counter_var = 13226 }
+check_variable = { ROOT.counter_var = 13227 }
+check_variable = { ROOT.counter_var = 13228 }
+check_variable = { ROOT.counter_var = 13229 }
+check_variable = { ROOT.counter_var = 13230 }
+check_variable = { ROOT.counter_var = 13231 }
+check_variable = { ROOT.counter_var = 13232 }
+check_variable = { ROOT.counter_var = 13233 }
+check_variable = { ROOT.counter_var = 13234 }
+check_variable = { ROOT.counter_var = 13235 }
+check_variable = { ROOT.counter_var = 13236 }
+check_variable = { ROOT.counter_var = 13237 }
+check_variable = { ROOT.counter_var = 13238 }
+check_variable = { ROOT.counter_var = 13239 }
+check_variable = { ROOT.counter_var = 13240 }
+check_variable = { ROOT.counter_var = 13241 }
+check_variable = { ROOT.counter_var = 13242 }
+check_variable = { ROOT.counter_var = 13243 }
+check_variable = { ROOT.counter_var = 13244 }
+check_variable = { ROOT.counter_var = 13245 }
+check_variable = { ROOT.counter_var = 13246 }
+check_variable = { ROOT.counter_var = 13247 }
+check_variable = { ROOT.counter_var = 13248 }
+check_variable = { ROOT.counter_var = 13249 }
+check_variable = { ROOT.counter_var = 13250 }
+check_variable = { ROOT.counter_var = 13251 }
+check_variable = { ROOT.counter_var = 13252 }
+check_variable = { ROOT.counter_var = 13253 }
+check_variable = { ROOT.counter_var = 13254 }
+check_variable = { ROOT.counter_var = 13255 }
+check_variable = { ROOT.counter_var = 13256 }
+check_variable = { ROOT.counter_var = 13257 }
+check_variable = { ROOT.counter_var = 13258 }
+check_variable = { ROOT.counter_var = 13259 }
+check_variable = { ROOT.counter_var = 13260 }
+check_variable = { ROOT.counter_var = 13261 }
+check_variable = { ROOT.counter_var = 13262 }
+check_variable = { ROOT.counter_var = 13263 }
+check_variable = { ROOT.counter_var = 13264 }
+check_variable = { ROOT.counter_var = 13265 }
+check_variable = { ROOT.counter_var = 13266 }
+check_variable = { ROOT.counter_var = 13267 }
+check_variable = { ROOT.counter_var = 13268 }
+check_variable = { ROOT.counter_var = 13269 }
+check_variable = { ROOT.counter_var = 13270 }
+check_variable = { ROOT.counter_var = 13271 }
+check_variable = { ROOT.counter_var = 13272 }
+check_variable = { ROOT.counter_var = 13273 }
+check_variable = { ROOT.counter_var = 13274 }
+check_variable = { ROOT.counter_var = 13275 }
+check_variable = { ROOT.counter_var = 13276 }
+check_variable = { ROOT.counter_var = 13277 }
+check_variable = { ROOT.counter_var = 13278 }
+check_variable = { ROOT.counter_var = 13279 }
+check_variable = { ROOT.counter_var = 13280 }
+check_variable = { ROOT.counter_var = 13281 }
+check_variable = { ROOT.counter_var = 13282 }
+check_variable = { ROOT.counter_var = 13283 }
+check_variable = { ROOT.counter_var = 13284 }
+check_variable = { ROOT.counter_var = 13285 }
+check_variable = { ROOT.counter_var = 13286 }
+check_variable = { ROOT.counter_var = 13287 }
+check_variable = { ROOT.counter_var = 13288 }
+check_variable = { ROOT.counter_var = 13289 }
+check_variable = { ROOT.counter_var = 13290 }
+check_variable = { ROOT.counter_var = 13291 }
+check_variable = { ROOT.counter_var = 13292 }
+check_variable = { ROOT.counter_var = 13293 }
+check_variable = { ROOT.counter_var = 13294 }
+check_variable = { ROOT.counter_var = 13295 }
+check_variable = { ROOT.counter_var = 13296 }
+check_variable = { ROOT.counter_var = 13297 }
+check_variable = { ROOT.counter_var = 13298 }
+check_variable = { ROOT.counter_var = 13299 }
+check_variable = { ROOT.counter_var = 13300 }
+check_variable = { ROOT.counter_var = 13301 }
+check_variable = { ROOT.counter_var = 13302 }
+check_variable = { ROOT.counter_var = 13303 }
+check_variable = { ROOT.counter_var = 13304 }
+check_variable = { ROOT.counter_var = 13305 }
+check_variable = { ROOT.counter_var = 13306 }
+check_variable = { ROOT.counter_var = 13307 }
+check_variable = { ROOT.counter_var = 13308 }
+check_variable = { ROOT.counter_var = 13309 }
+check_variable = { ROOT.counter_var = 13310 }
+check_variable = { ROOT.counter_var = 13311 }
+check_variable = { ROOT.counter_var = 13312 }
+check_variable = { ROOT.counter_var = 13313 }
+check_variable = { ROOT.counter_var = 13314 }
+check_variable = { ROOT.counter_var = 13315 }
+check_variable = { ROOT.counter_var = 13316 }
+check_variable = { ROOT.counter_var = 13317 }
+check_variable = { ROOT.counter_var = 13318 }
+check_variable = { ROOT.counter_var = 13319 }
+check_variable = { ROOT.counter_var = 13320 }
+check_variable = { ROOT.counter_var = 13321 }
+check_variable = { ROOT.counter_var = 13322 }
+check_variable = { ROOT.counter_var = 13323 }
+check_variable = { ROOT.counter_var = 13324 }
+check_variable = { ROOT.counter_var = 13325 }
+check_variable = { ROOT.counter_var = 13326 }
+check_variable = { ROOT.counter_var = 13327 }
+check_variable = { ROOT.counter_var = 13328 }
+check_variable = { ROOT.counter_var = 13329 }
+check_variable = { ROOT.counter_var = 13330 }
+check_variable = { ROOT.counter_var = 13331 }
+check_variable = { ROOT.counter_var = 13332 }
+check_variable = { ROOT.counter_var = 13333 }
+check_variable = { ROOT.counter_var = 13334 }
+check_variable = { ROOT.counter_var = 13335 }
+check_variable = { ROOT.counter_var = 13336 }
+check_variable = { ROOT.counter_var = 13337 }
+check_variable = { ROOT.counter_var = 13338 }
+check_variable = { ROOT.counter_var = 13339 }
+check_variable = { ROOT.counter_var = 13340 }
+check_variable = { ROOT.counter_var = 13341 }
+check_variable = { ROOT.counter_var = 13342 }
+check_variable = { ROOT.counter_var = 13343 }
+check_variable = { ROOT.counter_var = 13344 }
+check_variable = { ROOT.counter_var = 13345 }
+check_variable = { ROOT.counter_var = 13346 }
+check_variable = { ROOT.counter_var = 13347 }
+check_variable = { ROOT.counter_var = 13348 }
+check_variable = { ROOT.counter_var = 13349 }
+check_variable = { ROOT.counter_var = 13350 }
+check_variable = { ROOT.counter_var = 13351 }
+check_variable = { ROOT.counter_var = 13352 }
+check_variable = { ROOT.counter_var = 13353 }
+check_variable = { ROOT.counter_var = 13354 }
+check_variable = { ROOT.counter_var = 13355 }
+check_variable = { ROOT.counter_var = 13356 }
+check_variable = { ROOT.counter_var = 13357 }
+check_variable = { ROOT.counter_var = 13358 }
+check_variable = { ROOT.counter_var = 13359 }
+check_variable = { ROOT.counter_var = 13360 }
+check_variable = { ROOT.counter_var = 13361 }
+check_variable = { ROOT.counter_var = 13362 }
+#{-}
+						}
+					}
+					#add_to_variable = { ROOT.counter_var = -1 }
+				}
+				else = {
+					meta_effect = { 
+						text = {
+							random_owned_controlled_state = {
+								limit = {
+									city_inf > 0
+									} 
+								if = {
+									limit = {
+										any_province_building_level = {
+											province = {
+												id = [VALUE] 
+											}
+											level > 0
+											building = city_inf
+										}
+									}
+								
+									set_variable = { ROOT.holder_prov = ROOT.counter_var }
+									set_variable = { ROOT.counter_var = 0 }
+								}
+					
+							}
+						} 
+						VALUE = "[?ROOT.counter_var]"
+					}
+					meta_effect = { 
+						text = {
+							set_victory_points = {
+								province = [VALUE]
+								value = 10
+							}
+							#set_province_name = { id = [VALUE] name = "Mcdonalds"}
+						} 
+						VALUE = "[?ROOT.holder_prov]"
+					}
+					meta_effect = {
+						text = {
+							set_province_name = { 
+								id = [VALUE] 
+								name = "[CHAR_1][CHAR_2][CHAR_3][CHAR_4][CHAR_5][CHAR_6][CHAR_7][CHAR_8][CHAR_9][CHAR_10][CHAR_11][CHAR_12][CHAR_13][CHAR_14][CHAR_15][CHAR_16][CHAR_17][CHAR_18][CHAR_19][CHAR_20][CHAR_21][CHAR_22][CHAR_23][CHAR_24][CHAR_25][CHAR_26][CHAR_27][CHAR_28][CHAR_29][CHAR_30][CHAR_31][CHAR_32]" 
+								}
+							#set_country_leader_name = {  
+							#	name = "[CHAR_1][CHAR_2][CHAR_3][CHAR_4][CHAR_5][CHAR_6][CHAR_7][CHAR_8][CHAR_9][CHAR_10][CHAR_11][CHAR_12][CHAR_13][CHAR_14][CHAR_15][CHAR_16][CHAR_17][CHAR_18][CHAR_19][CHAR_20][CHAR_21][CHAR_22][CHAR_23][CHAR_24][CHAR_25][CHAR_26][CHAR_27][CHAR_28][CHAR_29][CHAR_30][CHAR_31][CHAR_32]" 
+							#}
+						}
+								CHAR_1 = "[This.GET_CHAR_1]"
+								CHAR_2 = "[This.GET_CHAR_2]"
+								CHAR_3 = "[This.GET_CHAR_3]"
+								CHAR_4 = "[This.GET_CHAR_4]"
+								CHAR_5 = "[This.GET_CHAR_5]"
+								CHAR_6 = "[This.GET_CHAR_6]"
+								CHAR_7 = "[This.GET_CHAR_7]"
+								CHAR_8 = "[This.GET_CHAR_8]"
+								CHAR_9 = "[This.GET_CHAR_9]"
+								CHAR_10 = "[This.GET_CHAR_10]"
+								CHAR_11 = "[This.GET_CHAR_11]"
+								CHAR_12 = "[This.GET_CHAR_12]"
+								CHAR_13 = "[This.GET_CHAR_13]"
+								CHAR_14 = "[This.GET_CHAR_14]"
+								CHAR_15 = "[This.GET_CHAR_15]"
+								CHAR_16 = "[This.GET_CHAR_16]"
+								CHAR_17 = "[This.GET_CHAR_17]"
+								CHAR_18 = "[This.GET_CHAR_18]"
+								CHAR_19 = "[This.GET_CHAR_19]"
+								CHAR_20 = "[This.GET_CHAR_20]"
+								CHAR_21 = "[This.GET_CHAR_21]"
+								CHAR_22 = "[This.GET_CHAR_22]"
+								CHAR_23 = "[This.GET_CHAR_23]"
+								CHAR_24 = "[This.GET_CHAR_24]"
+								CHAR_25 = "[This.GET_CHAR_25]"
+								CHAR_26 = "[This.GET_CHAR_26]"
+								CHAR_27 = "[This.GET_CHAR_27]"
+								CHAR_28 = "[This.GET_CHAR_28]"
+								CHAR_29 = "[This.GET_CHAR_29]"
+								CHAR_30 = "[This.GET_CHAR_30]"
+								CHAR_31 = "[This.GET_CHAR_31]"
+								CHAR_32 = "[This.GET_CHAR_32]"
+								VALUE = "[?ROOT.holder_prov]"
+					}
+					meta_effect = { 
+						text = {
+							random_owned_controlled_state = {
+								set_building_level = {
+									type = city_inf
+									province = {
+										id = [VALUE]
+									}
+									level = 0
+									instant_build = yes
+								}
+					
+							}
+						} 
+						VALUE = "[?ROOT.holder_prov]"
+					}
+					#set_variable = { ROOT.holder_prov = ROOT.counter_var }
+				}
+}
